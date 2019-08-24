@@ -1,14 +1,14 @@
-#〓〓〓当前版本	19w14b (1.14.4)
+#当前版本	19w14b (1.14.4)
 
-#〓〓〓未来版本
+#未来版本
 制箭台fletching_table、铁匠台smithing_table。有可能成为实体方块
 床#minecraft:beds。有可能从实体方块退为普通方块
 
-#〓〓〓19w34a
-#〓临时列表，将在正式版出来后放入
+#19w34a
+#临时列表，将在正式版出来后放入
 bee_nest, bee_hive	实体方块
 
-#〓〓〓TODO
+#TODO
 透光方块
 所有方块
 完全穿透类方块——既不影响/阻碍实体碰撞箱经过，如箭、雪球。但自身的碰撞箱会阻碍玩家右键，如高草、藤曼
@@ -16,8 +16,8 @@ bee_nest, bee_hive	实体方块
 占据两格的方块——如床，大箱子等
 
 
-#〓〓〓已制作
-#〓general
+#已制作
+#general
 chests——储物箱
 command_blocks——命令方块
 furnaces——烤具
@@ -25,6 +25,6 @@ shulker_boxes——各色潜影盒
 skulls——头颅
 torches——火把、红石火把
 
-#〓technical
+#technical
 block_entities——实体方块
 light_emit——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
