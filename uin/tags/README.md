@@ -6,12 +6,10 @@
 
 # 〓〓〓未来版本
 
-**〓方块**
-
-**可能成为实体方块**
-
-- 制箭台(minecraft:fletching_table)
-- 铁匠台(minecraft:smithing_table)
+- **〓方块**
+    - **可能成为实体方块**
+        - 制箭台(minecraft:fletching_table)
+        - 铁匠台(minecraft:smithing_table)
 
 **可能成为非实体方块**
 
