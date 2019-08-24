@@ -58,12 +58,12 @@
 
 - **方块**
     - **general**
-        - chests——储物箱
-        - command_blocks——命令方块
-        - furnaces——烤具
-        - shulker_boxes——各色潜影盒
-        - skulls——头颅
-        - torches——火把、红石火把
+        - [chests](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/blocks/general/chests.json)——储物箱
+        - [command_blocks](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/blocks/general/command_blocks.json)——命令方块
+        - [furnaces](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/blocks/general/furnaces.json)——烤具
+        - [shulker_boxes](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/blocks/general/shulker_boxes.json)——各色潜影盒
+        - [skulls](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/blocks/general/skulls.json)——头颅
+        - [torches](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/blocks/general/torches.json)——火把、红石火把
     - **technical**
-        - block_entities——实体方块
-        - light_emit——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
+        - [block_entities](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/blocks/tech/block_entities.json)——实体方块
+        - [light_emit](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
