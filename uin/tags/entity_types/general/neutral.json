@@ -1,0 +1,15 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:cave_spider",
+		"minecraft:dolphin",
+		"minecraft:enderman",
+		"minecraft:llama",
+		"minecraft:panda",
+		"minecraft:polar_bear",
+		"minecraft:spider",
+		"minecraft:trader_llama",
+		"minecraft:wolf",
+		"minecraft:zombie_pigman"
+	]
+}
