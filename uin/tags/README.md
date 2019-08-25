@@ -4,7 +4,7 @@
 ***
 
 
-# 未来版本
+# 未来版本/备注
 
 - 方块
     - 可能成为实体方块
@@ -17,6 +17,8 @@
 - 物品
 
 - 实体
+	- 巨人(minecraft:giant)因没有AI，暂归类为passive
+	- 铁傀儡/雪傀儡，情况特殊，不纳入主三类
 
 
 ***
@@ -42,6 +44,8 @@
 		- honeycomb	19w34a
 
 - 实体
+	- **neutral**
+		- bee	19w34a
 
 ***
 
@@ -59,8 +63,10 @@
     - 可右键物品
 
 - 实体
-    - 所有实体
-	- evoker_fangs?
+	- 人/类人形
+	- 所有生物
+	- 非生物实体——evoker_fangs
+	- 所有实体
 
 ***
 
@@ -85,7 +91,10 @@
 		- [item_all](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/items/tech/item_all.json)——所有物品
 
 - 实体
-	- **general**
-		- [hostile](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/entity_types/general/hostile.json)——敌对型生物。鸡骑士、骷髅骑士、蜘蛛骑士没有单独id，故不在列表内
+	- **general**(主三类尽量参考wiki)
+		- [hostile](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/entity_types/general/hostile.json)——敌对型生物
+			- 鸡骑士、骷髅骑士、蜘蛛骑士、杀手兔没有单独id，故不在列表内
 		- [neutral](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/entity_types/general/neutral.json)——中立型生物
 		- [passive](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/entity_types/general/passive.json)——被动型生物
+		- [tameable](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/entity_types/general/tameable.json)——可驯服类型
+		- [graveborn](https://raw.githubusercontent.com/ououn/minecraft/master/uin/tags/entity_types/general/graveborn.json)——亡灵类
