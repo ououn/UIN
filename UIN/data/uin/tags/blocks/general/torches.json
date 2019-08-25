@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:redstone_torch",
+		"minecraft:redstone_wall_torch",
+		"minecraft:torch",
+		"minecraft:wall_torch"
+	]
+}
