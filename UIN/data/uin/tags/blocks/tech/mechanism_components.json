@@ -13,6 +13,8 @@
         "minecraft:powered_rail",
         "minecraft:rail",
         "minecraft:redstone_lamp",
+        "minecraft:structure_block",
+        "minecraft:sticky_piston",
         "minecraft:tnt"
     ]
 }
