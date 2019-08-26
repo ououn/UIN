@@ -76,14 +76,22 @@
     - **general**
         - [chests](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/chests.json)——储物箱
         - [command_blocks](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/command_blocks.json)——命令方块
+        - [fence_gates](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/fence_gates.json)——栅栏门
         - [furnaces](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/furnaces.json)——烤具
+        - [pressure_plates](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/pressure_plates.json)——压力板
         - [shulker_boxes](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/shulker_boxes.json)——各色潜影盒
         - [skulls](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/skulls.json)——头颅
         - [torches](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/torches.json)——火把、红石火把
+        - [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/weighted_pressure_plates.json)——测重压力板
+        - [wooden_pressure_plates](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/wooden_pressure_plates.json)——木质压力板
     - **tech**
 		- [block_all](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/block_all.json)——所有方块
         - [block_entities](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/block_entities.json)——实体方块
         - [light_emit](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
+        - [mechanism_components](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/mechanism_components.json)——机械元件
+        - [power_components](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/power_components.json)——电源元件
+        - [redstone_components](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/redstone_components.json)——红石元件
+        - [transmission_components](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/transmission_components.json)——	传输元件
 
 - 物品
 	- **general**

@@ -1,0 +1,18 @@
+{
+    "values": [
+        "#minecraft:doors",
+        "#minecraft:trapdoors",
+        "#uin:general/command_blocks",
+        "#uin:general/fence_gates",
+        "minecraft:activator_rail",
+        "minecraft:dispenser",
+        "minecraft:dropper",
+        "minecraft:hopper",
+        "minecraft:note_block",
+        "minecraft:piston",
+        "minecraft:powered_rail",
+        "minecraft:rail",
+        "minecraft:redstone_lamp",
+        "minecraft:tnt"
+    ]
+}
