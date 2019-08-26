@@ -52,6 +52,8 @@
 
 # TODO
 **优先度由上至下，若有其他标签请求可在论坛内[回复/私信本人](https://www.mcbbs.net/?725858)。有意义的标签、技术性标签优先*
+**也可以写完后pull过来，验证过后合并*
+**谢谢各位的支持！*
 
 - 方块
     - 透光方块
@@ -63,9 +65,8 @@
     - 可右键物品
 
 - 实体
-	- 人/类人形
 	- 所有生物
-	- 非生物实体——evoker_fangs
+	- 非生物实体——area_effect_cloud,item,evoker_fangs,etc.
 	- 所有实体
 
 ***
@@ -83,7 +84,6 @@
         - [skulls](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/skulls.json)——头颅
         - [torches](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/torches.json)——火把、红石火把
         - [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/weighted_pressure_plates.json)——测重压力板
-        - [wooden_pressure_plates](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/wooden_pressure_plates.json)——木质压力板
     - **tech**
 		- [block_all](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/block_all.json)——所有方块
         - [block_entities](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/block_entities.json)——实体方块
@@ -106,3 +106,9 @@
 		- [passive](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/passive.json)——被动型生物
 		- [tameable](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/tameable.json)——可驯服类型
 		- [graveborn](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/graveborn.json)——亡灵类
+
+
+***
+# 特别以下大佬的贡献
+- [SPGoding](https://www.mcbbs.net/?2444378)
+- [Teenager_Yang](https://www.mcbbs.net/?2337994)
