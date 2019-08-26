@@ -1,12 +1,12 @@
 {
 	"values": [
+		"#minecraft:banners",
+		"#minecraft:beds",
+		"#minecraft:signs",
 		"#uin:general/chests",
 		"#uin:general/command_blocks",
 		"#uin:general/furnaces",
 		"#uin:general/skulls",
-		"#minecraft:banners",
-		"#minecraft:beds",
-		"#minecraft:signs",
 		"minecraft:beacon",
 		"minecraft:bell",
 		"minecraft:brewing_stand",
