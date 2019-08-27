@@ -49,6 +49,8 @@
 
 
 - 实体
+	- **mobs**
+		- bee	19w34a
 	- **neutral**
 		- bee	19w34a
 	- **entities_all**
@@ -79,8 +81,7 @@
 
 
 - 实体
-	- 所有生物
-	- 非生物实体——area_effect_cloud,item,evoker_fangs,etc.
+	- 右键互动（不包括喂食）
 
 
 ***
@@ -118,15 +119,19 @@
 
 
 - 实体
-	- **general**(仇恨类型尽量参考wiki)
-		- [hostile](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/hostile.json)——敌对型生物
-			- 鸡骑士、骷髅骑士、蜘蛛骑士、杀手兔没有单独id，故不在列表内
-		- [neutral](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/neutral.json)——中立型生物
-		- [passive](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/passive.json)——被动型生物
-		- [tameable](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/tameable.json)——可驯服类型
+	- **general**
 		- [graveborn](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/graveborn.json)——亡灵类
+		- [minecarts](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/minecarts.json)——矿车
 	- **tech**
 		- [entities_all](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/entities_all.json)——所有实体
+		- [hostile](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/hostile.json)——敌对型生物
+			- 鸡骑士、骷髅骑士、蜘蛛骑士、杀手兔没有单独id，故不在列表内
+		- [mobs](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/mobs.json)——所有生物
+		- [neutral](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/neutral.json)——中立型生物
+		- [non_mobs](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/non_mobs.json)——所有非生物实体
+		- [passive](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/passive.json)——被动型生物
+		- [tameable](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/tameable.json)——可驯服类型
+
 
 
 ***
