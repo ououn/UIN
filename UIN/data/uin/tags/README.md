@@ -6,6 +6,7 @@
 
 # 未来版本/备注
 
+
 - 方块
     - 可能成为实体方块
         - 制箭台(minecraft:fletching_table)
@@ -14,7 +15,9 @@
     - 可能成为非实体方块
         - 床(#minecraft:beds)
 
+
 - 物品
+
 
 - 实体
 	- 巨人(minecraft:giant)因没有AI，暂归类为passive
@@ -35,6 +38,7 @@
 		- bee_hive  19w34a
 		- bee_nest  19w34a
 
+
 - 物品
 	- **item_all**
 		- bee_hive	19w34a
@@ -43,17 +47,23 @@
 		- honey_bottle	19w34a
 		- honeycomb	19w34a
 
+
 - 实体
 	- **neutral**
 		- bee	19w34a
+
 
 ***
 
 
 # TODO
-**优先度由上至下，若有其他标签请求可在论坛内[回复/私信本人](https://www.mcbbs.net/?725858)。有意义的标签、技术性标签优先*
-**也可以写完后pull过来，验证过后合并*
-**谢谢各位的支持！*
+*优先度由上至下，若有其他标签请求可在论坛内[回复/私信本人](https://www.mcbbs.net/?725858)。实用、技术性的标签优先
+也可以写完后pull过来，验证过后合并*
+
+*存在部分争议的标签考虑移动到custom下，争议过大的标签将取消制作*
+
+**谢谢各位的支持！**
+
 
 - 方块
     - 透光方块
@@ -61,15 +71,19 @@
     - 非完整方块——铁砧、门、耕地、半砖...
     - 占据两格的方块——如床，大箱子等
 
+
 - 物品
     - 可右键物品
+
 
 - 实体
 	- 所有生物
 	- 非生物实体——area_effect_cloud,item,evoker_fangs,etc.
 	- 所有实体
 
+
 ***
+
 
 # 已制作
 
@@ -93,13 +107,15 @@
         - [redstone_components](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/redstone_components.json)——红石元件
         - [transmission_components](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/transmission_components.json)——	传输元件
 
+
 - 物品
 	- **general**
 	- **tech**
 		- [item_all](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/items/tech/item_all.json)——所有物品
 
+
 - 实体
-	- **general**(主三类尽量参考wiki)
+	- **general**(前三种类型尽量参考wiki)
 		- [hostile](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/hostile.json)——敌对型生物
 			- 鸡骑士、骷髅骑士、蜘蛛骑士、杀手兔没有单独id，故不在列表内
 		- [neutral](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/neutral.json)——中立型生物
@@ -109,6 +125,6 @@
 
 
 ***
-# 特别以下大佬的贡献
+# 特别感谢以下大佬的贡献
 - [SPGoding](https://www.mcbbs.net/?2444378)
 - [Teenager_Yang](https://www.mcbbs.net/?2337994)
