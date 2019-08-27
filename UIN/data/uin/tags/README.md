@@ -31,7 +31,7 @@
 **临时列表，正式版出来后放入*
 
 - 方块
-	- **block_all**
+	- **blocks_all**
 		- bee_hive	19w34a
 		- bee_nest	19w34a
 	- **block_entities**
@@ -40,7 +40,7 @@
 
 
 - 物品
-	- **item_all**
+	- **items_all**
 		- bee_hive	19w34a
 		- bee_nest	19w34a
 		- bee_spawn_egg	19w34a
@@ -50,6 +50,8 @@
 
 - 实体
 	- **neutral**
+		- bee	19w34a
+	- **entities_all**
 		- bee	19w34a
 
 
@@ -79,7 +81,6 @@
 - 实体
 	- 所有生物
 	- 非生物实体——area_effect_cloud,item,evoker_fangs,etc.
-	- 所有实体
 
 
 ***
@@ -100,7 +101,7 @@
         - [torches](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/torches.json)——火把、红石火把
         - [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/weighted_pressure_plates.json)——测重压力板
     - **tech**
-		- [block_all](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/block_all.json)——所有方块
+    	- [blocks_all](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/blocks_all.json)——所有方块
         - [block_entities](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/block_entities.json)——实体方块
         - [gravity_affected](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/gravity_affected.json)——重力影响
         - [light_emit](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
@@ -113,7 +114,7 @@
 - 物品
 	- **general**
 	- **tech**
-		- [item_all](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/items/tech/item_all.json)——所有物品
+		- [items_all](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/items/tech/items_all.json)——所有物品
 
 
 - 实体
@@ -124,6 +125,8 @@
 		- [passive](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/passive.json)——被动型生物
 		- [tameable](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/tameable.json)——可驯服类型
 		- [graveborn](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/graveborn.json)——亡灵类
+	- **tech**
+		- [entities_all](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/entities_all.json)——所有实体
 
 
 ***
