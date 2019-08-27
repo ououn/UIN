@@ -91,6 +91,7 @@
     - **general**
         - [chests](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/chests.json)——储物箱
         - [command_blocks](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/command_blocks.json)——命令方块
+        - [concrete_powder](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/concrete_powder.json)——混凝土粉末
         - [fence_gates](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/fence_gates.json)——栅栏门
         - [furnaces](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/furnaces.json)——烤具
         - [pressure_plates](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/blocks/general/pressure_plates.json)——压力板
