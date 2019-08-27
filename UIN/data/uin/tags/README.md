@@ -21,7 +21,7 @@
 
 - 实体
 	- 巨人(minecraft:giant)因没有AI，暂归类为passive
-	- 铁傀儡/雪傀儡，情况特殊，不纳入主三类
+	- 铁傀儡/雪傀儡，情况特殊，不纳入仇恨类型
 
 
 ***
@@ -115,7 +115,7 @@
 
 
 - 实体
-	- **general**(前三种类型尽量参考wiki)
+	- **general**(仇恨类型尽量参考wiki)
 		- [hostile](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/hostile.json)——敌对型生物
 			- 鸡骑士、骷髅骑士、蜘蛛骑士、杀手兔没有单独id，故不在列表内
 		- [neutral](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/general/neutral.json)——中立型生物
