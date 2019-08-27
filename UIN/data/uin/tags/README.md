@@ -53,8 +53,6 @@
 		- bee	19w34a
 	- **neutral**
 		- bee	19w34a
-	- **entities_all**
-		- bee	19w34a
 
 
 ***
@@ -126,7 +124,7 @@
 		- [entities_all](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/entities_all.json)——所有实体
 		- [hostile](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/hostile.json)——敌对型生物
 			- 鸡骑士、骷髅骑士、蜘蛛骑士、杀手兔没有单独id，故不在列表内
-		- [mobs](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/mobs.json)——所有生物
+		- [mobs](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/mobs.json)——所有生物（不包括玩家）
 		- [neutral](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/neutral.json)——中立型生物
 		- [non_mobs](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/non_mobs.json)——所有非生物实体
 		- [passive](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/entity_types/tech/passive.json)——被动型生物
