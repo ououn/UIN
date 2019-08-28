@@ -11,7 +11,7 @@
 		"#minecraft:doors",
 		"#minecraft:fences",
 		"#minecraft:fishes",
-		"#minecraft:flowers",
+		"#uin:general/flowers",
 		"#minecraft:leaves",
 		"#minecraft:logs",
 		"#minecraft:music_discs",
