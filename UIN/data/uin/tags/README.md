@@ -46,6 +46,10 @@
 		- bee_spawn_egg	19w34a
 		- honey_bottle	19w34a
 		- honeycomb	19w34a
+		- #minecraft:flowers	替换	#uin:general/flowers	19w34a
+	- **从#uin:general移除**
+		- tall_flowers	19w34a
+		- flowers	19w34a
 
 
 - 实体
@@ -112,6 +116,10 @@
 
 - 物品
 	- **general**
+		- [fence_gates](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/items/general/fence_gates.json)——栅栏门
+		- [pressure_plates](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/items/general/pressure_plates.json)——压力板
+		- [spawn_eggs](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/items/general/spawn_eggs.json)——刷怪蛋
+		- [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/items/general/weighted_pressure_plates.json)——测重压力板
 	- **tech**
 		- [items_all](https://raw.githubusercontent.com/ououn/minecraft/master/UIN/data/uin/tags/items/tech/items_all.json)——所有物品
 
