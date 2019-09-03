@@ -93,11 +93,19 @@
 
 - 方块
     - **general**
+    	- [air](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/air.json)——空气，洞穴空气，虚空空气
         - [chests](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/chests.json)——储物箱
         - [command_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/command_blocks.json)——命令方块
         - [concrete_powder](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/concrete_powder.json)——混凝土粉末
+        - [dead_coral_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_blocks.json)——失活的珊瑚块
+        - [dead_coral_fans](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_fans.json)——失活的珊瑚扇
+        - [dead_coral_wall_fans](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_wall_fans.json)——失活的墙上的珊瑚扇
+        - [dead_corals](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_corals.json)——失活的珊瑚
         - [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/fence_gates.json)——栅栏门
         - [furnaces](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/furnaces.json)——烤具
+        - [glass_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/glass_blocks.json)——玻璃
+        - [glass_panes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/glass_panes.json)——玻璃板
+        - [ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ores.json)——矿石
         - [pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/pressure_plates.json)——压力板
         - [shulker_boxes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/shulker_boxes.json)——各色潜影盒
         - [skulls](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/skulls.json)——头颅
