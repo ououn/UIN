@@ -37,6 +37,8 @@
 	- **block_entities**
 		- bee_hive  19w34a
 		- bee_nest  19w34a
+	- **mechanism_components**
+		- bell	19w36a
 
 
 - 物品
