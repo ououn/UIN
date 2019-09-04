@@ -58,6 +58,8 @@
 		- bee	19w34a
 	- **neutral**
 		- bee	19w34a
+	- **ages**
+		- bee	19w34a
 
 
 ***
@@ -139,6 +141,7 @@
 		- [graveborn](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/graveborn.json)——亡灵类
 		- [minecarts](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/minecarts.json)——矿车
 	- **tech**
+		- [ages](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/ages.json)——随Age变化而改变形态/碰撞箱大小的实体（不包括药水云、经验球、物品）
 		- [entities_all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/entities_all.json)——所有实体
 		- [hostile](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/hostile.json)——敌对型生物
 			- 鸡骑士、骷髅骑士、蜘蛛骑士、杀手兔没有单独id，故不在列表内
@@ -152,5 +155,6 @@
 
 ***
 # 特别感谢以下大佬的贡献
+- [kongbaiyo](https://www.mcbbs.net/?574210)
 - [SPGoding](https://www.mcbbs.net/?2444378)
 - [Teenager_Yang](https://www.mcbbs.net/?2337994)
