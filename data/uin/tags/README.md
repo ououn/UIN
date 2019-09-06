@@ -151,6 +151,7 @@
     	- [blocks_all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blocks_all.json)——所有方块
         - [block_entities](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/block_entities.json)——实体方块
         - [gravity_affected](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/gravity_affected.json)——重力影响
+    	- [infested](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/infested.json)——被虫蚀的方块
         - [light_emit](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
         - [mechanism_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/mechanism_components.json)——机械元件
         - [power_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/power_components.json)——电源元件
