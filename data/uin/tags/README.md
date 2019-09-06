@@ -31,37 +31,64 @@
 **临时列表，正式版出来后放入*
 
 - 方块
+	- **_blocks_all.txt**
+		- 添加
+			- bee_hive	19w34a
+			- bee_nest	19w34a
 	- **blocks_all**
-		- bee_hive	19w34a
-		- bee_nest	19w34a
+		- 添加
+			- bee_hive	19w34a
+			- bee_nest	19w34a
+			- #minecraft:flowers	19w34a
+		- 移除
+			- #uin:general/flowers	19w34a
 	- **block_entities**
-		- bee_hive  19w34a
-		- bee_nest  19w34a
+		- 添加
+			- bee_hive  19w34a
+			- bee_nest  19w34a
 	- **mechanism_components**
-		- bell	19w36a
+		- 添加
+			- bell	19w36a
+	- **移除json**
+		- uin:general/tall_flowers	19w34a
+		- uin:general/flowers	19w34a
 
 
 - 物品
+	- **_items_all.txt**
+		- 添加
+			- bee_hive	19w34a
+			- bee_nest	19w34a
+			- bee_spawn_egg	19w34a
+			- honey_bottle	19w34a
+			- honeycomb	19w34a
 	- **items_all**
-		- bee_hive	19w34a
-		- bee_nest	19w34a
-		- honey_bottle	19w34a
-		- honeycomb	19w34a
-		- #minecraft:flowers	替换	#uin:general/flowers	19w34a
-	- **从#uin:general移除**
-		- tall_flowers	19w34a
-		- flowers	19w34a
-	- **于#uin:general/spawn_eggs.json添加**
-		- bee_spawn_egg	19w34a
+		- 添加
+			- bee_hive	19w34a
+			- bee_nest	19w34a
+			- honey_bottle	19w34a
+			- honeycomb	19w34a
+			- #minecraft:flowers	19w34a
+		- 移除
+			- #uin:general/flowers	19w34a
+	- **#general/spawn_eggs**
+		- 添加
+			- bee_spawn_egg	19w34a
+	- **移除json**
+		- uin:general/tall_flowers	19w34a
+		- uin:general/flowers	19w34a
 
 
 - 实体
 	- **mobs**
-		- bee	19w34a
+		- 添加
+			- bee	19w34a
 	- **neutral**
-		- bee	19w34a
+		- 添加
+			- bee	19w34a
 	- **ages**
-		- bee	19w34a
+		- 添加
+			- bee	19w34a
 
 
 ***
@@ -77,7 +104,7 @@
 
 
 - 方块
-	- (    )
+	- (同类方块标签化)
 	- 透光方块
 	- 完全穿透类方块——既不影响/阻碍实体碰撞箱经过，如箭、雪球。但自身的碰撞箱会阻碍玩家右键，如高草、藤曼
 	- 非完整方块——铁砧、门、耕地、半砖...
