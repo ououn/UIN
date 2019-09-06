@@ -14,6 +14,7 @@
 
     - 可能成为非实体方块
         - 床(#minecraft:beds)
+    - 检查#minecraft:saplings是否会添加bamboo_sapling
 
 
 - 物品
