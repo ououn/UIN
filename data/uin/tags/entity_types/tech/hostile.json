@@ -4,7 +4,6 @@
 		"minecraft:creeper",
 		"minecraft:drowned",
 		"minecraft:elder_guardian",
-		"minecraft:ender_dragon",
 		"minecraft:endermite",
 		"minecraft:evoker",
 		"minecraft:ghast",
@@ -23,7 +22,6 @@
 		"minecraft:vex",
 		"minecraft:vindicator",
 		"minecraft:witch",
-		"minecraft:wither",
 		"minecraft:wither_skeleton",
 		"minecraft:zombie",
 		"minecraft:zombie_villager"
