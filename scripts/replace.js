@@ -10,31 +10,41 @@ const { join } = require('path').posix
 const { readdirSync, readFileSync, lstatSync, writeFileSync } = require('fs')
 
 const reliable = [
+    'minecraft:acacia_logs',
     'minecraft:anvil',
     'minecraft:banners',
     'minecraft:beds',
+    'minecraft:birch_logs',
     'minecraft:buttons',
     'minecraft:carpets',
     'minecraft:coral_blocks',
     'minecraft:corals',
+    'minecraft:dark_oak_logs',
     'minecraft:doors',
     'minecraft:fences',
     'minecraft:flower_pots',
     'minecraft:ice',
+    'minecraft:jungle_logs',
     'minecraft:leaves',
     'minecraft:logs',
+    'minecraft:oak_logs',
     'minecraft:planks',
     'minecraft:rails',
     'minecraft:sand',
     'minecraft:saplings',
     'minecraft:signs',
     'minecraft:slabs',
+    'minecraft:spruce_logs',
     'minecraft:stairs',
     'minecraft:stone_bricks',
     'minecraft:trapdoors',
     'minecraft:wall_corals',
     'minecraft:walls',
-    'minecraft:wool'
+    'minecraft:wooden_buttons',
+    'minecraft:wooden_fences',
+    'minecraft:wooden_doors',
+    'minecraft:wooden_trapdoors',
+    'minecraft:wool',
 ]
 
 // Read all tags.
