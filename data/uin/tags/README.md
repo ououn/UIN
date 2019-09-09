@@ -8,11 +8,11 @@
 
 
 - 方块
-    - 可能成为实体方块
+    - 可能成为方块实体
         - 制箭台(minecraft:fletching_table)
         - 铁匠台(minecraft:smithing_table)
 
-    - 可能成为非实体方块
+    - 可能成为非方块实体
         - 床(#minecraft:beds)
     - 检查#minecraft:saplings是否会添加bamboo_sapling
 
@@ -154,7 +154,7 @@
         - [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/weighted_pressure_plates.json)——测重压力板
     - **tech**
     	- [blocks_all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blocks_all.json)——所有方块
-        - [block_entities](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/block_entities.json)——实体方块
+        - [block_entities](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/block_entities.json)——方块实体
         - [gravity_affected](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/gravity_affected.json)——重力影响
     	- [infested](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/infested.json)——被虫蚀的方块
         - [light_emit](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
