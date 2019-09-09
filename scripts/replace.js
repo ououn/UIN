@@ -3,12 +3,15 @@
  * ======
  * To execute this script, you have to install Node.js (https://nodejs.org/en/download/) first.
  * Then put the `data` of minecraft itself at the same directory of this script.
- * After you execute this sciprt, IDs in tech tags will be replaced by general tags.
+ * After you execute this sciprt, IDs in block tech tags will be replaced by block general tags and reliable vanilla block tags.
  */
 
 const { join } = require('path').posix
 const { readdirSync, readFileSync, lstatSync, writeFileSync } = require('fs')
 
+/**
+ * These vanilla block tags are reliable.
+ */
 const reliable = [
     'minecraft:acacia_logs',
     'minecraft:anvil',
@@ -18,6 +21,7 @@ const reliable = [
     'minecraft:buttons',
     'minecraft:carpets',
     'minecraft:coral_blocks',
+    'minecraft:coral_plants',
     'minecraft:corals',
     'minecraft:dark_oak_logs',
     'minecraft:doors',
@@ -36,13 +40,16 @@ const reliable = [
     'minecraft:slabs',
     'minecraft:spruce_logs',
     'minecraft:stairs',
+    'minecraft:standing_signs',
     'minecraft:stone_bricks',
     'minecraft:trapdoors',
     'minecraft:wall_corals',
+    'minecraft:wall_signs',
     'minecraft:walls',
     'minecraft:wooden_buttons',
     'minecraft:wooden_fences',
     'minecraft:wooden_doors',
+    'minecraft:wooden_pressure_plates',
     'minecraft:wooden_trapdoors',
     'minecraft:wool',
 ]
@@ -79,8 +86,8 @@ function getTags(dataPath, type) {
     return ans
 }
 const tags = {
-    ...getTags(join(__dirname, '../data'), 'blocks'),
-    ...getTags(join(__dirname, 'data'), 'blocks')
+    ...getTags(join(__dirname, 'data'), 'blocks'),
+    ...getTags(join(__dirname, '../data'), 'blocks')
 }
 
 // Figure out the largest recursion count.
