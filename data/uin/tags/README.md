@@ -50,6 +50,10 @@
 	- **mechanism_components**
 		- 添加
 			- bell	19w36a
+	- **solid_blocks**
+		- 添加
+			- bee_hive	19w34a
+			- bee_nest	19w34a
 	- **移除json**
 		- uin:general/tall_flowers	19w34a
 		- uin:general/flowers	19w34a
