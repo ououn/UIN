@@ -9,6 +9,34 @@
 const { join } = require('path').posix
 const { readdirSync, readFileSync, lstatSync, writeFileSync } = require('fs')
 
+const reliable = [
+    'minecraft:anvil',
+    'minecraft:banners',
+    'minecraft:beds',
+    'minecraft:buttons',
+    'minecraft:carpets',
+    'minecraft:coral_blocks',
+    'minecraft:corals',
+    'minecraft:doors',
+    'minecraft:fences',
+    'minecraft:flower_pots',
+    'minecraft:ice',
+    'minecraft:leaves',
+    'minecraft:logs',
+    'minecraft:planks',
+    'minecraft:rails',
+    'minecraft:sand',
+    'minecraft:saplings',
+    'minecraft:signs',
+    'minecraft:slabs',
+    'minecraft:stairs',
+    'minecraft:stone_bricks',
+    'minecraft:trapdoors',
+    'minecraft:wall_corals',
+    'minecraft:walls',
+    'minecraft:wool'
+]
+
 // Read all tags.
 function getTags(dataPath, type) {
     const namespaces = readdirSync(dataPath)
@@ -76,7 +104,7 @@ for (let i = 0; i < largestRecursionCount; i++) {
         for (const value of values) {
             let flag = false
             for (const subID in tags) {
-                if (subID === id || subID.slice(0, 11) !== 'uin:general') {
+                if (subID === id || (subID.slice(0, 11) !== 'uin:general' && reliable.indexOf(subID) === -1)) {
                     continue
                 }
                 const { values: subValues } = tags[subID]
