@@ -1,7 +1,7 @@
 {
 	"values": [
-		"#uin:tech/mechanism_components",
-		"#uin:tech/power_components",
-		"#uin:tech/transmission_components"
+		"#uin:tech/components_mechanism",
+		"#uin:tech/components_power",
+		"#uin:tech/components_transmission"
 	]
 }
