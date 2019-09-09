@@ -50,7 +50,7 @@
 	- **mechanism_components**
 		- 添加
 			- bell	19w36a
-	- **solid_blocks**
+	- **redstone_opaque**
 		- 添加
 			- bee_hive	19w34a
 			- bee_nest	19w34a
@@ -159,10 +159,10 @@
     	- [infested](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/infested.json)——被虫蚀的方块
         - [light_emit](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
         - [mechanism_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/mechanism_components.json)——机械元件
-        - [non-solid_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/non-solid_blocks.json)——非固体方块 / 非物理学透明方块
         - [power_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/power_components.json)——电源元件
         - [redstone_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_components.json)——红石元件
-        - [solid_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/non-solid_blocks.json)——固体方块 / 物理学透明方块
+        - [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——能够被红石充能的不透明方块
+        - [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——不能被红石充能的透明方块
         - [transmission_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/transmission_components.json)——传输元件
 
 
