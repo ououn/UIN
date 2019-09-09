@@ -32,11 +32,11 @@
 **临时列表，正式版出来后放入*
 
 - 方块
-	- **_blocks_all.txt**
+	- **_all.txt**
 		- 添加
 			- bee_hive	19w34a
 			- bee_nest	19w34a
-	- **blocks_all**
+	- **all**
 		- 添加
 			- bee_hive	19w34a
 			- bee_nest	19w34a
@@ -47,7 +47,7 @@
 		- 添加
 			- bee_hive  19w34a
 			- bee_nest  19w34a
-	- **mechanism_components**
+	- **components_mechanism**
 		- 添加
 			- bell	19w36a
 	- **redstone_opaque**
@@ -60,14 +60,14 @@
 
 
 - 物品
-	- **_items_all.txt**
+	- **_all.txt**
 		- 添加
 			- bee_hive	19w34a
 			- bee_nest	19w34a
 			- bee_spawn_egg	19w34a
 			- honey_bottle	19w34a
 			- honeycomb	19w34a
-	- **items_all**
+	- **all**
 		- 添加
 			- bee_hive	19w34a
 			- bee_nest	19w34a
@@ -153,43 +153,44 @@
         - [torches](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/torches.json)——火把、红石火把
         - [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/weighted_pressure_plates.json)——测重压力板
     - **tech**
-    	- [blocks_all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blocks_all.json)——所有方块
+    	- [all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/all.json)——所有方块
         - [block_entities](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/block_entities.json)——方块实体
+        - [components_mechanism](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/components_mechanism.json)——机械元件
+        - [components_power](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/components_power.json)——电源元件
+        - [components_redstone](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/components_redstone.json)——红石元件
+        - [components_transmission](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/components_transmission.json)——传输元件
         - [gravity_affected](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/gravity_affected.json)——重力影响
     	- [infested](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/infested.json)——被虫蚀的方块
         - [light_emit](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
-        - [mechanism_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/mechanism_components.json)——机械元件
-        - [power_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/power_components.json)——电源元件
-        - [redstone_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_components.json)——红石元件
-        - [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——能够被红石充能的不透明方块
-        - [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——不能被红石充能的透明方块
-        - [transmission_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/transmission_components.json)——传输元件
+        - [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——不透明方块，能被红石充能
+        - [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——透明方块，不能被红石充能
 
 
 - 物品
-	- **general**
-		- [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fence_gates.json)——栅栏门
-		- [pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pressure_plates.json)——压力板
-		- [spawn_eggs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/spawn_eggs.json)——刷怪蛋
-		- [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/weighted_pressure_plates.json)——测重压力板
-	- **tech**
-		- [items_all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/items_all.json)——所有物品
+    - **general**
+        - [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fence_gates.json)——栅栏门
+        - [pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pressure_plates.json)——压力板
+        - [spawn_eggs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/spawn_eggs.json)——刷怪蛋
+        - [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/weighted_pressure_plates.json)——测重压力板
+    - **tech**
+        - [all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/all.json)——所有物品
 
 
 - 实体
-	- **general**
-		- [graveborn](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/graveborn.json)——亡灵类
-		- [minecarts](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/minecarts.json)——矿车
-	- **tech**
-		- [ages](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/ages.json)——随Age变化而改变形态/碰撞箱大小的实体（不包括药水云、经验球、物品）
-		- [entities_all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/entities_all.json)——所有实体
-		- [hostile](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/hostile.json)——敌对型生物
-			- 鸡骑士、骷髅骑士、蜘蛛骑士、杀手兔没有单独id，故不在列表内
-		- [mobs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/mobs.json)——所有生物（不包括玩家）
-		- [neutral](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/neutral.json)——中立型生物
-		- [non_mobs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/non_mobs.json)——所有非生物实体
-		- [passive](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/passive.json)——被动型生物
-		- [tameable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/tameable.json)——可驯服类型
+    - **general**
+        - [minecarts](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/minecarts.json)——矿车
+    - **tech**
+        - [ages](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/ages.json)——随Age变化而改变形态/碰撞箱大小（不包括药水云、经验球、物品）
+        - [all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/all.json)——所有实体
+        - [hostile](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/hostile.json)——敌对型生物
+        	- 鸡骑士、骷髅骑士、蜘蛛骑士、杀手兔没有单独id，故不在列表内
+        - [mobs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/mobs.json)——所有生物（不包括玩家）
+        - [neutral](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/neutral.json)——中立型生物
+        - [non_mobs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/non_mobs.json)——所有非生物实体
+        - [passive](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/passive.json)——被动型生物
+        - [tameable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/tameable.json)——可驯服类型
+    - **custom**
+        - [graveborn](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/custom/graveborn.json)——亡灵类
 
 
 
