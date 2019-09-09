@@ -50,6 +50,10 @@
 	- **mechanism_components**
 		- 添加
 			- bell	19w36a
+	- **redstone_opaque**
+		- 添加
+			- bee_hive	19w34a
+			- bee_nest	19w34a
 	- **移除json**
 		- uin:general/tall_flowers	19w34a
 		- uin:general/flowers	19w34a
@@ -157,7 +161,9 @@
         - [mechanism_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/mechanism_components.json)——机械元件
         - [power_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/power_components.json)——电源元件
         - [redstone_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_components.json)——红石元件
-        - [transmission_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/transmission_components.json)——	传输元件
+        - [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——能够被红石充能的不透明方块
+        - [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——不能被红石充能的透明方块
+        - [transmission_components](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/transmission_components.json)——传输元件
 
 
 - 物品
