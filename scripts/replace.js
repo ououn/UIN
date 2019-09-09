@@ -7,7 +7,7 @@
  */
 
 const { join } = require('path').posix
-const { readdirSync, readFileSync, lstatSync } = require('fs')
+const { readdirSync, readFileSync, lstatSync, writeFileSync } = require('fs')
 
 // Read all tags.
 function getTags(dataPath, type) {
@@ -76,7 +76,7 @@ for (let i = 0; i < largestRecursionCount; i++) {
         for (const value of values) {
             let flag = false
             for (const subID in tags) {
-                if (subID === id || subID.slice(0, 11) === 'uin:general') {
+                if (subID === id || subID.slice(0, 11) !== 'uin:general') {
                     continue
                 }
                 const { values: subValues } = tags[subID]
@@ -115,9 +115,7 @@ function idToPath(id, type) {
 }
 for (const id in tags) {
     if (id.slice(0, 8) === 'uin:tech') {
-        const content = JSON.stringify(tags[id], undefined, 4)
-        console.log(idToPath(id, 'blocks'))
-        console.log(content)
-        console.log('===')
+        const content = JSON.stringify(tags[id], undefined, '	') + '\n'
+        writeFileSync(idToPath(id, 'blocks'), content, { encoding: 'utf8' })
     }
 }
