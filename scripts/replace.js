@@ -38,6 +38,7 @@ const reliable = [
     'minecraft:saplings',
     'minecraft:signs',
     'minecraft:slabs',
+    'minecraft:small_flowers',
     'minecraft:spruce_logs',
     'minecraft:stairs',
     'minecraft:standing_signs',
