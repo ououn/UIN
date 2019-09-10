@@ -1,5 +1,18 @@
-# 当前版本——19w14b (1.14.4)
+**当前数据包版本——v1.14.3**
+
+**当前适用游戏版本——1.14.4**
+
 **若以下内容与实际情况有出入，或漏标了几个。请联系我以便即时修正，感谢*
+
+**更新日志**
+
+[方块]
+
+[物品]
+
+[实体]
+- 添加
+    - undead	不死类，获得恢复效果时受伤
 
 ***
 
@@ -189,6 +202,7 @@
         - [non_mobs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/non_mobs.json)——所有非生物实体
         - [passive](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/passive.json)——被动型生物
         - [tameable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/tameable.json)——可驯服类型
+        - [undead](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/undead.json)——不死类，获得恢复效果时受伤
     - **custom**
         - [graveborn](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/custom/graveborn.json)——亡灵类
 
