@@ -7,6 +7,9 @@
 **更新日志**
 
 [方块]
+- 添加
+    - ferns	蕨类
+    - solid_not	非固体方块，完全不改变经过实体高度，完全不阻碍实体经过的方块（不包括 minecraft:snow）
 
 [物品]
 
@@ -153,6 +156,7 @@
         - [dead_coral_wall_fans](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_wall_fans.json)——失活的墙上的珊瑚扇
         - [dead_corals](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_corals.json)——失活的珊瑚
         - [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/fence_gates.json)——栅栏门
+        - [ferns](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ferns.json)——蕨类
         - [furnaces](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/furnaces.json)——烤具
     	- [gases](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/gases.json)——气体
         - [glass_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/glass_blocks.json)——玻璃
@@ -177,6 +181,7 @@
         - [light_emit](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
         - [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——不透明方块，能被红石充能
         - [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——透明方块，不能被红石充能
+        - [solid_not](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/solid_not.json)——非固体方块，完全不改变经过实体高度，完全不阻碍实体经过的方块（不包括 minecraft:snow）
 
 
 - 物品
