@@ -50,26 +50,34 @@
 - 方块
 	- **_all.txt**
 		- 添加
-			- bee_hive	19w34a
 			- bee_nest	19w34a
+			- beehive	19w41a
+			- honey_block	19w41a
+			- honeycomb_block	19w41a
 	- **all**
 		- 添加
-			- bee_hive	19w34a
 			- bee_nest	19w34a
+			- beehive	19w41a
+			- honey_block	19w41a
+			- honeycomb_block	19w41a
 			- #minecraft:flowers	19w34a
 		- 移除
 			- #uin:general/flowers	19w34a
 	- **block_entities**
 		- 添加
-			- bee_hive  19w34a
-			- bee_nest  19w34a
+			- bee_nest	19w34a
+			- beehive	19w41a
 	- **components_mechanism**
 		- 添加
 			- bell	19w36a
 	- **redstone_opaque**
 		- 添加
-			- bee_hive	19w34a
 			- bee_nest	19w34a
+			- beehive	19w41a
+			- honeycomb_block	19w41a
+	- **redstone_transparent**
+		- 添加
+			- honey_block	19w41a
 	- **移除json**
 		- uin:general/tall_flowers	19w34a
 		- uin:general/flowers	19w34a
@@ -78,17 +86,21 @@
 - 物品
 	- **_all.txt**
 		- 添加
-			- bee_hive	19w34a
 			- bee_nest	19w34a
 			- bee_spawn_egg	19w34a
+			- beehive	19w41a
+			- honey_block	19w41a
 			- honey_bottle	19w34a
 			- honeycomb	19w34a
+			- honeycomb_block	19w41a
 	- **all**
 		- 添加
-			- bee_hive	19w34a
 			- bee_nest	19w34a
+			- beehive	19w41a
+			- honey_block	19w41a
 			- honey_bottle	19w34a
 			- honeycomb	19w34a
+			- honeycomb_block	19w41a
 			- #minecraft:flowers	19w34a
 		- 移除
 			- #uin:general/flowers	19w34a
