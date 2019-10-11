@@ -17,6 +17,8 @@
 - 添加
     - undead	不死类，获得恢复效果时受伤
 
+[其他]
+- 整理...
 ***
 
 
@@ -60,8 +62,15 @@
 			- beehive	19w41a
 			- honey_block	19w41a
 			- honeycomb_block	19w41a
+			- #minecraft:crops	19w34a
 			- #minecraft:flowers	19w34a
 		- 移除
+			- beetroots	19w34a
+			- carrots	19w34a
+			- melon_stem	19w34a
+			- potatoes	19w34a
+			- pumpkin_stem	19w34a
+			- wheat	19w34a
 			- #uin:general/flowers	19w34a
 	- **block_entities**
 		- 添加
