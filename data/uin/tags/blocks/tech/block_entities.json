@@ -1,14 +1,13 @@
 {
 	"values": [
 		"#minecraft:banners",
-		"#minecraft:beds",
-		"#minecraft:signs",
 		"#uin:general/chests",
 		"#uin:general/command_blocks",
+		"#uin:general/beds",
 		"#uin:general/furnaces",
+		"#uin:general/signs",
 		"#uin:general/skulls",
 		"minecraft:beacon",
-		"minecraft:bell",
 		"minecraft:brewing_stand",
 		"minecraft:comparator",
 		"minecraft:conduit",
@@ -19,9 +18,7 @@
 		"minecraft:end_gateway",
 		"minecraft:end_portal",
 		"minecraft:hopper",
-		"minecraft:jigsaw",
 		"minecraft:jukebox",
-		"minecraft:lectern",
 		"minecraft:moving_piston",
 		"minecraft:spawner",
 		"minecraft:structure_block"
