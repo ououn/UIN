@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#uin:general/wooden_fences",
+    "minecraft:nether_brick_fence"
+  ]
+}
