@@ -5,6 +5,7 @@
 		"#uin:general/command_blocks",
 		"#uin:general/fence_gates",
 		"minecraft:activator_rail",
+		"minecraft:bell",
 		"minecraft:dispenser",
 		"minecraft:dropper",
 		"minecraft:hopper",
