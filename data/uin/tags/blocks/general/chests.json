@@ -1,9 +1,9 @@
 {
 	"values": [
-		"#uin:general/shulker_boxes",
 		"minecraft:barrel",
 		"minecraft:chest",
 		"minecraft:ender_chest",
+		"minecraft:shulker_boxes",
 		"minecraft:trapped_chest"
 	]
 }
