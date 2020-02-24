@@ -1,27 +1,146 @@
-**构建中的数据包版本——v1.15.2**
+**构建中的数据包版本——v1.15.3.1**
 
-**适用于MC版本——1.15**
+**适用于MC版本——1.16(20w06a)**
 
 **若以下内容与实际情况有出入，或漏标了几个。请联系我以便即时修正，感谢*
 
 **更新日志**
 
 [方块]
-- 移除
-    - uin:general/shulker_boxes
+-   uin:tech/_all.txt
+    - +ancient_debris
+    - +basalt
+    - +crimson_button
+    - +crimson_door
+    - +crimson_fence
+    - +crimson_fence_gate
+    - +crimson_fungi
+    - +crimson_nylium
+    - +crimson_planks
+    - +crimson_pressure_plate
+    - +crimson_roots
+    - +crimson_sign
+    - +crimson_slab
+    - +crimson_stairs
+    - +crimson_stem
+    - +crimson_trapdoor
+    - +crimson_wall_sign
+    - +netherite_block
+    - +nether_sprouts
+    - +nether_wart_block
+    - +shroomlight
+    - +soul_fire
+    - +soul_fire_lantern
+    - +soul_fire_torch
+    - +soul_fire_wall_torch
+    - +soul_soil
+    - +stripped_crimson_stem
+    - +stripped_warped_stem
+    - +warped_button
+    - +warped_door
+    - +warped_fence
+    - +warped_fence_gate
+    - +warped_fungi
+    - +warped_nylium
+    - +warped_planks
+    - +warped_pressure_plate
+    - +warped_roots
+    - +warped_sign
+    - +warped_slap
+    - +warped_stairs
+    - +warped_stem
+    - +warped_trapdoor
+    - +warped_wall_sign
+    - +warped_wart_block
+    - +weeping_vines
+    - +weeping_vines_plant
+- uin:tech/all
+    - +#minecraft:crimson_stems
+    - +#minecraft:fire
+    - +#minecraft:nylium
+    - +#minecraft:warped_stems
+    - +#minecraft:wart_blocks
+	- +basalt
+    - +crimson_fungi
+    - +crimson_roots
+    - +netherite_block
+    - +nether_sprouts
+    - +shroomlight
+    - +soul_fire_lantern
+    - +soul_soil
+    - +warped_fungi
+    - +warped_roots
+    - +weeping_vines
+    - +weeping_vines_plant
+    - -fire
+- uin:general/fence_gates
+    - +crimson_fence_gate
+    - +warped_fence_gate
+- uin:general/pressure_plates
+    - +crimson_pressure_plate
+    - +warped_pressure_plate
+- uin:general/torches
+    - +soul_fire_torch
+    - +soul_fire_wall_torch
+- uin:general/light_emit
+    - +#minecraft:fire
+    - +shroomlight
+    - +soul_fire_lantern
+    - -fire
+- uin:general/ores
+    - +ancient_debris
+- uin:tech/redstone_opaque
+    - +#minecraft:crimson_stems
+    - +#minecraft:nylium
+    - +#minecraft:warped_stems
+    - +#minecraft:wart_blocks
+    - +basalt
+    - +netherite_block
+    - +shroomlight
+    - +soul_soil
+- uin:tech/redstone_transparent
+    - +#minecraft:fire
+    - +crimson_fungi
+    - +crimson_roots
+    - +nether_sprouts
+    - +soul_fire_lantern
+    - +warped_fungi
+    - +warped_roots
+    - +weeping_vines
+    - +weeping_vines_plant
+    - -fire
+- uin:tech/solid_not
+    - +#minecraft:fire
+    - +crimson_fungi
+    - +crimson_roots
+    - +nether_sprouts
+    - +warped_fungi
+    - +warped_roots
+    - +weeping_vines
+    - +weeping_vines_plant
+    - -fire
+
+[物品]
+- ???
 
 [实体]
-- 添加
-    - uin:tech/marker
+- uin:tech/_all.txt
+    - +hoglin
+- uin:tech/age
+    - +hoglin
+- uin:tech/hostile
+    - +hoglin
+- uin:tech/mobs
+    - +hoglin
 
 [其他]
 - 标签整理
-- 数据包版本编号不在以游戏版本为参考
+- 简化更新日志内的[添加][移除]为符号+-
 
 ***
 
 
-# 未来版本/备注
+# 未来版本/个人备注
 
 
 - 方块
@@ -38,8 +157,8 @@
 
 
 - 实体
-	- 巨人(minecraft:giant)因没有AI，暂归类为passive
-	- 铁傀儡/雪傀儡，情况特殊，不纳入仇恨类型
+    - 巨人(minecraft:giant)因没有AI，暂归类为passive
+    - 铁傀儡/雪傀儡，情况特殊，不纳入仇恨类型
 
 
 ***
