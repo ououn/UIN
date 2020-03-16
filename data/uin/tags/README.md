@@ -1,6 +1,6 @@
-**构建中的数据包版本——v1.15.3.1**
+**构建中的数据包版本——v1.15.3.2**
 
-**适用于MC版本——1.16(20w06a)**
+**适用于MC版本——1.16(20w09a)**
 
 **若以下内容与实际情况有出入，或漏标了几个。请联系我以便即时修正，感谢*
 
@@ -14,7 +14,7 @@
     - +crimson_door
     - +crimson_fence
     - +crimson_fence_gate
-    - +crimson_fungi
+    - +crimson_fungus
     - +crimson_nylium
     - +crimson_planks
     - +crimson_pressure_plate
@@ -25,6 +25,7 @@
     - +crimson_stem
     - +crimson_trapdoor
     - +crimson_wall_sign
+    - +crying_obsidian
     - +netherite_block
     - +nether_sprouts
     - +nether_wart_block
@@ -36,11 +37,12 @@
     - +soul_soil
     - +stripped_crimson_stem
     - +stripped_warped_stem
+    - +target
     - +warped_button
     - +warped_door
     - +warped_fence
     - +warped_fence_gate
-    - +warped_fungi
+    - +warped_fungus
     - +warped_nylium
     - +warped_planks
     - +warped_pressure_plate
@@ -61,14 +63,16 @@
     - +#minecraft:warped_stems
     - +#minecraft:wart_blocks
 	- +basalt
-    - +crimson_fungi
+    - +crimson_fungus
     - +crimson_roots
+    - +crying_obsidian
     - +netherite_block
     - +nether_sprouts
     - +shroomlight
     - +soul_fire_lantern
     - +soul_soil
-    - +warped_fungi
+    - +target
+    - +warped_fungus
     - +warped_roots
     - +weeping_vines
     - +weeping_vines_plant
@@ -76,14 +80,12 @@
 - uin:general/fence_gates
     - +crimson_fence_gate
     - +warped_fence_gate
-- uin:general/pressure_plates
-    - +crimson_pressure_plate
-    - +warped_pressure_plate
 - uin:general/torches
     - +soul_fire_torch
     - +soul_fire_wall_torch
 - uin:general/light_emit
     - +#minecraft:fire
+    - +crying_obsidian
     - +shroomlight
     - +soul_fire_lantern
     - -fire
@@ -95,43 +97,178 @@
     - +#minecraft:warped_stems
     - +#minecraft:wart_blocks
     - +basalt
+    - +crying_obsidian
     - +netherite_block
     - +shroomlight
     - +soul_soil
 - uin:tech/redstone_transparent
     - +#minecraft:fire
-    - +crimson_fungi
+    - +crimson_fungus
     - +crimson_roots
     - +nether_sprouts
     - +soul_fire_lantern
-    - +warped_fungi
+    - +target
+    - +warped_fungus
     - +warped_roots
     - +weeping_vines
     - +weeping_vines_plant
     - -fire
 - uin:tech/solid_not
     - +#minecraft:fire
-    - +crimson_fungi
+    - +crimson_fungus
     - +crimson_roots
     - +nether_sprouts
-    - +warped_fungi
+    - +warped_fungus
     - +warped_roots
     - +weeping_vines
     - +weeping_vines_plant
     - -fire
+- uin:tech/components_transmission
+    - +target
 
 [物品]
-- ???
+- uin:tech/_all.txt
+    - +ancient_debris
+    - +basalt
+    - +crimson_button
+    - +crimson_door
+    - +crimson_fence
+    - +crimson_fence_gate
+    - +crimson_fungus
+    - +crimson_nylium
+    - +crimson_planks
+    - +crimson_pressure_plate
+    - +crimson_roots
+    - +crimson_sign
+    - +crimson_slab
+    - +crimson_stairs
+    - +crimson_stem
+    - +crimson_trapdoor
+    - +crying_obsidian
+    - +hoglin_spawn_egg
+    - +nether_sprouts
+    - +nether_wart_block
+    - +netherite_axe
+    - +netherite_block
+    - +netherite_boots
+    - +netherite_chestplate
+    - +netherite_helmet
+    - +netherite_hoe
+    - +netherite_ingot
+    - +netherite_leggings
+    - +netherite_pickaxe
+    - +netherite_scrap
+    - +netherite_shovel
+    - +netherite_sword
+    - +piglin_spawn_egg
+    - +shroomlight
+    - +soul_fire_lantern
+    - +soul_fire_torch
+    - +soul_soil
+    - +stripped_crimson_stem
+    - +stripped_warped_stem
+    - +target
+    - +warped_button
+    - +warped_door
+    - +warped_fence
+    - +warped_fence_gate
+    - +warped_fungus
+    - +warped_nylium
+    - +warped_planks
+    - +warped_pressure_plate
+    - +warped_roots
+    - +warped_sign
+    - +warped_slap
+    - +warped_stairs
+    - +warped_stem
+    - +warped_trapdoor
+    - +warped_wart_block
+    - +weeping_vines
+    - +zombified_piglin_spawn_egg
+    - -zombie_pigman_spawn_egg
+- uin:tech/all
+    - +ancient_debris
+    - +basalt
+    - +crimson_button
+    - +crimson_door
+    - +crimson_fence
+    - +crimson_fence_gate
+    - +crimson_fungus
+    - +crimson_nylium
+    - +crimson_planks
+    - +crimson_pressure_plate
+    - +crimson_roots
+    - +crimson_sign
+    - +crimson_slab
+    - +crimson_stairs
+    - +crimson_stem
+    - +crimson_trapdoor
+    - +crying_obsidian
+    - +hoglin_spawn_egg
+    - +nether_sprouts
+    - +nether_wart_block
+    - +netherite_axe
+    - +netherite_block
+    - +netherite_boots
+    - +netherite_chestplate
+    - +netherite_helmet
+    - +netherite_hoe
+    - +netherite_ingot
+    - +netherite_leggings
+    - +netherite_pickaxe
+    - +netherite_scrap
+    - +netherite_shovel
+    - +netherite_sword
+    - +piglin_spawn_egg
+    - +shroomlight
+    - +soul_fire_lantern
+    - +soul_fire_torch
+    - +soul_soil
+    - +stripped_crimson_stem
+    - +stripped_warped_stem
+    - +target
+    - +warped_button
+    - +warped_door
+    - +warped_fence
+    - +warped_fence_gate
+    - +warped_fungus
+    - +warped_nylium
+    - +warped_planks
+    - +warped_pressure_plate
+    - +warped_roots
+    - +warped_sign
+    - +warped_slap
+    - +warped_stairs
+    - +warped_stem
+    - +warped_trapdoor
+    - +warped_wart_block
+    - +weeping_vines
+    - +zombified_piglin_spawn_egg
+    - -zombie_pigman_spawn_egg
 
 [实体]
 - uin:tech/_all.txt
     - +hoglin
+    - +piglin
+    - +zombified_piglin
+    - -zombie_pigman
 - uin:tech/age
     - +hoglin
+    - +piglin
 - uin:tech/hostile
     - +hoglin
+    - +piglin
 - uin:tech/mobs
     - +hoglin
+    - +piglin
+    - +zombified_piglin
+    - -zombie_pigman
+- uin:tech/neutral
+    - +zombified_piglin
+    - -zombie_pigman
+- uin:tech/undead
+    - +zombified_piglin
+    - -zombie_pigman
 
 [其他]
 - 标签整理
