@@ -6,6 +6,13 @@
 
 **更新日志**
 
+[其他]
+- 标签整理
+- 简化更新日志内的[添加][移除]为符号+-
+- 新增方块/物品/实体至对应标签
+- 新增物品标签，染料 uin:general/dye
+- 雪傀儡归类至实体标签 uin:tech/passive
+
 [方块]
 -   uin:tech/_all.txt
     - +ancient_debris
@@ -336,10 +343,6 @@
     - +zombified_piglin
     - -zombie_pigman
 
-[其他]
-- 标签整理
-- 简化更新日志内的[添加][移除]为符号+-
-
 ***
 
 
@@ -436,6 +439,7 @@
 
 - 物品
     - **general**
+        - [dye](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/dye.json)——染料
         - [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fence_gates.json)——栅栏门
         - [pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pressure_plates.json)——压力板
         - [spawn_eggs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/spawn_eggs.json)——刷怪蛋
