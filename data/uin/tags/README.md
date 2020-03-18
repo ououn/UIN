@@ -1,6 +1,6 @@
-**构建中的数据包版本——v1.15.3.2**
+**构建中的数据包版本——v1.15.3.3**
 
-**适用于MC版本——1.16(20w09a)**
+**适用于MC版本——1.16(20w11a)**
 
 **若以下内容与实际情况有出入，或漏标了几个。请联系我以便即时修正，感谢*
 
@@ -15,6 +15,7 @@
     - +crimson_fence
     - +crimson_fence_gate
     - +crimson_fungus
+    - +crimson_hyphae
     - +crimson_nylium
     - +crimson_planks
     - +crimson_pressure_plate
@@ -27,6 +28,7 @@
     - +crimson_wall_sign
     - +crying_obsidian
     - +netherite_block
+    - +nether_gold_ore
     - +nether_sprouts
     - +nether_wart_block
     - +shroomlight
@@ -35,14 +37,19 @@
     - +soul_fire_torch
     - +soul_fire_wall_torch
     - +soul_soil
+    - +stripped_crimson_hyphae
     - +stripped_crimson_stem
+    - +stripped_crimson_hyphae
     - +stripped_warped_stem
     - +target
+    - +twisting_vines
+    - +twisting_vines_plant
     - +warped_button
     - +warped_door
     - +warped_fence
     - +warped_fence_gate
     - +warped_fungus
+    - +warped_hyphae
     - +warped_nylium
     - +warped_planks
     - +warped_pressure_plate
@@ -59,10 +66,11 @@
 - uin:tech/all
     - +#minecraft:crimson_stems
     - +#minecraft:fire
+    - +#minecraft:gold_ores
     - +#minecraft:nylium
     - +#minecraft:warped_stems
     - +#minecraft:wart_blocks
-	- +basalt
+    - +basalt
     - +crimson_fungus
     - +crimson_roots
     - +crying_obsidian
@@ -72,11 +80,14 @@
     - +soul_fire_lantern
     - +soul_soil
     - +target
+    - +twisting_vines
+    - +twisting_vines_plant
     - +warped_fungus
     - +warped_roots
     - +weeping_vines
     - +weeping_vines_plant
     - -fire
+    - -gold_ore
 - uin:general/fence_gates
     - +crimson_fence_gate
     - +warped_fence_gate
@@ -90,7 +101,9 @@
     - +soul_fire_lantern
     - -fire
 - uin:general/ores
+    - +#minecraft:gold_ores
     - +ancient_debris
+    - -gold_ore
 - uin:tech/redstone_opaque
     - +#minecraft:crimson_stems
     - +#minecraft:nylium
@@ -108,6 +121,8 @@
     - +nether_sprouts
     - +soul_fire_lantern
     - +target
+    - +twisting_vines
+    - +twisting_vines_plant
     - +warped_fungus
     - +warped_roots
     - +weeping_vines
@@ -118,6 +133,8 @@
     - +crimson_fungus
     - +crimson_roots
     - +nether_sprouts
+    - +twisting_vines
+    - +twisting_vines_plant
     - +warped_fungus
     - +warped_roots
     - +weeping_vines
@@ -127,6 +144,23 @@
     - +target
 
 [物品]
+- uin:general/dye
+    - +red_dye
+    - +green_dye
+    - +purple_dye
+    - +cyan_dye
+    - +light_gray_dye
+    - +gray_dye
+    - +pink_dye
+    - +lime_dye
+    - +yellow_dye
+    - +light_blue_dye
+    - +magenta_dye
+    - +orange_dye
+    - +black_dye
+    - +brown_dye
+    - +blue_dye
+    - +white_dye
 - uin:tech/_all.txt
     - +ancient_debris
     - +basalt
@@ -135,6 +169,7 @@
     - +crimson_fence
     - +crimson_fence_gate
     - +crimson_fungus
+    - +crimson_hyphae
     - +crimson_nylium
     - +crimson_planks
     - +crimson_pressure_plate
@@ -146,6 +181,7 @@
     - +crimson_trapdoor
     - +crying_obsidian
     - +hoglin_spawn_egg
+    - +nether_gold_ore
     - +nether_sprouts
     - +nether_wart_block
     - +netherite_axe
@@ -165,14 +201,18 @@
     - +soul_fire_lantern
     - +soul_fire_torch
     - +soul_soil
+    - +stripped_crimson_hyphae
     - +stripped_crimson_stem
+    - +stripped_warped_hyphae
     - +stripped_warped_stem
     - +target
+    - +twisting_vines
     - +warped_button
     - +warped_door
     - +warped_fence
     - +warped_fence_gate
     - +warped_fungus
+    - +warped_hyphae
     - +warped_nylium
     - +warped_planks
     - +warped_pressure_plate
@@ -187,6 +227,8 @@
     - +zombified_piglin_spawn_egg
     - -zombie_pigman_spawn_egg
 - uin:tech/all
+    - +#minecraft:gold_ores
+    - +#uin:general/dye
     - +ancient_debris
     - +basalt
     - +crimson_button
@@ -194,6 +236,7 @@
     - +crimson_fence
     - +crimson_fence_gate
     - +crimson_fungus
+    - +crimson_hyphae
     - +crimson_nylium
     - +crimson_planks
     - +crimson_pressure_plate
@@ -224,14 +267,18 @@
     - +soul_fire_lantern
     - +soul_fire_torch
     - +soul_soil
+    - +stripped_crimson_hyphae
     - +stripped_crimson_stem
+    - +stripped_warped_hyphae
     - +stripped_warped_stem
     - +target
+    - +twisting_vines
     - +warped_button
     - +warped_door
     - +warped_fence
     - +warped_fence_gate
     - +warped_fungus
+    - +warped_hyphae
     - +warped_nylium
     - +warped_planks
     - +warped_pressure_plate
@@ -244,7 +291,24 @@
     - +warped_wart_block
     - +weeping_vines
     - +zombified_piglin_spawn_egg
+    - -gold_ore
     - -zombie_pigman_spawn_egg
+    - -red_dye
+    - -green_dye
+    - -purple_dye
+    - -cyan_dye
+    - -light_gray_dye
+    - -gray_dye
+    - -pink_dye
+    - -lime_dye
+    - -yellow_dye
+    - -light_blue_dye
+    - -magenta_dye
+    - -orange_dye
+    - -black_dye
+    - -brown_dye
+    - -blue_dye
+    - -white_dye
 
 [实体]
 - uin:tech/_all.txt
@@ -263,6 +327,8 @@
     - +piglin
     - +zombified_piglin
     - -zombie_pigman
+- uin:tech/passive
+    - +snow_golem
 - uin:tech/neutral
     - +zombified_piglin
     - -zombie_pigman
@@ -283,7 +349,6 @@
 - 方块
     - 可能成为方块实体
         - 制箭台(minecraft:fletching_table)
-        - 铁匠台(minecraft:smithing_table)
 
     - 可能成为非方块实体
         - 床(#minecraft:beds)
@@ -295,7 +360,7 @@
 
 - 实体
     - 巨人(minecraft:giant)因没有AI，暂归类为passive
-    - 铁傀儡/雪傀儡，情况特殊，不纳入仇恨类型
+    - 铁傀儡，情况特殊，不纳入仇恨类型
 
 
 ***
