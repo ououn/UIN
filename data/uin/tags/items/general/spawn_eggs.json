@@ -56,8 +56,8 @@
 		"minecraft:wither_skeleton_spawn_egg",
 		"minecraft:wolf_spawn_egg",
 		"minecraft:zombie_horse_spawn_egg",
-		"minecraft:zombie_pigman_spawn_egg",
 		"minecraft:zombie_spawn_egg",
-		"minecraft:zombie_villager_spawn_egg"
+		"minecraft:zombie_villager_spawn_egg",
+		"minecraft:zombified_piglin_spawn_egg"
 	]
 }
