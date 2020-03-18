@@ -21,6 +21,7 @@
 		"minecraft:ghast",
 		"minecraft:giant",
 		"minecraft:guardian",
+		"minecraft:hoglin",
 		"minecraft:horse",
 		"minecraft:husk",
 		"minecraft:illusioner",
@@ -34,6 +35,7 @@
 		"minecraft:parrot",
 		"minecraft:phantom",
 		"minecraft:pig",
+		"minecraft:piglin",
 		"minecraft:pillager",
 		"minecraft:polar_bear",
 		"minecraft:pufferfish",
@@ -63,7 +65,7 @@
 		"minecraft:wolf",
 		"minecraft:zombie",
 		"minecraft:zombie_horse",
-		"minecraft:zombie_pigman",
-		"minecraft:zombie_villager"
+		"minecraft:zombie_villager",
+		"minecraft:zombified_piglin"
 	]
 }
