@@ -1,6 +1,6 @@
-**构建中的数据包版本——v1.15.3.3**
+**构建中的数据包版本——v1.15.3.4**
 
-**适用于MC版本——1.16(20w11a)**
+**适用于MC版本——1.16(20w12a)**
 
 ***稳定版数据包可在releases页面下载。当前页面显示构建中数据包，可直接在主页右上角按clone or download绿色按钮进行下载***
 
@@ -40,6 +40,8 @@
     - +nether_gold_ore
     - +nether_sprouts
     - +nether_wart_block
+    - +polished_basalt
+    - +respawn_anchor
     - +shroomlight
     - +soul_fire
     - +soul_fire_lantern
@@ -85,6 +87,8 @@
     - +crying_obsidian
     - +netherite_block
     - +nether_sprouts
+    - +polished_basalt
+    - +respawn_anchor
     - +shroomlight
     - +soul_fire_lantern
     - +soul_soil
@@ -103,9 +107,10 @@
 - uin:general/torches
     - +soul_fire_torch
     - +soul_fire_wall_torch
-- uin:general/light_emit
+- uin:tech/light_emit
     - +#minecraft:fire
     - +crying_obsidian
+    - +respawn_anchor
     - +shroomlight
     - +soul_fire_lantern
     - -fire
@@ -121,6 +126,8 @@
     - +basalt
     - +crying_obsidian
     - +netherite_block
+    - +polished_basalt
+    - +respawn_anchor
     - +shroomlight
     - +soul_soil
 - uin:tech/redstone_transparent
@@ -206,6 +213,8 @@
     - +netherite_shovel
     - +netherite_sword
     - +piglin_spawn_egg
+    - +polished_basalt
+    - +respawn_anchor
     - +shroomlight
     - +soul_fire_lantern
     - +soul_fire_torch
@@ -272,6 +281,8 @@
     - +netherite_shovel
     - +netherite_sword
     - +piglin_spawn_egg
+    - +polished_basalt
+    - +respawn_anchor
     - +shroomlight
     - +soul_fire_lantern
     - +soul_fire_torch
