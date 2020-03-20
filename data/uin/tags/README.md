@@ -1,4 +1,4 @@
-**构建中的数据包版本——v1.15.3.4**
+**构建中的数据包版本——v1.15.3.5**
 
 **适用于MC版本——1.16(20w12a)**
 
@@ -13,6 +13,7 @@
 - 简化更新日志内的[添加][移除]为符号+-
 - 新增方块/物品/实体至对应标签
 - 新增物品标签，染料 uin:general/dye
+- 新增实体标签，弹射物 uin:tech/projectiles
 - 雪傀儡归类至实体标签 uin:tech/passive
 
 [方块]
@@ -355,6 +356,23 @@
 - uin:tech/undead
     - +zombified_piglin
     - -zombie_pigman
+- +uin:tech/projectiles
+- uin:tech/non_mobs
+    - +#uin:tech/projectiles
+    - -arrow
+	- -dragon_fireball
+    - -egg
+    - -ender_pearl
+    - -experience_bottle
+    - -fireball
+    - -llama_spit
+    - -potion
+    - -shulker_bullet
+    - -small_fireball
+    - -snowball
+    - -spectral_arrow
+    - -trident
+    - -wither_skull
 
 ***
 
@@ -474,6 +492,7 @@
         - [neutral](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/neutral.json)——中立型生物
         - [non_mobs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/non_mobs.json)——所有非生物实体
         - [passive](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/passive.json)——被动型生物
+        - [projectiles](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/projectiles.json)——弹射物
         - [tameable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/tameable.json)——可驯服类型
         - [undead](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/undead.json)——不死类，获得恢复效果时受伤
     - **custom**
