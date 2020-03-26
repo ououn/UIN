@@ -1,6 +1,6 @@
-**构建中的数据包版本——v1.15.3.5**
+**构建中的数据包版本——v1.15.3.6**
 
-**适用于MC版本——1.16(20w12a)**
+**适用于MC版本——1.16(20w13a)**
 
 ***稳定版数据包可在releases页面下载。当前页面显示构建中数据包，可直接在主页右上角按clone or download绿色按钮进行下载***
 
@@ -37,6 +37,7 @@
     - +crimson_trapdoor
     - +crimson_wall_sign
     - +crying_obsidian
+    - +lodestone
     - +netherite_block
     - +nether_gold_ore
     - +nether_sprouts
@@ -86,6 +87,7 @@
     - +crimson_fungus
     - +crimson_roots
     - +crying_obsidian
+    - +lodestone
     - +netherite_block
     - +nether_sprouts
     - +polished_basalt
@@ -126,6 +128,7 @@
     - +#minecraft:wart_blocks
     - +basalt
     - +crying_obsidian
+    - +lodestone
     - +netherite_block
     - +polished_basalt
     - +respawn_anchor
@@ -198,6 +201,7 @@
     - +crimson_trapdoor
     - +crying_obsidian
     - +hoglin_spawn_egg
+    - +lodestone
     - +nether_gold_ore
     - +nether_sprouts
     - +nether_wart_block
@@ -220,6 +224,7 @@
     - +soul_fire_lantern
     - +soul_fire_torch
     - +soul_soil
+    - +strider_spawn_egg
     - +stripped_crimson_hyphae
     - +stripped_crimson_stem
     - +stripped_warped_hyphae
@@ -231,6 +236,7 @@
     - +warped_fence
     - +warped_fence_gate
     - +warped_fungus
+    - +warped_fungus_on_a_stick
     - +warped_hyphae
     - +warped_nylium
     - +warped_planks
@@ -266,7 +272,7 @@
     - +crimson_stem
     - +crimson_trapdoor
     - +crying_obsidian
-    - +hoglin_spawn_egg
+    - +lodestone
     - +nether_sprouts
     - +nether_wart_block
     - +netherite_axe
@@ -281,7 +287,6 @@
     - +netherite_scrap
     - +netherite_shovel
     - +netherite_sword
-    - +piglin_spawn_egg
     - +polished_basalt
     - +respawn_anchor
     - +shroomlight
@@ -299,6 +304,7 @@
     - +warped_fence
     - +warped_fence_gate
     - +warped_fungus
+    - +warped_fungus_on_a_stick
     - +warped_hyphae
     - +warped_nylium
     - +warped_planks
@@ -311,7 +317,6 @@
     - +warped_trapdoor
     - +warped_wart_block
     - +weeping_vines
-    - +zombified_piglin_spawn_egg
     - -gold_ore
     - -zombie_pigman_spawn_egg
     - -red_dye
@@ -330,26 +335,34 @@
     - -brown_dye
     - -blue_dye
     - -white_dye
+- uin:general/spawn_eggs
+    - +hoglin_spawn_egg
+    - +piglin_spawn_egg
+    - +strider_spawn_egg
 
 [实体]
 - uin:tech/_all.txt
     - +hoglin
     - +piglin
+    - +strider
     - +zombified_piglin
     - -zombie_pigman
 - uin:tech/age
     - +hoglin
     - +piglin
+    - +strider
 - uin:tech/hostile
     - +hoglin
     - +piglin
 - uin:tech/mobs
     - +hoglin
     - +piglin
+    - +strider
     - +zombified_piglin
     - -zombie_pigman
 - uin:tech/passive
     - +snow_golem
+    - +strider
 - uin:tech/neutral
     - +zombified_piglin
     - -zombie_pigman
