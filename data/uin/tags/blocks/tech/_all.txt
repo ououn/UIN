@@ -386,6 +386,7 @@
 		"minecraft:lime_terracotta",
 		"minecraft:lime_wall_banner",
 		"minecraft:lime_wool",
+        "minecraft:lodestone",
 		"minecraft:loom",
 		"minecraft:magenta_banner",
 		"minecraft:magenta_bed",
