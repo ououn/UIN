@@ -3,6 +3,7 @@
 		"#minecraft:banners",
 		"#minecraft:buttons",
 		"#minecraft:corals",
+		"#minecraft:crops",
 		"#minecraft:fire",
 		"#minecraft:flowers",
 		"#minecraft:rails",
@@ -19,10 +20,8 @@
 		"minecraft:attached_melon_stem",
 		"minecraft:attached_pumpkin_stem",
 		"minecraft:bamboo_sapling",
-		"minecraft:beetroots",
 		"minecraft:brown_mushroom",
 		"minecraft:bubble_column",
-		"minecraft:carrots",
 		"minecraft:cobweb",
 		"minecraft:crimson_fungus",
 		"minecraft:crimson_roots",
@@ -34,13 +33,10 @@
 		"minecraft:kelp_plant",
 		"minecraft:lava",
 		"minecraft:lever",
-		"minecraft:melon_stem",
 		"minecraft:moving_piston",
 		"minecraft:nether_portal",
 		"minecraft:nether_sprouts",
 		"minecraft:nether_wart",
-		"minecraft:potatoes",
-		"minecraft:pumpkin_stem",
 		"minecraft:red_mushroom",
 		"minecraft:redstone_wire",
 		"minecraft:seagrass",
@@ -57,7 +53,6 @@
 		"minecraft:warped_roots",
 		"minecraft:water",
 		"minecraft:weeping_vines",
-		"minecraft:weeping_vines_plant",
-		"minecraft:wheat"
+		"minecraft:weeping_vines_plant"
 	]
 }
