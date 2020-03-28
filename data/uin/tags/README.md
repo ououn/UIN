@@ -1,4 +1,4 @@
-**构建中的数据包版本——v1.15.3.6**
+**构建中的数据包版本——v1.15.3.7**
 
 **适用于MC版本——1.16(20w13a)**
 
@@ -12,9 +12,18 @@
 - 标签整理
 - 简化更新日志内的[添加][移除]为符号+-
 - 新增方块/物品/实体至对应标签
+- 新增方块标签，砂岩 uin:general/sandstones
+- 新增方块标签，藤蔓 uin:general/vines
+- 新增物品标签，盔甲 uin:general/armors
+- 新增物品标签，靴子 uin:general/boots
+- 新增物品标签，胸甲 uin:general/chestplates
 - 新增物品标签，染料 uin:general/dye
+- 新增物品标签，头盔 uin:general/helmets
+- 新增物品标签，护腿 uin:general/leggings
+- 新增物品标签，武器 uin:general/weapons
 - 新增实体标签，弹射物 uin:tech/projectiles
 - 雪傀儡归类至实体标签 uin:tech/passive
+- 移动方块标签，uin:tech/infested > uin:general/infested
 
 [方块]
 -   uin:tech/_all.txt
@@ -83,6 +92,8 @@
     - +#minecraft:nylium
     - +#minecraft:warped_stems
     - +#minecraft:wart_blocks
+    - +#uin:general/infested
+    - +#uin:general/vines
     - +basalt
     - +crimson_fungus
     - +crimson_roots
@@ -96,14 +107,13 @@
     - +soul_fire_lantern
     - +soul_soil
     - +target
-    - +twisting_vines
-    - +twisting_vines_plant
     - +warped_fungus
     - +warped_roots
-    - +weeping_vines
-    - +weeping_vines_plant
+    - -#uin:tech/infested
     - -fire
     - -gold_ore
+    - -vine
+- uin:general/infested
 - uin:general/fence_gates
     - +crimson_fence_gate
     - +warped_fence_gate
@@ -150,16 +160,14 @@
     - -fire
 - uin:tech/solid_not
     - +#minecraft:fire
+    - +#uin:genearl/vines
     - +crimson_fungus
     - +crimson_roots
     - +nether_sprouts
-    - +twisting_vines
-    - +twisting_vines_plant
     - +warped_fungus
     - +warped_roots
-    - +weeping_vines
-    - +weeping_vines_plant
     - -fire
+    - -vine
 - uin:tech/components_transmission
     - +target
 
@@ -339,6 +347,12 @@
     - +hoglin_spawn_egg
     - +piglin_spawn_egg
     - +strider_spawn_egg
+- +uin:general/armors
+- +uin:general/boots
+- +uin:general/chestplates
+- +uin:general/helmets
+- +uin:general/leggings
+- +uin:general/weapons
 
 [实体]
 - uin:tech/_all.txt
@@ -458,13 +472,16 @@
     	- [gases](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/gases.json)——气体
         - [glass_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/glass_blocks.json)——玻璃
         - [glass_panes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/glass_panes.json)——玻璃板
+    	- [infested](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/infested.json)——被虫蚀的方块
         - [liquid](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/liquid.json)——液体
         - [ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ores.json)——矿石
         - [pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/pressure_plates.json)——压力板
+        - [sandstones](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/sandstones.json)——砂岩
         - [skulls](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/skulls.json)——头颅
         - [terracotta](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/terracotta.json)——陶瓦
         - [terracotta_glazed](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/terracotta_glazed.json)——带釉陶瓦
         - [torches](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/torches.json)——火把、红石火把
+        - [vines](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/vines.json)——藤蔓
         - [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/weighted_pressure_plates.json)——测重压力板
     - **tech**
     	- [all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/all.json)——所有方块
@@ -474,7 +491,6 @@
         - [components_redstone](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/components_redstone.json)——红石元件
         - [components_transmission](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/components_transmission.json)——传输元件
         - [gravity_affected](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/gravity_affected.json)——重力影响
-    	- [infested](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/infested.json)——被虫蚀的方块
         - [light_emit](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
         - [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——不透明方块，能被红石充能
         - [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——透明方块，不能被红石充能
@@ -483,10 +499,16 @@
 
 - 物品
     - **general**
+        - [armors](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/armors.json)——盔甲
+        - [boots](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/boots.json)——靴子
+        - [chestplates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/chestplates.json)——胸甲
         - [dye](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/dye.json)——染料
         - [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fence_gates.json)——栅栏门
+        - [helmets](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/helmets.json)——头盔
+        - [leggings](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/leggings.json)——护腿
         - [pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pressure_plates.json)——压力板
         - [spawn_eggs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/spawn_eggs.json)——刷怪蛋
+        - [weapons](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/weapons.json)——武器
         - [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/weighted_pressure_plates.json)——测重压力板
     - **tech**
         - [all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/all.json)——所有物品
