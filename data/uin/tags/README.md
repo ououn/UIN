@@ -20,6 +20,7 @@
 - 新增物品标签，染料 uin:general/dye
 - 新增物品标签，头盔 uin:general/helmets
 - 新增物品标签，护腿 uin:general/leggings
+- 新增物品标签，剑 uin:general/swords
 - 新增物品标签，武器 uin:general/weapons
 - 新增实体标签，弹射物 uin:tech/projectiles
 - 雪傀儡归类至实体标签 uin:tech/passive
@@ -352,6 +353,7 @@
 - +uin:general/chestplates
 - +uin:general/helmets
 - +uin:general/leggings
+- +uin:general/swords
 - +uin:general/weapons
 
 [实体]
@@ -508,6 +510,7 @@
         - [leggings](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/leggings.json)——护腿
         - [pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pressure_plates.json)——压力板
         - [spawn_eggs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/spawn_eggs.json)——刷怪蛋
+        - [swords](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/swords.json)——剑
         - [weapons](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/weapons.json)——武器
         - [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/weighted_pressure_plates.json)——测重压力板
     - **tech**
