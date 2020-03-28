@@ -55,6 +55,7 @@
 		"#uin:general/terracotta",
 		"#uin:general/terracotta_glazed",
 		"#uin:general/torches",
+		"#uin:genearl/vines",
 		"minecraft:andesite",
 		"minecraft:attached_melon_stem",
 		"minecraft:attached_pumpkin_stem",
@@ -218,13 +219,8 @@
 		"minecraft:tripwire",
 		"minecraft:tripwire_hook",
 		"minecraft:turtle_egg",
-		"minecraft:twisting_vines",
-		"minecraft:twisting_vines_plant",
-		"minecraft:vine",
 		"minecraft:warped_fungus",
 		"minecraft:warped_roots",
-		"minecraft:weeping_vines",
-		"minecraft:weeping_vines_plant",
 		"minecraft:wet_sponge"
 	]
 }
