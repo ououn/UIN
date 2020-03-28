@@ -15,8 +15,10 @@
 		"#uin:general/dead_corals",
 		"#uin:general/ferns",
 		"#uin:general/gases",
+		"#uin:genearl/liquid",
 		"#uin:general/pressure_plates",
 		"#uin:general/torches",
+		"#uin:general/vines",
 		"minecraft:attached_melon_stem",
 		"minecraft:attached_pumpkin_stem",
 		"minecraft:bamboo_sapling",
@@ -31,7 +33,6 @@
 		"minecraft:grass",
 		"minecraft:kelp",
 		"minecraft:kelp_plant",
-		"minecraft:lava",
 		"minecraft:lever",
 		"minecraft:moving_piston",
 		"minecraft:nether_portal",
@@ -46,13 +47,7 @@
 		"minecraft:tall_grass",
 		"minecraft:tall_seagrass",
 		"minecraft:tripwire",
-		"minecraft:twisting_vines",
-		"minecraft:twisting_vines_plant",
-		"minecraft:vine",
 		"minecraft:warped_fungus",
-		"minecraft:warped_roots",
-		"minecraft:water",
-		"minecraft:weeping_vines",
-		"minecraft:weeping_vines_plant"
+		"minecraft:warped_roots"
 	]
 }
