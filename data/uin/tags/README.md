@@ -21,6 +21,7 @@
 - 新增物品标签，染料 uin:general/dye
 - 新增物品标签，头盔 uin:general/helmets
 - 新增物品标签，锄头 uin:general/hoes
+- 新增物品标签，马凯 uin:general/horse_armors
 - 新增物品标签，护腿 uin:general/leggings
 - 新增物品标签，稿子 uin:general/pickaxes
 - 新增物品标签，铲子 uin:general/shovels
@@ -358,6 +359,7 @@
 - +uin:general/chestplates
 - +uin:general/helmets
 - +uin:general/hoes
+- +uin:general/horse_armors
 - +uin:general/leggings
 - +uin:general/pickaxes
 - +uin:general/shovels
@@ -517,6 +519,7 @@
         - [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fence_gates.json)——栅栏门
         - [helmets](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/helmets.json)——头盔
         - [hoes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/hoes.json)——锄头
+        - [horse_armors](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/horse_armors.json)——马凯
         - [leggings](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/leggings.json)——护腿
         - [pickaxes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pickaxes.json)——稿子
         - [pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pressure_plates.json)——压力板
