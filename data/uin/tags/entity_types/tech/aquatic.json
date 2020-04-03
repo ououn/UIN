@@ -1,14 +1,13 @@
 {
 	"values": [
 		"minecraft:cod",
-    "minecraft:dolphin",
-    "minecraft:elder_guardian",
-    "minecraft:guardian",
-    "minecraft:player",
-    "minecraft:pufferfish",
-    "minecraft:salmon",
-    "minecraft:squid",
-    "minecraft:tropical_fish",
-    "minecraft:turtle"
+		"minecraft:dolphin",
+		"minecraft:elder_guardian",
+		"minecraft:guardian",
+		"minecraft:pufferfish",
+		"minecraft:salmon",
+		"minecraft:squid",
+		"minecraft:tropical_fish",
+		"minecraft:turtle"
 	]
 }
