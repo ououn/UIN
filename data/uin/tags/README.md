@@ -1,8 +1,10 @@
-**构建中的数据包版本——v1.15.3.8**
+**构建中的数据包版本——v1.15.3.9**
 
-**适用于MC版本——1.16(20w13b)**
+**适用于MC版本——1.16(20w14a)**
 
-***稳定版数据包可在releases页面下载。当前页面显示构建中数据包，可直接在主页右上角按clone or download绿色按钮进行下载***
+**稳定版数据包可在releases页面下载。当前页面显示构建中数据包，可直接在主页右上角按clone or download绿色按钮进行下载**
+
+**方块/实体/物品文件夹下各有一份txt格式的包含所有id且不使用任何其他标签的标签文本，可单独使用**
 
 **若以下内容与实际情况有出入，或漏标了几个。请联系我以便即时修正，感谢*
 
@@ -27,6 +29,8 @@
 - 新增物品标签，铲子 uin:general/shovels
 - 新增物品标签，剑 uin:general/swords
 - 新增物品标签，武器 uin:general/weapons
+- 新增实体标签，海洋生物 uin:tech/aquatic
+- 新增实体标签，节肢生物 uin:tech/arthropods
 - 新增实体标签，弹射物 uin:tech/projectiles
 - 雪傀儡归类至实体标签 uin:tech/passive
 - 移动方块标签，uin:tech/infested > uin:general/infested
@@ -179,22 +183,6 @@
 
 [物品]
 - uin:general/dye
-    - +red_dye
-    - +green_dye
-    - +purple_dye
-    - +cyan_dye
-    - +light_gray_dye
-    - +gray_dye
-    - +pink_dye
-    - +lime_dye
-    - +yellow_dye
-    - +light_blue_dye
-    - +magenta_dye
-    - +orange_dye
-    - +black_dye
-    - +brown_dye
-    - +blue_dye
-    - +white_dye
 - uin:tech/_all.txt
     - +ancient_debris
     - +basalt
@@ -263,6 +251,7 @@
     - +warped_trapdoor
     - +warped_wart_block
     - +weeping_vines
+    - +zoglin_spawn_egg
     - +zombified_piglin_spawn_egg
     - -zombie_pigman_spawn_egg
 - uin:tech/all
@@ -353,6 +342,7 @@
     - +hoglin_spawn_egg
     - +piglin_spawn_egg
     - +strider_spawn_egg
+    - +zoglin_spawn_egg
 - +uin:general/armors
 - +uin:general/axes
 - +uin:general/boots
@@ -371,6 +361,7 @@
     - +hoglin
     - +piglin
     - +strider
+    - +zoglin
     - +zombified_piglin
     - -zombie_pigman
 - uin:tech/age
@@ -380,10 +371,12 @@
 - uin:tech/hostile
     - +hoglin
     - +piglin
+    - +zoglin
 - uin:tech/mobs
     - +hoglin
     - +piglin
     - +strider
+    - +zoglin
     - +zombified_piglin
     - -zombie_pigman
 - uin:tech/passive
@@ -393,13 +386,16 @@
     - +zombified_piglin
     - -zombie_pigman
 - uin:tech/undead
+    - +zoglin
     - +zombified_piglin
     - -zombie_pigman
+- +uin:tech/aquatic
+- +uin:tech/arthropods
 - +uin:tech/projectiles
 - uin:tech/non_mobs
     - +#uin:tech/projectiles
     - -arrow
-	- -dragon_fireball
+    - -dragon_fireball
     - -egg
     - -ender_pearl
     - -experience_bottle
@@ -538,6 +534,8 @@
     - **tech**
         - [ages](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/ages.json)——随Age变化而改变形态/碰撞箱大小（不包括药水云、经验球、物品）
         - [all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/all.json)——所有实体
+        - [aquatic](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/aquatic.json)——海洋生物，受穿刺附魔伤害影响
+        - [arthropods](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/arthropods.json)——节肢生物，受节肢杀手附魔影响
         - [hostile](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/hostile.json)——敌对型生物
         	- 鸡骑士、骷髅骑士、蜘蛛骑士、杀手兔没有单独id，故不在列表内
         - [marker](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/marker.json)——盔甲架，药水云
@@ -547,7 +545,7 @@
         - [passive](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/passive.json)——被动型生物
         - [projectiles](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/projectiles.json)——弹射物
         - [tameable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/tameable.json)——可驯服类型
-        - [undead](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/undead.json)——不死类，获得恢复效果时受伤
+        - [undead](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/undead.json)——不死生物，获得恢复效果时受伤
     - **custom**
         - [graveborn](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/custom/graveborn.json)——亡灵类
 
