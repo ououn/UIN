@@ -150,7 +150,7 @@
 		"minecraft:chicken",
 		"minecraft:chicken_spawn_egg",
 		"minecraft:chipped_anvil",
-		"minecraft:chiseled_netherbricks",
+		"minecraft:chiseled_nether_bricks",
 		"minecraft:chiseled_polished_blackstone",
 		"minecraft:chiseled_quartz_block",
 		"minecraft:chiseled_red_sandstone",
