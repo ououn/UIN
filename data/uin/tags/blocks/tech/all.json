@@ -20,6 +20,7 @@
 		"#minecraft:logs",
 		"#minecraft:nylium",
 		"#minecraft:planks",
+		"#minecraft:pressure_plates"
 		"#minecraft:rails",
 		"#minecraft:sand",
 		"#minecraft:saplings",
@@ -50,7 +51,6 @@
 		"#uin:general/infested",
 		"#uin:general/liquid",
 		"#uin:general/ores",
-		"#uin:general/pressure_plates",
 		"#uin:general/skulls",
 		"#uin:general/terracotta",
 		"#uin:general/terracotta_glazed",
