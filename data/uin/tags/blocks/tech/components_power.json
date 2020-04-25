@@ -1,7 +1,7 @@
 {
 	"values": [
 		"#minecraft:buttons",
-		"#uin:general/pressure_plates",
+		"#minecraft:pressure_plates",
 		"minecraft:daylight_detector",
 		"minecraft:detector_rail",
 		"minecraft:lectern",
