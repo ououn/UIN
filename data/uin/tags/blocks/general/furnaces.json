@@ -1,7 +1,7 @@
 {
 	"values": [
+		"#minecraft:campfires",
 		"minecraft:blast_furnace",
-		"minecraft:campfire",
 		"minecraft:furnace",
 		"minecraft:smoker"
 	]
