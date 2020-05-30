@@ -1,7 +1,7 @@
 **构建中的数据包版本——v1.15.4.3**
 
 **适用于MC版本——1.16(20w17a - 20w21a)**
-20w22a 完全可以正常使用，太懒没有把自创的 uin:general/fence_gates 方块标签转用原版的 minecraft:fence_gates
+*20w22a 完全可以正常使用，太懒没有把自创的 uin:general/fence_gates 方块标签转用原版的 minecraft:fence_gates
 
 **稳定版数据包可在releases页面下载。当前页面显示构建中数据包，可直接在主页右上角按clone or download绿色按钮进行下载**
 
