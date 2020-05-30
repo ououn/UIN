@@ -127,6 +127,7 @@
 		"minecraft:sponge",
 		"minecraft:stone",
 		"minecraft:structure_block",
+		"minecraft:target",
 		"minecraft:wet_sponge"
 	]
 }
