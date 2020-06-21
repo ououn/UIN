@@ -1,7 +1,6 @@
 **构建中的数据包版本——v1.15.4.3**
 
-**适用于MC版本——1.16(20w17a - 20w21a)**
-*20w22a 完全可以正常使用，太懒没有把自创的 uin:general/fence_gates 方块标签转用原版的 minecraft:fence_gates
+**适用于MC版本——1.16(20w22a ~ 1.16 rc1)**
 
 **稳定版数据包可在releases页面下载。当前页面显示构建中数据包，可直接在主页右上角按clone or download绿色按钮进行下载**
 
@@ -40,6 +39,7 @@
 - 雪傀儡归类至实体标签 uin:tech/passive
 - 移动方块标签，uin:tech/infested > uin:general/infested
 - 移除方块标签，uin:general/pressure_plates，使用minecraft:pressure_plates
+- 移除方块标签，uin:general/fence_gates，使用minecraft:fence_gates
 
 # 未来版本/个人备注
 
@@ -74,6 +74,7 @@
 
 
 - 方块
+	- 对实体造成伤害
 	- (同类方块标签化)
 	- 透光方块
 	- 非完整方块——铁砧、门、耕地、半砖...
@@ -103,7 +104,6 @@
         - [dead_coral_fans](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_fans.json)——失活的珊瑚扇
         - [dead_coral_wall_fans](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_wall_fans.json)——失活的墙上的珊瑚扇
         - [dead_corals](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_corals.json)——失活的珊瑚
-        - [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/fence_gates.json)——栅栏门
         - [ferns](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ferns.json)——蕨类
         - [furnaces](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/furnaces.json)——烤具
     	- [gases](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/gases.json)——气体
