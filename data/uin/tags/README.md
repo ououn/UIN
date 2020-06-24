@@ -1,6 +1,6 @@
-**构建中的数据包版本——v1.15.4.4**
+**构建中的数据包版本——v1.15.5.4**
 
-**适用于MC版本——1.16(20w22a ~ 1.16 rc1)**
+**适用于MC版本——1.16(20w22a ~ 1.16)**
 
 **稳定版数据包可在releases页面下载。当前页面显示构建中数据包，可直接在主页右上角按clone or download绿色按钮进行下载**
 
@@ -16,6 +16,7 @@
 - 新增方块/物品/实体至对应标签
 - 新增方块标签，砂岩 uin:general/sandstones
 - 新增方块标签，藤蔓 uin:general/vines
+- 新增方块标签，伤害 uin:tech/damage
 - 新增物品标签，盔甲 uin:general/armors
 - 新增物品标签，斧头 uin:general/axes
 - 新增物品标签，旗帜图案 uin:general/banner_patterns
@@ -126,6 +127,7 @@
         - [components_power](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/components_power.json)——电源元件
         - [components_redstone](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/components_redstone.json)——红石元件
         - [components_transmission](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/components_transmission.json)——传输元件
+    	- [damage](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/damage.json)——能造成伤害的方块（#campfires和sweet_berry_bush视方块状态而定，wither_rose则通过药水效果达成）
         - [gravity_affected](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/gravity_affected.json)——重力影响
         - [light_emit](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
         - [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——不透明方块，能被红石充能
