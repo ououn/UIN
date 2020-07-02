@@ -77,16 +77,20 @@
 
 - 方块
 	- (同类方块标签化)
+	- blockstate/[]
 	- 透光方块
 	- 非完整方块——铁砧、门、耕地、半砖...
 	- 占据两格的方块——如床，大箱子等
 
 
 - 物品
+        - bucket
+	- fish bucket
 	- 可右键物品
 
 
 - 实体
+        - non_mobs > mobs + misc[] + projectiles + vehicles[] + blocks[] + items[]
 	- 右键互动（不包括喂食）
 
 
