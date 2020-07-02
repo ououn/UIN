@@ -1,0 +1,26 @@
+{
+	"values": [
+    "#minecraft:campfires",
+		"#minecraft:corals",
+    "#minecraft:fences",
+    "#minecraft:signs",
+    "#minecraft:slabs",
+    "#minecraft:stairs",
+    "#minecraft:trapdoors",
+    "#minecraft:wall_corals",
+    "#minecraft:walls",
+    "#uin:general/dead_coral_fans",
+    "#uin:general/dead_coral_wall_fans",
+    "#uin:general/dead_corals",
+    "#uin:general/glass_panes",
+    "minecraft:chain",
+    "minecraft:chest",
+    "minecraft:conduit",
+    "minecraft:ender_chest",
+    "minecraft:iron_bars",
+    "minecraft:ladder",
+    "minecraft:scaffolding",
+    "minecraft:sea_pickle",
+    "minecraft:trapped_chest"
+	]
+}
