@@ -84,13 +84,13 @@
 
 
 - 物品
-        - bucket
+	- bucket
 	- fish bucket
 	- 可右键物品
 
 
 - 实体
-        - non_mobs > mobs + misc[] + projectiles + vehicles[] + blocks[] + items[]
+	- non_mobs > mobs + misc[] + projectiles + vehicles[] + blocks[] + items[]
 	- 右键互动（不包括喂食）
 
 
