@@ -1,4 +1,4 @@
-**构建中的数据包版本——v1.15.5.4**
+**构建中的数据包版本——v1.15.5.5**
 
 **适用于MC版本——1.16.1(20w22a ~ 1.16.1)**
 
@@ -17,6 +17,7 @@
 - 新增方块标签，砂岩 uin:general/sandstones
 - 新增方块标签，藤蔓 uin:general/vines
 - 新增方块标签，伤害 uin:tech/damage
+- 新增方块标签，含水 uin:tech/waterloggable
 - 新增物品标签，盔甲 uin:general/armors
 - 新增物品标签，斧头 uin:general/axes
 - 新增物品标签，旗帜图案 uin:general/banner_patterns
@@ -132,6 +133,7 @@
         - [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——不透明方块，能被红石充能
         - [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——透明方块，不能被红石充能
         - [solid_not](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/solid_not.json)——非固体方块，完全不改变经过实体高度，完全不阻碍实体经过的方块（不包括 minecraft:snow）
+        - [waterloggable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/waterloggable.json)——含水方块，状态可为含水或不含水的方块。
 
 
 - 物品
