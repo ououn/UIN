@@ -1,22 +1,9 @@
 {
 	"values": [
-		"#uin:general/minecarts",
+		"#uin:tech/blocks",
+		"#uin:tech/items",
+		"#uin:tech/misc",
 		"#uin:tech/projectiles",
-		"minecraft:area_effect_cloud",
-		"minecraft:armor_stand",
-		"minecraft:boat",
-		"minecraft:end_crystal",
-		"minecraft:evoker_fangs",
-		"minecraft:experience_orb",
-		"minecraft:eye_of_ender",
-		"minecraft:falling_block",
-		"minecraft:firework_rocket",
-		"minecraft:fishing_bobber",
-		"minecraft:item",
-		"minecraft:item_frame",
-		"minecraft:leash_knot",
-		"minecraft:lightning_bolt",
-		"minecraft:painting",
-		"minecraft:tnt"
+		"#uin:tech/vehicles"
 	]
 }
