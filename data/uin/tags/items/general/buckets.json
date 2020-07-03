@@ -1,7 +1,7 @@
 
 {
 	"values": [
-    "#uin:general/fish_buckets",
+		"#uin:general/fish_buckets",
 		"minecraft:bucket",
 		"minecraft:lava_bucket",
 		"minecraft:milk_bucket",
