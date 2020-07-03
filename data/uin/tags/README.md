@@ -1,4 +1,4 @@
-**构建中的数据包版本——v1.15.5.5**
+**构建中的数据包版本——v1.16.0.0**
 
 **适用于MC版本——1.16.1(20w22a ~ 1.16.1)**
 
@@ -17,11 +17,17 @@
 - 新增方块标签，砂岩 uin:general/sandstones
 - 新增方块标签，藤蔓 uin:general/vines
 - 新增方块标签，伤害 uin:tech/damage
-- 新增方块标签，含水 uin:tech/waterloggable
+- 新增方块状态标签，年龄 uin:tech/blockstates/age
+- 新增方块状态标签，发光 uin:tech/blockstates/lit
+- 新增方块状态标签，红石信号 uin:tech/blockstates/power
+- 新增方块状态标签，红石充能 uin:tech/blockstates/powered
+- 新增方块状态标签，含水 uin:tech/blockstates/waterlogged
 - 新增物品标签，盔甲 uin:general/armors
 - 新增物品标签，斧头 uin:general/axes
 - 新增物品标签，旗帜图案 uin:general/banner_patterns
 - 新增物品标签，靴子 uin:general/boots
+- 新增物品标签，桶 uin:general/buckets
+- 新增物品标签，鱼桶 uin:general/fish_buckets
 - 新增物品标签，胸甲 uin:general/chestplates
 - 新增物品标签，染料 uin:general/dye
 - 新增物品标签，头盔 uin:general/helmets
@@ -37,7 +43,11 @@
 - 新增物品标签，武器 uin:general/weapons
 - 新增实体标签，海洋生物 uin:tech/aquatic
 - 新增实体标签，节肢生物 uin:tech/arthropods
+- 新增实体标签，方块 uin:tech/blocks
+- 新增实体标签，掉落物 uin:tech/items
+- 新增实体标签，杂项 uin:tech/misc
 - 新增实体标签，弹射物 uin:tech/projectiles
+- 新增实体标签，载具 uin:tech/vehicles
 - 雪傀儡归类至实体标签 uin:tech/passive
 - 移动方块标签，uin:tech/infested > uin:general/infested
 - 移除方块标签，uin:general/pressure_plates，使用minecraft:pressure_plates
@@ -77,20 +87,18 @@
 
 - 方块
 	- (同类方块标签化)
-	- blockstate/[]
+	- blockstate/[facing,half,level,open,rotation,shape]
 	- 透光方块
 	- 非完整方块——铁砧、门、耕地、半砖...
 	- 占据两格的方块——如床，大箱子等
 
 
 - 物品
-	- bucket
-	- fish bucket
+	- (同类物品标签化)
 	- 可右键物品
 
 
 - 实体
-	- non_mobs > mobs + misc[] + projectiles + vehicles[] + blocks[] + items[]
 	- 右键互动（不包括喂食）
 
 
@@ -137,7 +145,12 @@
         - [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——不透明方块，能被红石充能
         - [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——透明方块，不能被红石充能
         - [solid_not](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/solid_not.json)——非固体方块，完全不改变经过实体高度，完全不阻碍实体经过的方块（不包括 minecraft:snow）
-        - [waterloggable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/waterloggable.json)——含水方块，状态可为含水或不含水的方块。
+    - **tech/blockstates**
+        - [age](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstates/age.json)——年龄，植物生长的状态和火的传播状态等。
+        - [lit](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstates/lit.json)——发光...是否处于发亮状态，影响光照等级。
+        - [power](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstates/power.json)——红石信号，传输的红石信号等级。
+        - [powered](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstates/powered.json)——红石充能，红石元件是否处于充能状态。
+        - [waterlogged](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstates/waterlogged.json)——含水方块，状态可为含水或不含水的方块。
 
 
 - 物品
@@ -146,9 +159,11 @@
         - [axes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/axes.json)——斧子
         - [banner_patterns](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/banner_patterns.json)——旗帜图案
         - [boots](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/boots.json)——靴子
+        - [buckets](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/buckets.json)——桶
         - [chestplates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/chestplates.json)——胸甲
         - [dye](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/dye.json)——染料
         - [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fence_gates.json)——栅栏门
+        - [fish_buckets](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fish_buckets.json)——鱼桶
         - [helmets](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/helmets.json)——头盔
         - [hoes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/hoes.json)——锄头
         - [horse_armors](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/horse_armors.json)——马凯
@@ -175,9 +190,12 @@
         - [all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/all.json)——所有实体
         - [aquatic](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/aquatic.json)——海洋生物，受穿刺附魔伤害影响
         - [arthropods](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/arthropods.json)——节肢生物，受节肢杀手附魔影响
+        - [blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/blocks.json)——方块
         - [hostile](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/hostile.json)——敌对型生物
         	- 鸡骑士、骷髅骑士、蜘蛛骑士、杀手兔没有单独id，故不在列表内
+        - [items](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/items.json)——掉落物
         - [marker](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/marker.json)——盔甲架，药水云
+        - [misc](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/misc.json)——杂项
         - [mobs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/mobs.json)——所有生物（不包括玩家）
         - [neutral](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/neutral.json)——中立型生物
         - [non_mobs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/non_mobs.json)——所有非生物实体
@@ -185,6 +203,7 @@
         - [projectiles](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/projectiles.json)——弹射物
         - [tameable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/tameable.json)——可驯服类型
         - [undead](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/undead.json)——不死生物，获得恢复效果时受伤
+        - [vehicles](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/vehicles.json)——载具，船 & 矿车
     - **custom**
         - [graveborn](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/custom/graveborn.json)——亡灵类
 
