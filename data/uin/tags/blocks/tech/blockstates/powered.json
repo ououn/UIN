@@ -1,0 +1,20 @@
+{
+	"values": [
+		"#minecraft:buttons",
+		"#minecraft:doors",
+		"#minecraft:fence_gates",
+		"#minecraft:trapdoors",
+		"#minecraft:wooden_pressure_plates",
+		"minecraft:activator_rail",
+		"minecraft:comparator",
+		"minecraft:detector_rail",
+		"minecraft:lectern",
+		"minecraft:lever",
+		"minecraft:note_block",
+		"minecraft:observer",
+		"minecraft:powered_rail",
+		"minecraft:repeater",
+		"minecraft:tripwire",
+		"minecraft:tripwire_hook"
+	]
+}
