@@ -1,0 +1,8 @@
+{
+	"values": [
+		"#uin:general/weighted_pressure_plates",
+		"minecraft:daylight_detector",
+		"minecraft:redstone_wire",
+		"minecraft:target"
+	]
+}
