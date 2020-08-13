@@ -2,6 +2,7 @@
 	"values": [
 		"#minecraft:fire",
 		"#uin:general/furnaces",
+		"#uin:general/lanterns",
 		"#uin:general/torches",
 		"minecraft:beacon",
 		"minecraft:brewing_stand",
@@ -16,7 +17,6 @@
 		"minecraft:ender_chest",
 		"minecraft:glowstone",
 		"minecraft:jack_o_lantern",
-		"minecraft:lantern",
 		"minecraft:lava",
 		"minecraft:magma_block",
 		"minecraft:nether_portal",
@@ -25,7 +25,6 @@
 		"minecraft:respawn_anchor",
 		"minecraft:sea_lantern",
 		"minecraft:sea_pickle",
-		"minecraft:shroomlight",
-		"minecraft:soul_lantern"
+		"minecraft:shroomlight"
 	]
 }
