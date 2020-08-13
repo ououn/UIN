@@ -1,16 +1,5 @@
 {
 	"values": [
-		"#minecraft:fences",
-		"#minecraft:fire",
-		"#minecraft:walls",
-		"#uin:general/glass_panes",
-		"minecraft:brown_mushroom_block",
-		"minecraft:chorus_plant",
-		"minecraft:iron_bars",
-		"minecraft:mushroom_stem",
-		"minecraft:red_mushroom_block",
-		"minecraft:redstone_wire",
-		"minecraft:tripwire",
-		"minecraft:vine"
+		"#uin:tech/blockstates/north"
 	]
 }
