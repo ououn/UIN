@@ -1,11 +1,6 @@
 {
 	"values": [
-		"#uin:general/wall_skulls",
-		"minecraft:creeper_head",
-		"minecraft:dragon_head",
-		"minecraft:player_head",
-		"minecraft:skeleton_skull",
-		"minecraft:wither_skeleton_skull",
-		"minecraft:zombie_head"
+		"#uin:general/ground_skulls",
+		"#uin:general/wall_skulls"
 	]
 }
