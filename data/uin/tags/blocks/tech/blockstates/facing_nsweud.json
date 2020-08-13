@@ -1,0 +1,13 @@
+{
+	"values": [
+		"#minecraft:shulker_boxes",
+		"#uin:general/command_blocks",
+		"#uin:general/piston",
+		"minecraft:barrel",
+		"minecraft:dispenser",
+		"minecraft:dropper",
+		"minecraft:end_rod",
+		"minecraft:jigsaw",
+		"minecraft:observer"
+	]
+}
