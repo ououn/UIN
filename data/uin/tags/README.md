@@ -250,7 +250,7 @@
 - [kongbaiyo](https://www.mcbbs.net/?574210)
 - [SPGoding](https://www.mcbbs.net/?2444378)
 - [Teenager_Yang](https://www.mcbbs.net/?2337994)
-- [CR_19](https://www.mcbbs.net/?2504275)
+- [CR_019](https://www.mcbbs.net/?2504275)
 
 # 特别感谢以下大佬的支持
 - [Sunny_loy_KyLe](https://www.mcbbs.net/?1235427)
