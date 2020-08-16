@@ -33,6 +33,7 @@
 		"#uin:general/lanterns",
 		"#uin:general/liquid",
 		"#uin:general/piston",
+		"#uin:general/roots",
 		"#uin:general/skulls",
 		"#uin:general/torches",
 		"minecraft:attached_melon_stem",
@@ -59,7 +60,6 @@
 		"minecraft:composter",
 		"minecraft:conduit",
 		"minecraft:crimson_fungus",
-		"minecraft:crimson_roots",
 		"minecraft:daylight_detector",
 		"minecraft:dead_bush",
 		"minecraft:dragon_egg",
@@ -116,7 +116,6 @@
 		"minecraft:twisting_vines_plant",
 		"minecraft:vine",
 		"minecraft:warped_fungus",
-		"minecraft:warped_roots",
 		"minecraft:weeping_vines",
 		"minecraft:weeping_vines_plant",
 		"minecraft:wheat"
