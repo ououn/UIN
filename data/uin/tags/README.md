@@ -1,4 +1,4 @@
-**构建中的数据包版本——v2.0.0.3**
+**构建中的数据包版本——v2.0.0.4**
 
 **适用于MC版本—— 1.16.2 rc1 ~ 1.16.2**
 
@@ -11,85 +11,24 @@
 **更新日志**
 
 [其他]
-- 未来版本将向下兼容（至1.16.2 rc1）
-- 数据包 pack_format 更新至 6
-- 新增方块状态标签
-	- 目前收录的状态主要存在于至少三种方块
-	- 参考源非最新版本且存在多处误导，因此考虑在未来的一段时间内进行校对
+- 方块状态标签参考源非最新版本且存在多处误导，因此考虑在未来的一段时间内进行校对
+- 方块标签校对 11.5%
 - 标签整理
-- 简化更新日志
-- 新增方块/物品/实体至对应标签
-- 新增方块标签，置地旗帜 uin:general/ground_banners
-- 新增方块标签，置地头颅 uin:general/ground_skulls
-- 新增方块标签，灯笼 uin:general/lanterns
-- 新增方块标签，活塞 uin:general/piston
-- 新增方块标签，砂岩 uin:general/sandstones
-- 新增方块标签，藤蔓 uin:general/vines
-- 新增方块标签，贴墙旗帜 uin:general/wall_banners
-- 新增方块标签，墙上头颅 uin:general/wall_skulls
-- 新增方块标签，贴墙火把 uin:general/wall_torches
-- 新增方块标签，无方块状态 uin:tech/blockstate_none
-- 新增方块标签，伤害 uin:tech/damage
-- 新增方块状态标签，年龄 uin:tech/blockstates/age
-- 新增方块状态标签，轴 uin:tech/blockstates/axis
-- 新增方块状态标签，距离 uin:tech/blockstates/distance
-- 新增方块状态标签，下方 uin:tech/blockstates/down
-- 新增方块状态标签，东方 uin:tech/blockstates/east
-- 新增方块状态标签，面向依附 uin:tech/blockstates/face
-- 新增方块状态标签，面向 uin:tech/blockstates/facing
-- 新增方块状态标签，面向_NSWE uin:tech/blockstates/facing_nswe
-- 新增方块状态标签，面向_NSWED uin:tech/blockstates/facing_nswed
-- 新增方块状态标签，面向_NSWEUD uin:tech/blockstates/facing_nsweud
-- 新增方块状态标签，半格 uin:tech/blockstates/half
-- 新增方块状态标签，持物 uin:tech/blockstates/have_item
-- 新增方块状态标签，水平 uin:tech/blockstates/level
-- 新增方块状态标签，发光 uin:tech/blockstates/lit
-- 新增方块状态标签，北方 uin:tech/blockstates/north
-- 新增方块状态标签，打开 uin:tech/blockstates/open
-- 新增方块状态标签，红石信号 uin:tech/blockstates/power
-- 新增方块状态标签，红石充能 uin:tech/blockstates/powered
-- 新增方块状态标签，旋转 uin:tech/blockstates/rotation
-- 新增方块状态标签，连接 uin:tech/blockstates/shape
-- 新增方块状态标签，雪层 uin:tech/blockstates/snowy
-- 新增方块状态标签，南方 uin:tech/blockstates/south
-- 新增方块状态标签，阶段 uin:tech/blockstates/stage
-- 新增方块状态标签，触发 uin:tech/blockstates/triggered
-- 新增方块状态标签，类型 uin:tech/blockstates/type
-- 新增方块状态标签，上方 uin:tech/blockstates/up
-- 新增方块状态标签，含水 uin:tech/blockstates/waterlogged
-- 新增方块状态标签，西方 uin:tech/blockstates/west
-- 新增物品标签，盔甲 uin:general/armors
-- 新增物品标签，斧头 uin:general/axes
-- 新增物品标签，旗帜图案 uin:general/banner_patterns
-- 新增物品标签，靴子 uin:general/boots
-- 新增物品标签，桶 uin:general/buckets
-- 新增物品标签，鱼桶 uin:general/fish_buckets
-- 新增物品标签，胸甲 uin:general/chestplates
-- 新增物品标签，染料 uin:general/dye
-- 新增物品标签，头盔 uin:general/helmets
-- 新增物品标签，锄头 uin:general/hoes
-- 新增物品标签，马凯 uin:general/horse_armors
-- 新增物品标签，灯笼 uin:general/lanterns
-- 新增物品标签，护腿 uin:general/leggings
-- 新增物品标签，矿车 uin:general/minecarts
-- 新增物品标签，原矿 uin:general/ores
-- 新增物品标签，稿子 uin:general/pickaxes
-- 新增物品标签，铲子 uin:general/shovels
-- 新增物品标签，头颅 uin:general/skulls
-- 新增物品标签，剑 uin:general/swords
-- 新增物品标签，武器 uin:general/weapons
-- 新增实体标签，海洋生物 uin:tech/aquatic
-- 新增实体标签，节肢生物 uin:tech/arthropods
-- 新增实体标签，方块 uin:tech/blocks
-- 新增实体标签，掉落物 uin:tech/items
-- 新增实体标签，杂项 uin:tech/misc
-- 新增实体标签，弹射物 uin:tech/projectiles
-- 新增实体标签，载具 uin:tech/vehicles
-- 雪傀儡归类至实体标签 uin:tech/passive
-- 重命名方块标签，uin:tech/solid_not > uin:tech/solid_none
-- 移动方块标签，uin:tech/infested > uin:general/infested
-- 移除方块标签，uin:general/pressure_plates，使用minecraft:pressure_plates
-- 移除方块标签，uin:general/fence_gates，使用minecraft:fence_gates
+- 新增方块标签，菌类 uin:general/fungus
+- 新增方块标签，草丛 uin:general/grass
+- 新增方块标签，菌索 uin:general/roots
+- 新增方块标签，海草 uin:general/seagrass
+- 新增方块标签，平滑石类 uin:general/smooth_stone
+- 新增方块标签，海绵 uin:general/sponge
+- 新增物品标签，可饮用 uin:general/drinkable
+- 新增物品标签，可食用 uin:general/eatable
+- 新增物品标签，菌类 uin:general/fungus
+- 新增物品标签，草丛 uin:general/grass
+- 新增物品标签，菌索 uin:general/roots
+- 新增物品标签，潜影盒 uin:general/shulker_boxes
+- 新增物品标签，平滑石类 uin:general/smooth_stone
+- 新增物品标签，汤 uin:general/soups
+- 新增物品标签，海绵 uin:general/sponge
 
 # 未来版本/个人备注
 
@@ -128,7 +67,7 @@
 
 - 方块
 	- (同类方块标签化)
-	- 拥有/没有任何方块状态的方块
+	- 拥有任何方块状态的方块
 	- 透光方块
 	- 非完整方块——铁砧、门、耕地、半砖...
 	- 占据两格的方块——如床，大箱子等
@@ -153,16 +92,18 @@
 		- [chests](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/chests.json)——储物箱
 		- [command_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/command_blocks.json)——命令方块
 		- [concrete](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/concrete.json)——混凝土
-        - [concrete_powder](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/concrete_powder.json)——混凝土粉末
+		- [concrete_powder](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/concrete_powder.json)——混凝土粉末
 		- [dead_coral_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_blocks.json)——失活的珊瑚块
 		- [dead_coral_fans](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_fans.json)——失活的珊瑚扇
 		- [dead_coral_wall_fans](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_wall_fans.json)——失活的墙上的珊瑚扇
 		- [dead_corals](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_corals.json)——失活的珊瑚
 		- [ferns](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ferns.json)——蕨类
+		- [fungus](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/fungus.json)——菌类
 		- [furnaces](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/furnaces.json)——烤具
 		- [gases](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/gases.json)——气体
 		- [glass_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/glass_blocks.json)——玻璃
 		- [glass_panes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/glass_panes.json)——玻璃板
+		- [grass](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/grass.json)——草丛
 		- [ground_banners](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ground_banners.json)——置地旗帜
 		- [ground_skulls](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ground_skulls.json)——置地头颅
 		- [infested](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/infested.json)——被虫蚀的方块
@@ -170,8 +111,12 @@
 		- [liquid](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/liquid.json)——液体
 		- [ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ores.json)——原矿
 		- [piston](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/piston.json)——活塞与其产物
+		- [roots](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/roots.json)——菌素
 		- [sandstones](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/sandstones.json)——砂岩
+		- [seagrass](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/seagrass.json)——海草
 		- [skulls](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/skulls.json)——头颅
+		- [smooth_stone](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/smooth_stone.json)——平滑石类
+		- [sponge](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/sponge.json)——海绵
 		- [terracotta](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/terracotta.json)——陶瓦
 		- [terracotta_glazed](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/terracotta_glazed.json)——带釉陶瓦
 		- [torches](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/torches.json)——火把、红石火把
@@ -232,9 +177,13 @@
 		- [boots](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/boots.json)——靴子
 		- [buckets](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/buckets.json)——桶
 		- [chestplates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/chestplates.json)——胸甲
+		- [drinkable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/drinkable.json)——可饮用
 		- [dye](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/dye.json)——染料
+		- [eatable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/eatable.json)——可食用
 		- [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fence_gates.json)——栅栏门
 		- [fish_buckets](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fish_buckets.json)——鱼桶
+		- [fungus](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fungus.json)——菌类
+		- [grass](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/grass.json)——草丛
 		- [helmets](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/helmets.json)——头盔
 		- [hoes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/hoes.json)——锄头
 		- [horse_armors](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/horse_armors.json)——马凯
@@ -243,9 +192,14 @@
 		- [ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/ores.json)——原矿
 		- [pickaxes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pickaxes.json)——稿子
 		- [pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pressure_plates.json)——压力板
+		- [roots](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/roots.json)——菌素
 		- [shovels](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/shovels.json)——铲子
+		- [shulker_boxes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/shulker_boxes.json)——潜影盒
 		- [skulls](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/skulls.json)——头颅
+		- [smooth_stone](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/smooth_stone.json)——平滑石类
+		- [soups](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/soups.json)——汤
 		- [spawn_eggs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/spawn_eggs.json)——刷怪蛋
+		- [sponge](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/sponge.json)——海绵
 		- [swords](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/swords.json)——剑
 		- [weapons](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/weapons.json)——武器
 		- [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/weighted_pressure_plates.json)——测重压力板
