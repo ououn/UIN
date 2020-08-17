@@ -1,4 +1,4 @@
-**构建中的数据包版本——v2.0.0.5**
+**构建中的数据包版本——v2.0.0.6**
 
 **适用于MC版本—— 1.16.2 rc1 ~ 1.16.2**
 
@@ -22,8 +22,6 @@
 - 新增方块标签，海绵 uin:general/sponge
 - 新增物品标签，混凝土 uin:general/concrete
 - 新增物品标签，混凝土粉末 uin:general/concrete_powder
-- 新增物品标签，可饮用 uin:general/drinkable
-- 新增物品标签，可食用 uin:general/eatable
 - 新增物品标签，菌类 uin:general/fungus
 - 新增物品标签，玻璃 uin:general/glass_blocks
 - 新增物品标签，玻璃板 uin:general/glass_panes
@@ -35,6 +33,8 @@
 - 新增物品标签，海绵 uin:general/sponge
 - 新增物品标签，陶瓦 uin:general/terracotta
 - 新增物品标签，带釉陶瓦 uin:general/terracotta_glazed
+- 新增物品标签，可饮用 uin:tech/drinkable
+- 新增物品标签，可食用 uin:tech/eatable
 
 # 未来版本/个人备注
 
@@ -81,6 +81,7 @@
 
 - 物品
 	- (同类物品标签化)
+	- 作物
 	- 可右键物品
 
 
@@ -185,9 +186,7 @@
 		- [concrete](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/concrete.json)——混凝土
 		- [concrete_powder](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/concrete_powder.json)——混凝土粉末
 		- [chestplates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/chestplates.json)——胸甲
-		- [drinkable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/drinkable.json)——可饮用
 		- [dye](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/dye.json)——染料
-		- [eatable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/eatable.json)——可食用
 		- [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fence_gates.json)——栅栏门
 		- [fish_buckets](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fish_buckets.json)——鱼桶
 		- [fungus](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fungus.json)——菌类
@@ -217,6 +216,8 @@
 		- [weighted_pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/weighted_pressure_plates.json)——测重压力板
 	- **tech**
 		- [all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/all.json)——所有物品
+		- [drinkable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/drinkable.json)——可饮用
+		- [eatable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/eatable.json)——可食用（不包括蛋糕，不能直接食用）
 
 
 - 实体
