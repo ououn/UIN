@@ -17,6 +17,8 @@
 		"#uin:general/dead_coral_blocks",
 		"#uin:general/infested",
 		"#uin:general/ores",
+		"#uin:general/smooth_stone",
+		"#uin:general/sponge",
 		"#uin:general/terracotta",
 		"#uin:general/terracotta_glazed",
 		"minecraft:andesite",
@@ -111,18 +113,12 @@
 		"minecraft:slime_block",
 		"minecraft:smithing_table",
 		"minecraft:smoker",
-		"minecraft:smooth_quartz",
-		"minecraft:smooth_red_sandstone",
-		"minecraft:smooth_sandstone",
-		"minecraft:smooth_stone",
 		"minecraft:snow_block",
 		"minecraft:soul_sand",
 		"minecraft:soul_soil",
 		"minecraft:spawner",
-		"minecraft:sponge",
 		"minecraft:stone",
 		"minecraft:structure_block",
-		"minecraft:target",
-		"minecraft:wet_sponge"
+		"minecraft:target"
 	]
 }
