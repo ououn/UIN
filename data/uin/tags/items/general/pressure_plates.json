@@ -2,6 +2,7 @@
 	"values": [
 		"#minecraft:wooden_pressure_plates",
 		"#uin:general/weighted_pressure_plates",
+		"minecraft:polished_blackstone_pressure_plate",
 		"minecraft:stone_pressure_plate"
 	]
 }
