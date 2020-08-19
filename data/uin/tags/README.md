@@ -1,4 +1,4 @@
-**构建中的数据包版本——v2.0.0.6**
+**构建中的数据包版本——v2.0.0.7**
 
 **适用于MC版本—— 1.16.2 rc1 ~ 1.16.2**
 
@@ -17,6 +17,7 @@
 - 标签整理
 - 新增方块标签，菌类 uin:general/fungus
 - 新增方块标签，草丛 uin:general/grass
+- 新增方块标签，南瓜 uin:general/pumpkin_blocks
 - 新增方块标签，菌索 uin:general/roots
 - 新增方块标签，海草 uin:general/seagrass
 - 新增方块标签，平滑石类 uin:general/smooth_stone
@@ -119,6 +120,7 @@
 		- [liquid](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/liquid.json)——液体
 		- [ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ores.json)——原矿
 		- [piston](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/piston.json)——活塞与其产物
+		- [pumpkin_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/pumpkin_blocks.json)——南瓜，方块
 		- [roots](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/roots.json)——菌素
 		- [sandstones](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/sandstones.json)——砂岩
 		- [seagrass](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/seagrass.json)——海草
@@ -145,7 +147,7 @@
 		- [light_emit](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
 		- [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——不透明方块，能被红石充能
 		- [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——透明方块，不能被红石充能
-		- [solid_none](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/solid_none.json)——非固体方块，完全不改变经过实体高度，完全不阻碍实体经过的方块（不包括 minecraft:snow）
+		- [solid_none](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/solid_none.json)——非固体方块，完全不改变经过实体高度，完全不阻碍实体经过的方块（不包括 minecraft:scaffolding,snow）
 	- **tech/blockstates**
 		- [age](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstates/age.json)——年龄，植物生长的状态和火的传播状态等。可能的状态：0 ~ 25
 		- [axis](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstates/axis.json)——轴。可能的状态：x，y，z
