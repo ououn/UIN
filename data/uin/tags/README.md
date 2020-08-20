@@ -1,4 +1,4 @@
-**构建中的数据包版本——v2.0.0.7**
+**构建中的数据包版本——v2.0.0.8**
 
 **适用于MC版本—— 1.16.2 rc1 ~ 1.16.2**
 
@@ -13,7 +13,7 @@
 [其他]
 - 漏标了一个方块id，将在此次校对结束后对过去的版本进行一次"更新"
 - 方块状态标签参考源非最新版本且存在多处误导，因此考虑在未来的一段时间内进行校对
-- 方块标签校对 31.9%
+- 方块标签校对 53.9%
 - 标签整理
 - 新增方块标签，菌类 uin:general/fungus
 - 新增方块标签，草丛 uin:general/grass
@@ -76,6 +76,7 @@
 - 方块
 	- (同类方块标签化)
 	- 拥有任何方块状态的方块
+	- 非/常亮方块
 	- 透光方块
 	- 非完整方块——铁砧、门、耕地、半砖...
 	- 占据两格的方块——如床，大箱子等
@@ -120,7 +121,7 @@
 		- [liquid](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/liquid.json)——液体
 		- [ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ores.json)——原矿
 		- [piston](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/piston.json)——活塞与其产物
-		- [pumpkin_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/pumpkin_blocks.json)——南瓜，方块
+		- [pumpkin_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/pumpkin_blocks.json)——南瓜，方块。南瓜，雕刻南瓜，南瓜灯
 		- [roots](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/roots.json)——菌素
 		- [sandstones](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/sandstones.json)——砂岩
 		- [seagrass](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/seagrass.json)——海草
