@@ -1,8 +1,6 @@
 {
 	"values": [
-		"#uin:general/wall_torches",
-		"minecraft:redstone_torch",
-		"minecraft:soul_torch",
-		"minecraft:torch"
+		"#uin:general/ground_torches",
+		"#uin:general/wall_torches"
 	]
 }
