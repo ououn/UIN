@@ -1,5 +1,6 @@
 {
 	"values": [
+		"#minecraft:beehives",
 		"#minecraft:coral_blocks",
 		"#minecraft:crimson_stems",
 		"#minecraft:logs",
@@ -27,8 +28,6 @@
 		"minecraft:barrier",
 		"minecraft:basalt",
 		"minecraft:bedrock",
-		"minecraft:bee_nest",
-		"minecraft:beehive",
 		"minecraft:blackstone",
 		"minecraft:blast_furnace",
 		"minecraft:blue_ice",
