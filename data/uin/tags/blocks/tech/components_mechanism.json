@@ -4,17 +4,16 @@
 		"#minecraft:fence_gates",
 		"#minecraft:trapdoors",
 		"#uin:general/command_blocks",
+		"#uin:general/piston",
 		"minecraft:activator_rail",
 		"minecraft:bell",
 		"minecraft:dispenser",
 		"minecraft:dropper",
 		"minecraft:hopper",
 		"minecraft:note_block",
-		"minecraft:piston",
 		"minecraft:powered_rail",
 		"minecraft:rail",
 		"minecraft:redstone_lamp",
-		"minecraft:sticky_piston",
 		"minecraft:structure_block",
 		"minecraft:tnt"
 	]
