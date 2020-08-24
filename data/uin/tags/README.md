@@ -1,4 +1,4 @@
-**构建中的数据包版本——v2.0.0.9**
+**构建中的数据包版本——v2.0.0.10**
 
 **适用于MC版本—— 1.16.2 rc1 ~ 1.16.2**
 
@@ -11,13 +11,12 @@
 **更新日志**
 
 [其他]
-- 漏标了一个方块id，将在此次校对结束后对过去的版本进行一次"更新"
-- 方块状态标签参考源非最新版本且存在多处误导，因此考虑在未来的一段时间内进行校对
-- 方块标签校对 74.4%
+- 方块标签校对
 - 标签整理
 - 新增方块标签，菌类 uin:general/fungus
 - 新增方块标签，草丛 uin:general/grass
 - 新增方块标签，置地火把 uin:general/ground_torches
+- 新增方块标签，矿物块 uin:general/mineral_blocks
 - 新增方块标签，南瓜 uin:general/pumpkin_blocks
 - 新增方块标签，菌索 uin:general/roots
 - 新增方块标签，海草 uin:general/seagrass
@@ -29,6 +28,8 @@
 - 新增物品标签，玻璃 uin:general/glass_blocks
 - 新增物品标签，玻璃板 uin:general/glass_panes
 - 新增物品标签，草丛 uin:general/grass
+- 新增物品标签，矿物块 uin:general/mineral_blocks
+- 新增物品标签，矿物 uin:general/minerals
 - 新增物品标签，菌索 uin:general/roots
 - 新增物品标签，潜影盒 uin:general/shulker_boxes
 - 新增物品标签，平滑石类 uin:general/smooth_stone
@@ -121,6 +122,7 @@
 		- [infested](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/infested.json)——被虫蚀的方块
 		- [lanterns](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/lanterns.json)——灯笼。灯笼和灵魂灯笼
 		- [liquid](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/liquid.json)——液体
+		- [mineral_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/mineral_blocks.json)——矿物块
 		- [ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ores.json)——原矿
 		- [piston](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/piston.json)——活塞与其产物
 		- [pumpkin_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/pumpkin_blocks.json)——南瓜，方块。南瓜，雕刻南瓜，南瓜灯
@@ -149,7 +151,7 @@
 		- [gravity_affected](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/gravity_affected.json)——重力影响
 		- [light_emit](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
 		- [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——不透明方块，能被红石充能
-		- [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——透明方块，不能被红石充能
+		- [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——透明方块，不能被红石充能（包括半砖，然而双半砖能被充能）
 		- [solid_none](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/solid_none.json)——非固体方块，完全不改变经过实体高度，完全不阻碍实体经过的方块（不包括 minecraft:snow）
 	- **tech/blockstates**
 		- [age](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstates/age.json)——年龄，植物生长的状态和火的传播状态等。可能的状态：0 ~ 25
@@ -204,7 +206,9 @@
 		- [horse_armors](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/horse_armors.json)——马凯
 		- [leggings](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/leggings.json)——护腿
 		- [minecarts](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/minecarts.json)——矿车
-		- [ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/ores.json)——原矿
+		- [mineral_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/mineral_blocks.json)——矿物块
+		- [minerals](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/minerals.json)——矿物
+		- [ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/ores.json)——原矿。镶金黑石不被视为矿石
 		- [pickaxes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pickaxes.json)——稿子
 		- [pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pressure_plates.json)——压力板
 		- [roots](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/roots.json)——菌素
