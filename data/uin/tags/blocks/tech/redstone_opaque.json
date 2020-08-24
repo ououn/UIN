@@ -2,7 +2,6 @@
 	"values": [
 		"#minecraft:beehives",
 		"#minecraft:coral_blocks",
-		"#minecraft:crimson_stems",
 		"#minecraft:logs",
 		"#minecraft:nylium",
 		"#minecraft:planks",
@@ -63,6 +62,7 @@
 		"minecraft:end_stone_bricks",
 		"minecraft:fletching_table",
 		"minecraft:furnace",
+		"minecraft:gilded_blackstone",
 		"minecraft:gold_block",
 		"minecraft:granite",
 		"minecraft:grass_block",
