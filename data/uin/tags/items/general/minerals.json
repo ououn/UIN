@@ -8,9 +8,9 @@
 		"minecraft:iron_ingot",
 		"minecraft:iron_nugget",
 		"minecraft:lapis_lazuli",
-		"minecraft:nether_quartz",
 		"minecraft:netherite_ingot",
 		"minecraft:netherite_scrap",
-		"minecraft:redstone_dust"
+		"minecraft:quartz",
+		"minecraft:redstone"
 	]
 }
