@@ -6,8 +6,8 @@
 		"minecraft:gold_block",
 		"minecraft:iron_block",
 		"minecraft:lapis_block",
-		"minecraft:nether_quartz_block",
 		"minecraft:netherite_block",
+		"minecraft:quartz_block",
 		"minecraft:redstone_block"
 	]
 }
