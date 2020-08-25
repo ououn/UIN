@@ -1,4 +1,4 @@
-**构建中的数据包版本——v2.0.0.10**
+**构建中的数据包版本——v2.0.0.11**
 
 **适用于MC版本—— 1.16.2 rc1 ~ 1.16.2**
 
@@ -11,34 +11,12 @@
 **更新日志**
 
 [其他]
-- 方块标签校对
 - 标签整理
-- 新增方块标签，菌类 uin:general/fungus
-- 新增方块标签，草丛 uin:general/grass
-- 新增方块标签，置地火把 uin:general/ground_torches
-- 新增方块标签，矿物块 uin:general/mineral_blocks
-- 新增方块标签，南瓜 uin:general/pumpkin_blocks
-- 新增方块标签，菌索 uin:general/roots
-- 新增方块标签，海草 uin:general/seagrass
-- 新增方块标签，平滑石类 uin:general/smooth_stone
-- 新增方块标签，海绵 uin:general/sponge
-- 新增物品标签，混凝土 uin:general/concrete
-- 新增物品标签，混凝土粉末 uin:general/concrete_powder
-- 新增物品标签，菌类 uin:general/fungus
-- 新增物品标签，玻璃 uin:general/glass_blocks
-- 新增物品标签，玻璃板 uin:general/glass_panes
-- 新增物品标签，草丛 uin:general/grass
-- 新增物品标签，矿物块 uin:general/mineral_blocks
-- 新增物品标签，矿物 uin:general/minerals
-- 新增物品标签，菌索 uin:general/roots
-- 新增物品标签，潜影盒 uin:general/shulker_boxes
-- 新增物品标签，平滑石类 uin:general/smooth_stone
-- 新增物品标签，汤 uin:general/soups
-- 新增物品标签，海绵 uin:general/sponge
-- 新增物品标签，陶瓦 uin:general/terracotta
-- 新增物品标签，带釉陶瓦 uin:general/terracotta_glazed
-- 新增物品标签，可饮用 uin:tech/drinkable
-- 新增物品标签，可食用 uin:tech/eatable
+- 实体标签 ages 更正（待）
+- 移除被动型生物，中立型生物，敌对型生物中状态不明确的生物（待）
+- 新增实体标签，灾厄村民 uin:general/illagers
+- 新增实体标签文本，所有生物 uin:tech/_mobs.txt
+- 新增实体标签文本，所有非生物 uin:tech/_non_mobs.txt
 
 # 未来版本/个人备注
 
@@ -232,6 +210,7 @@
 
 - 实体
 	- **general**
+		- [illagers](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/illagers.json)——灾厄村民
 		- [minecarts](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/minecarts.json)——矿车
 	- **tech**
 		- [ages](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/ages.json)——随Age变化而改变形态/碰撞箱大小（不包括药水云、经验球、物品）
