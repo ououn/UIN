@@ -1,5 +1,6 @@
 {
 	"values": [
+		"#uin:general/illagers",
 		"minecraft:bat",
 		"minecraft:bee",
 		"minecraft:blaze",
@@ -16,7 +17,6 @@
 		"minecraft:ender_dragon",
 		"minecraft:enderman",
 		"minecraft:endermite",
-		"minecraft:evoker",
 		"minecraft:fox",
 		"minecraft:ghast",
 		"minecraft:giant",
@@ -24,7 +24,6 @@
 		"minecraft:hoglin",
 		"minecraft:horse",
 		"minecraft:husk",
-		"minecraft:illusioner",
 		"minecraft:iron_golem",
 		"minecraft:llama",
 		"minecraft:magma_cube",
@@ -37,7 +36,6 @@
 		"minecraft:pig",
 		"minecraft:piglin",
 		"minecraft:piglin_brute",
-		"minecraft:pillager",
 		"minecraft:polar_bear",
 		"minecraft:pufferfish",
 		"minecraft:rabbit",
@@ -59,7 +57,6 @@
 		"minecraft:turtle",
 		"minecraft:vex",
 		"minecraft:villager",
-		"minecraft:vindicator",
 		"minecraft:wandering_trader",
 		"minecraft:witch",
 		"minecraft:wither",
