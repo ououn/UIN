@@ -1,8 +1,8 @@
-**构建中的数据包版本——v2.0.0.11**
+**构建中的数据包版本——v2.0.0.13**
 
-**适用于MC版本—— 1.16.2 rc1 ~ 1.16.2**
+**适用于MC版本—— 1.16.2 rc1 ~ 1.17 (20w45a)**
 
-**稳定版数据包可在releases页面下载。当前页面显示构建中数据包，可直接在主页右上角按clone or download绿色按钮进行下载**
+**稳定版数据包可在releases页面下载。也可直接在主页右上角按clone or download绿色按钮，下载当前构建中的未发布版本**
 
 **方块/实体/物品文件夹下各有一份txt格式的包含所有id且不使用任何其他标签的标签文本，可单独使用**
 
@@ -12,9 +12,18 @@
 
 [其他]
 - 标签整理
-- 实体标签 ages 更正（待）
-- 移除被动型生物，中立型生物，敌对型生物中状态不明确的生物（待）
+- 备注标签内id变动/新增的版本
+- 实体标签 ages 更正
+- 调整被动型生物，中立型生物，敌对型生物。将包括所有有可能的生物
+- 新增临时用标签，仅作业用，里面将存放未归类完成的id
+- 新增物品标签，命令方块 uin:general/command_blocks
+- 新增物品标签，钓竿 uin:general/fishing_rods
+- 新增物品标签，药水 uin:general/potions
+- 新增物品标签，叠堆1 uin:tech/x_1
+- 新增物品标签，叠堆16 uin:tech/x_16
+- 新增物品标签，叠堆64 uin:tech/x_64
 - 新增实体标签，灾厄村民 uin:general/illagers
+- 新增实体标签，蜘蛛 uin:general/spiders
 - 新增实体标签文本，所有生物 uin:tech/_mobs.txt
 - 新增实体标签文本，所有非生物 uin:tech/_non_mobs.txt
 
@@ -174,12 +183,14 @@
 		- [banner_patterns](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/banner_patterns.json)——旗帜图案
 		- [boots](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/boots.json)——靴子
 		- [buckets](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/buckets.json)——桶
+		- [command_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/command_blocks.json)——命令方块
 		- [concrete](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/concrete.json)——混凝土
 		- [concrete_powder](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/concrete_powder.json)——混凝土粉末
 		- [chestplates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/chestplates.json)——胸甲
 		- [dye](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/dye.json)——染料
 		- [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fence_gates.json)——栅栏门
 		- [fish_buckets](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fish_buckets.json)——鱼桶
+		- [fishing_rods](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fishing_rods.json)——钓竿
 		- [fungus](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fungus.json)——菌类
 		- [glass_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/glass_blocks.json)——玻璃
 		- [glass_panes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/glass_panes.json)——玻璃板
@@ -193,6 +204,7 @@
 		- [minerals](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/minerals.json)——矿物
 		- [ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/ores.json)——原矿。镶金黑石不被视为矿石
 		- [pickaxes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pickaxes.json)——稿子
+		- [potions](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/potions.json)——药水
 		- [pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pressure_plates.json)——压力板
 		- [roots](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/roots.json)——菌素
 		- [shovels](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/shovels.json)——铲子
@@ -211,27 +223,31 @@
 		- [all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/all.json)——所有物品
 		- [drinkable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/drinkable.json)——可饮用
 		- [eatable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/eatable.json)——可食用（不包括蛋糕，不能直接食用）
+		- [x_1](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/x_1.json)——最大叠堆数量 1（不包括air）
+		- [x_16](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/x_16.json)——最大叠堆数量 16（不包括air）
+		- [x_64](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/x_64.json)——最大叠堆数量 64（不包括air）
 
 
 - 实体
 	- **general**
 		- [illagers](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/illagers.json)——灾厄村民
 		- [minecarts](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/minecarts.json)——矿车
+		- [spiders](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/spiders.json)——蜘蛛
 	- **tech**
 		- [ages](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/ages.json)——随Age变化而改变形态/碰撞箱大小（不包括药水云、经验球、物品）
 		- [all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/all.json)——所有实体
 		- [aquatic](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/aquatic.json)——海洋生物，受穿刺附魔伤害影响
 		- [arthropods](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/arthropods.json)——节肢生物，受节肢杀手附魔影响
 		- [blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/blocks.json)——方块
-		- [hostile](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/hostile.json)——敌对型生物
+		- [hostile](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/hostile.json)——以玩家做区分标准，敌对型生物
 			- 鸡骑士、骷髅骑士、蜘蛛骑士、杀手兔没有单独id，故不在列表内
 		- [items](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/items.json)——掉落物
 		- [marker](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/marker.json)——盔甲架，药水云
 		- [misc](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/misc.json)——杂项
 		- [mobs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/mobs.json)——所有生物（不包括玩家）
-		- [neutral](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/neutral.json)——中立型生物
+		- [neutral](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/neutral.json)——以玩家做区分标准，中立型生物
 		- [non_mobs](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/non_mobs.json)——所有非生物实体
-		- [passive](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/passive.json)——被动型生物
+		- [passive](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/passive.json)——以玩家做区分标准，被动型生物
 		- [projectiles](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/projectiles.json)——弹射物
 		- [tameable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/tameable.json)——可驯服类型
 		- [undead](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/tech/undead.json)——不死生物，获得恢复效果时受伤

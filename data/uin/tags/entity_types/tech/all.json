@@ -2,6 +2,7 @@
 	"values": [
 		"#uin:tech/mobs",
 		"#uin:tech/non_mobs",
+		{"required":false,"id":"#uin:temp_entities"},
 		"minecraft:ender_dragon",
 		"minecraft:player",
 		"minecraft:wither"

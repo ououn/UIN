@@ -74,7 +74,6 @@
 		"minecraft:farmland",
 		"minecraft:frosted_ice",
 		"minecraft:glowstone",
-		"minecraft:grass_path",
 		"minecraft:grindstone",
 		"minecraft:honey_block",
 		"minecraft:hopper",
@@ -106,6 +105,10 @@
 		"minecraft:trapped_chest",
 		"minecraft:tripwire",
 		"minecraft:tripwire_hook",
-		"minecraft:turtle_egg"
+		"minecraft:turtle_egg",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:grass_path"},
+		{"required":false,"id":"minecraft:dirt_path"}
 	]
 }

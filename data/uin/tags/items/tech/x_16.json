@@ -1,0 +1,12 @@
+{
+	"values": [
+        "#minecraft:banners",
+        "minecraft:armor_stand",
+        "minecraft:bucket",
+        "minecraft:egg",
+        "minecraft:ender_pearl",
+        "minecraft:honey_bottle",
+        "minecraft:snowball",
+        "minecraft:written_book"
+	]
+}

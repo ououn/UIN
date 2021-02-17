@@ -65,6 +65,7 @@
 		"#uin:general/terracotta_glazed",
 		"#uin:general/torches",
 		"#uin:general/vines",
+		{"required":false,"id":"#uin:temp_blocks"},
 		"minecraft:andesite",
 		"minecraft:attached_melon_stem",
 		"minecraft:attached_pumpkin_stem",
@@ -131,7 +132,6 @@
 		"minecraft:glowstone",
 		"minecraft:granite",
 		"minecraft:grass_block",
-		"minecraft:grass_path",
 		"minecraft:gravel",
 		"minecraft:grindstone",
 		"minecraft:hay_block",
@@ -205,6 +205,12 @@
 		"minecraft:tnt",
 		"minecraft:tripwire",
 		"minecraft:tripwire_hook",
-		"minecraft:turtle_egg"
+		"minecraft:turtle_egg",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:grass_path"},
+		{"required":false,"id":"minecraft:dirt_path"},
+
+		{"required":false,"id":"#minecraft:cauldrons"}
 	]
 }

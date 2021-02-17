@@ -22,6 +22,9 @@
 		"minecraft:ladder",
 		"minecraft:scaffolding",
 		"minecraft:sea_pickle",
-		"minecraft:trapped_chest"
+		"minecraft:trapped_chest",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"#minecraft:rails"}
 	]
 }

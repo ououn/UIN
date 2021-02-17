@@ -69,7 +69,6 @@
 		"minecraft:glowstone",
 		"minecraft:granite",
 		"minecraft:grass",
-		"minecraft:grass_path",
 		"minecraft:gravel",
 		"minecraft:honey_block",
 		"minecraft:honeycomb_block",
@@ -117,6 +116,10 @@
 		"minecraft:structure_void",
 		"minecraft:torch",
 		"minecraft:twisting_vines_plant",
-		"minecraft:weeping_vines_plant"
+		"minecraft:weeping_vines_plant",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:grass_path"},
+		{"required":false,"id":"minecraft:dirt_path"}
 	]
 }

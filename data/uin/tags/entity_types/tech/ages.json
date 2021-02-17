@@ -13,9 +13,7 @@
 		"minecraft:mule",
 		"minecraft:ocelot",
 		"minecraft:panda",
-		"minecraft:parrot",
 		"minecraft:pig",
-		"minecraft:piglin",
 		"minecraft:polar_bear",
 		"minecraft:rabbit",
 		"minecraft:sheep",
@@ -24,7 +22,6 @@
 		"minecraft:trader_llama",
 		"minecraft:turtle",
 		"minecraft:villager",
-		"minecraft:wandering_trader",
 		"minecraft:wolf",
 		"minecraft:zombie_horse"
 	]

@@ -1,6 +1,7 @@
 {
 	"values": [
 		"#uin:general/illagers",
+		"#uin:general/spiders",
 		"minecraft:blaze",
 		"minecraft:creeper",
 		"minecraft:drowned",
@@ -14,6 +15,7 @@
 		"minecraft:hoglin",
 		"minecraft:piglin",
 		"minecraft:piglin_brute",
+		"minecraft:polar_bear",
 		"minecraft:ravager",
 		"minecraft:shulker",
 		"minecraft:silverfish",
@@ -23,8 +25,10 @@
 		"minecraft:vex",
 		"minecraft:witch",
 		"minecraft:wither_skeleton",
+		"minecraft:wolf",
 		"minecraft:zoglin",
 		"minecraft:zombie",
+		"minecraft:zombified_piglin",
 		"minecraft:zombie_villager"
 	]
 }
