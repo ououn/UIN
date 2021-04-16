@@ -1,10 +1,12 @@
 **构建中的数据包版本——v2.0.0.13**
 
-**适用于MC版本—— 1.16.2 rc1 ~ 1.17 (20w45a)**
+**适用于MC版本—— 1.16.2 rc1 ~ 1.17 (21w15a)**
 
 **稳定版数据包可在releases页面下载。也可直接在主页右上角按clone or download绿色按钮，下载当前构建中的未发布版本**
 
 **方块/实体/物品文件夹下各有一份txt格式的包含所有id且不使用任何其他标签的标签文本，可单独使用**
+
+**几个all.txt尚未更新，先咕一下**
 
 **若以下内容与实际情况有出入，或漏标了几个。请联系我以便即时修正，感谢*
 
@@ -17,11 +19,12 @@
 - 调整被动型生物，中立型生物，敌对型生物。将包括所有有可能的生物
 - 新增临时用标签，仅作业用，里面将存放未归类完成的id
 - 新增物品标签，命令方块 uin:general/command_blocks
-- 新增物品标签，钓竿 uin:general/fishing_rods
+- 新增物品标签，钓竿 uin:general/rods
 - 新增物品标签，药水 uin:general/potions
 - 新增物品标签，叠堆1 uin:tech/x_1
 - 新增物品标签，叠堆16 uin:tech/x_16
 - 新增物品标签，叠堆64 uin:tech/x_64
+- 新增物品标签，附魔 uin:tech/ench
 - 新增实体标签，灾厄村民 uin:general/illagers
 - 新增实体标签，蜘蛛 uin:general/spiders
 - 新增实体标签文本，所有生物 uin:tech/_mobs.txt
@@ -75,9 +78,7 @@
 	- (同类物品标签化)
 	- 方块
 	- 方块实体
-	- 不可叠堆
 	- 不可叠堆-大部分情况（药水瓶，已绘制的地图，成书，等。可能没有？）
-	- 可叠堆
 	- 作物
 	- 可右键物品
 
@@ -190,7 +191,6 @@
 		- [dye](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/dye.json)——染料
 		- [fence_gates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fence_gates.json)——栅栏门
 		- [fish_buckets](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fish_buckets.json)——鱼桶
-		- [fishing_rods](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fishing_rods.json)——钓竿
 		- [fungus](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/fungus.json)——菌类
 		- [glass_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/glass_blocks.json)——玻璃
 		- [glass_panes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/glass_panes.json)——玻璃板
@@ -206,6 +206,7 @@
 		- [pickaxes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pickaxes.json)——稿子
 		- [potions](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/potions.json)——药水
 		- [pressure_plates](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/pressure_plates.json)——压力板
+		- [rods](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/rods.json)——钓竿
 		- [roots](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/roots.json)——菌素
 		- [shovels](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/shovels.json)——铲子
 		- [shulker_boxes](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/shulker_boxes.json)——潜影盒
@@ -223,6 +224,7 @@
 		- [all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/all.json)——所有物品
 		- [drinkable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/drinkable.json)——可饮用
 		- [eatable](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/eatable.json)——可食用（不包括蛋糕，不能直接食用）
+		- [ench](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/ench.json)——附魔台可附魔物品
 		- [x_1](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/x_1.json)——最大叠堆数量 1（不包括air）
 		- [x_16](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/x_16.json)——最大叠堆数量 16（不包括air）
 		- [x_64](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/x_64.json)——最大叠堆数量 64（不包括air）

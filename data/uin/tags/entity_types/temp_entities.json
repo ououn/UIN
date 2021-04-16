@@ -1,6 +1,9 @@
 {
 	"values": [
-		{"required":false,"id":"minecraft:empty"},
-		{"required":false,"id":"minecraft:empty"}
+		{"required":false,"id":"minecraft:axolotl"},
+		{"required":false,"id":"minecraft:glow_item_frame"},
+		{"required":false,"id":"minecraft:glow_squid"},
+		{"required":false,"id":"minecraft:goat"},
+		{"required":false,"id":"minecraft:marker"}
 	]
 }

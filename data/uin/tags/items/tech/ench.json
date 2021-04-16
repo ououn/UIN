@@ -1,0 +1,15 @@
+{
+	"values": [
+        "#uin:general/armors",
+        "#uin:general/axes",
+        "#uin:general/hoes",
+        "#uin:general/pickaxes",
+        "#uin:general/shovels",
+        "#uin:general/swords",
+        "minecraft:bow",
+        "minecraft:crossbow",
+        "minecraft:fishing_rod",
+        "minecraft:trident"
+
+	]
+}
