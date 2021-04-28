@@ -8,6 +8,9 @@
 		"minecraft:lapis_block",
 		"minecraft:netherite_block",
 		"minecraft:quartz_block",
-		"minecraft:redstone_block"
+		"minecraft:redstone_block",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:copper_block"}
 	]
 }

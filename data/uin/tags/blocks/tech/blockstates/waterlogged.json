@@ -25,6 +25,11 @@
 		"minecraft:trapped_chest",
 
 		{"required":false,"id":"n/a","version":1.17},
-		{"required":false,"id":"#minecraft:rails"}
+		{"required":false,"id":"#minecraft:rails"},
+
+		{"required":false,"id":"#minecraft:candles"},
+		{"required":false,"id":"minecraft:amethyst_cluster"},
+		{"required":false,"id":"minecraft:big_dripleaf"},
+		{"required":false,"id":"minecraft:big_dripleaf_stem"}
 	]
 }

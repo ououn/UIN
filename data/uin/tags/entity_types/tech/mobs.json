@@ -66,6 +66,11 @@
 		"minecraft:zombie",
 		"minecraft:zombie_horse",
 		"minecraft:zombie_villager",
-		"minecraft:zombified_piglin"
+		"minecraft:zombified_piglin",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:axolotl"},
+		{"required":false,"id":"minecraft:glow_squid"},
+		{"required":false,"id":"minecraft:goat"}
 	]
 }

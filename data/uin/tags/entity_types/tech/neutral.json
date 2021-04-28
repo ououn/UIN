@@ -11,6 +11,9 @@
 		"minecraft:piglin",
 		"minecraft:trader_llama",
 		"minecraft:wolf",
-		"minecraft:zombified_piglin"
+		"minecraft:zombified_piglin",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:goat"}
 	]
 }

@@ -8,6 +8,9 @@
 		"minecraft:dropper",
 		"minecraft:end_rod",
 		"minecraft:jigsaw",
-		"minecraft:observer"
+		"minecraft:observer",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:amethyst_cluster"}
 	]
 }

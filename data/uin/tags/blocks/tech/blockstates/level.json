@@ -1,7 +1,11 @@
 {
 	"values": [
 		"#uin:general/liquid",
-		"minecraft:cauldron",
-		"minecraft:composter"
+		"minecraft:composter",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:cauldron"},
+		{"required":false,"id":"minecraft:powder_snow_cauldron"},
+		{"required":false,"id":"minecraft:water_cauldron"}
 	]
 }

@@ -109,6 +109,17 @@
 
 		{"required":false,"id":"n/a","version":1.17},
 		{"required":false,"id":"minecraft:grass_path"},
-		{"required":false,"id":"minecraft:dirt_path"}
+		{"required":false,"id":"minecraft:dirt_path"},
+
+		{"required":false,"id":"#minecraft:cauldrons"},
+		{"required":false,"id":"#minecraft:candle_cakes"},
+		{"required":false,"id":"#minecraft:candles"},
+		{"required":false,"id":"#minecraft:cave_vines"},
+		{"required":false,"id":"minecraft:amethyst_block"},
+		{"required":false,"id":"minecraft:amethyst_cluster"},
+		{"required":false,"id":"minecraft:azalea"},
+		{"required":false,"id":"minecraft:big_dripleaf"},
+		{"required":false,"id":"minecraft:big_dripleaf_stem"},
+		{"required":false,"id":"minecraft:budding_amethyst"}
 	]
 }

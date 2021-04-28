@@ -25,6 +25,13 @@
 		"minecraft:respawn_anchor",
 		"minecraft:sea_lantern",
 		"minecraft:sea_pickle",
-		"minecraft:shroomlight"
+		"minecraft:shroomlight",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"#minecraft:candle_cakes"},
+		{"required":false,"id":"#minecraft:candles"},
+		{"required":false,"id":"minecraft:amethyst_cluster"},
+		{"required":false,"id":"minecraft:lava_cauldron"},
+		{"required":false,"id":"minecraft:deepslate_redstone_ore"}
 	]
 }

@@ -120,6 +120,27 @@
 
 		{"required":false,"id":"n/a","version":1.17},
 		{"required":false,"id":"minecraft:grass_path"},
-		{"required":false,"id":"minecraft:dirt_path"}
+		{"required":false,"id":"minecraft:dirt_path"},
+
+		{"required":false,"id":"#minecraft:copper_ores"},
+		{"required":false,"id":"minecraft:cauldron"},
+		{"required":false,"id":"minecraft:lava_cauldron"},
+		{"required":false,"id":"minecraft:amethyst_block"},
+		{"required":false,"id":"minecraft:azalea"},
+		{"required":false,"id":"minecraft:budding_amethyst"},
+		{"required":false,"id":"minecraft:calcite"},
+		{"required":false,"id":"minecraft:chiseled_deepslate"},
+		{"required":false,"id":"minecraft:cobbled_deepslate"},
+		{"required":false,"id":"minecraft:cracked_deepslate_bricks"},
+		{"required":false,"id":"minecraft:cracked_deepslate_tiles"},
+		{"required":false,"id":"minecraft:cut_copper"},
+		{"required":false,"id":"minecraft:deepslate_bricks"},
+		{"required":false,"id":"minecraft:deepslate_coal_ore"},
+        {"required":false,"id":"minecraft:deepslate_copper_ore"},
+        {"required":false,"id":"minecraft:deepslate_diamond_ore"},
+        {"required":false,"id":"minecraft:deepslate_emerald_ore"},
+        {"required":false,"id":"minecraft:deepslate_gold_ore"},
+        {"required":false,"id":"minecraft:deepslate_iron_ore"},
+        {"required":false,"id":"minecraft:deepslate_lapis_ore"}
 	]
 }

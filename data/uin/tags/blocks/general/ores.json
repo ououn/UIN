@@ -8,6 +8,10 @@
 		"minecraft:iron_ore",
 		"minecraft:lapis_ore",
 		"minecraft:nether_quartz_ore",
-		"minecraft:redstone_ore"
+		"minecraft:redstone_ore",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"#minecraft:copper_ores"},
+		{"required":false,"id":"#uin:deepslate_ores"}
 	]
 }

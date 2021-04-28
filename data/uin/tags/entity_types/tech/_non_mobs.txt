@@ -36,6 +36,10 @@
 		"minecraft:tnt",
 		"minecraft:tnt_minecart",
 		"minecraft:trident",
-		"minecraft:wither_skull"
+		"minecraft:wither_skull",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:glow_item_frame"},
+		{"required":false,"id":"minecraft:marker"}
 	]
 }

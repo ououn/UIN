@@ -23,6 +23,10 @@
 		"minecraft:turtle",
 		"minecraft:villager",
 		"minecraft:wolf",
-		"minecraft:zombie_horse"
+		"minecraft:zombie_horse",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:axolotl"},
+		{"required":false,"id":"minecraft:goat"}
 	]
 }

@@ -1,0 +1,8 @@
+{
+	"values": [
+		"minecraft:item_frame",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:glow_item_frame"}
+	]
+}

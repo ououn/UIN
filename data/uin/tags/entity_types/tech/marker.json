@@ -1,6 +1,9 @@
 {
 	"values": [
 		"minecraft:area_effect_cloud",
-		"minecraft:armor_stand"
+		"minecraft:armor_stand",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:marker"}
 	]
 }

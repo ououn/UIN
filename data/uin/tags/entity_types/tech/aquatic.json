@@ -8,6 +8,10 @@
 		"minecraft:salmon",
 		"minecraft:squid",
 		"minecraft:tropical_fish",
-		"minecraft:turtle"
+		"minecraft:turtle",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:axolotl"},
+		{"required":false,"id":"minecraft:glow_squid"}
 	]
 }

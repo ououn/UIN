@@ -17,6 +17,9 @@
 		"minecraft:sweet_berry_bush",
 		"minecraft:twisting_vines",
 		"minecraft:weeping_vines",
-		"minecraft:wheat"
+		"minecraft:wheat",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:cave_vines"}
 	]
 }

@@ -1,6 +1,6 @@
-**构建中的数据包版本——v2.0.0.15**
+**构建中的数据包版本——v2.0.0.16**
 
-**适用于MC版本—— 1.16.2 rc1 ~ 1.17 (21w15a)**
+**适用于MC版本—— 1.16.2 rc1 ~ 1.17 (21w16a)**
 
 **稳定版数据包可在releases页面下载。也可直接在主页右上角按clone or download绿色按钮，下载当前构建中的未发布版本**
 
@@ -25,8 +25,10 @@
 - 新增物品标签，叠堆16 uin:tech/x_16
 - 新增物品标签，叠堆64 uin:tech/x_64
 - 新增物品标签，附魔 uin:tech/ench
+- 新增方块标签，深层矿 uin:general/deepslate_ores
 - 新增实体标签，灾厄村民 uin:general/illagers
 - 新增实体标签，蜘蛛 uin:general/spiders
+- 新增实体标签，展示框 uin:general/item_frames
 - 新增实体标签文本，所有生物 uin:tech/_mobs.txt
 - 新增实体标签文本，所有非生物 uin:tech/_non_mobs.txt
 
@@ -102,6 +104,7 @@
 		- [dead_coral_fans](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_fans.json)——失活的珊瑚扇
 		- [dead_coral_wall_fans](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_wall_fans.json)——失活的墙上的珊瑚扇
 		- [dead_corals](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_corals.json)——失活的珊瑚
+		- [deepslate_ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/deepslate_ores.json)——深层矿
 		- [ferns](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ferns.json)——蕨类
 		- [fungus](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/fungus.json)——菌类
 		- [furnaces](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/furnaces.json)——烤具
@@ -233,6 +236,7 @@
 - 实体
 	- **general**
 		- [illagers](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/illagers.json)——灾厄村民
+		- [item_frames](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/item_frames.json)——展示框
 		- [minecarts](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/minecarts.json)——矿车
 		- [spiders](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/entity_types/general/spiders.json)——蜘蛛
 	- **tech**
