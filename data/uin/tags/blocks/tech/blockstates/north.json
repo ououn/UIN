@@ -11,6 +11,9 @@
 		"minecraft:red_mushroom_block",
 		"minecraft:redstone_wire",
 		"minecraft:tripwire",
-		"minecraft:vine"
+		"minecraft:vine",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:glow_lichen"}
 	]
 }

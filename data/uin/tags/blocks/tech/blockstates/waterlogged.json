@@ -30,6 +30,14 @@
 		{"required":false,"id":"#minecraft:candles"},
 		{"required":false,"id":"minecraft:amethyst_cluster"},
 		{"required":false,"id":"minecraft:big_dripleaf"},
-		{"required":false,"id":"minecraft:big_dripleaf_stem"}
+		{"required":false,"id":"minecraft:big_dripleaf_stem"},
+		{"required":false,"id":"minecraft:glow_lichen"},
+		{"required":false,"id":"minecraft:hanging_roots"},
+		{"required":false,"id":"minecraft:large_amethyst_bud"},
+		{"required":false,"id":"minecraft:light"},
+		{"required":false,"id":"minecraft:lightning_rod"},
+		{"required":false,"id":"minecraft:medium_amethyst_bud"},
+		{"required":false,"id":"minecraft:pointed_dripstone"},
+		{"required":false,"id":"minecraft:sculk_sensor"}
 	]
 }

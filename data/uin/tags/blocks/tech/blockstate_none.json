@@ -16,7 +16,6 @@
 		"#uin:general/fungus",
 		"#uin:general/gases",
 		"#uin:general/glass_blocks",
-		"#uin:general/infested",
 		"#uin:general/mineral_blocks",
 		"#uin:general/roots",
 		"#uin:general/smooth_stone",
@@ -73,6 +72,12 @@
 		"minecraft:honey_block",
 		"minecraft:honeycomb_block",
 		"minecraft:ice",
+		"minecraft:infested_chiseled_stone_bricks",
+		"minecraft:infested_cobblestone",
+		"minecraft:infested_cracked_stone_bricks",
+		"minecraft:infested_mossy_stone_bricks",
+		"minecraft:infested_stone",
+		"minecraft:infested_stone_bricks",
 		"minecraft:iron_ore",
 		"minecraft:kelp_plant",
 		"minecraft:lapis_ore",
@@ -119,11 +124,12 @@
 		"minecraft:weeping_vines_plant",
 
 		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:cauldron"},
 		{"required":false,"id":"minecraft:grass_path"},
 		{"required":false,"id":"minecraft:dirt_path"},
 
 		{"required":false,"id":"#minecraft:copper_ores"},
-		{"required":false,"id":"minecraft:cauldron"},
+		{"required":false,"id":"#uin:general/raw_blocks"},
 		{"required":false,"id":"minecraft:lava_cauldron"},
 		{"required":false,"id":"minecraft:amethyst_block"},
 		{"required":false,"id":"minecraft:azalea"},
@@ -141,6 +147,15 @@
         {"required":false,"id":"minecraft:deepslate_emerald_ore"},
         {"required":false,"id":"minecraft:deepslate_gold_ore"},
         {"required":false,"id":"minecraft:deepslate_iron_ore"},
-        {"required":false,"id":"minecraft:deepslate_lapis_ore"}
+		{"required":false,"id":"minecraft:deepslate_lapis_ore"},
+		{"required":false,"id":"minecraft:deepslate_tiles"},
+		{"required":false,"id":"minecraft:dripstone_block"},
+		{"required":false,"id":"minecraft:exposed_copper"},
+		{"required":false,"id":"minecraft:exposed_cut_copper"},
+		{"required":false,"id":"minecraft:moss_block"},
+		{"required":false,"id":"minecraft:oxidized_copper"},
+		{"required":false,"id":"minecraft:oxidized_cut_copper"},
+		{"required":false,"id":"minecraft:polished_deepslate"},
+		{"required":false,"id":"minecraft:rooted_dirt"}
 	]
 }

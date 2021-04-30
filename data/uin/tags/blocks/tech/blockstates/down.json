@@ -3,6 +3,9 @@
 		"minecraft:brown_mushroom_block",
 		"minecraft:chorus_plant",
 		"minecraft:mushroom_stem",
-		"minecraft:red_mushroom_block"
+		"minecraft:red_mushroom_block",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:glow_lichen"}
 	]
 }

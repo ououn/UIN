@@ -31,7 +31,12 @@
 		{"required":false,"id":"#minecraft:candle_cakes"},
 		{"required":false,"id":"#minecraft:candles"},
 		{"required":false,"id":"minecraft:amethyst_cluster"},
+		{"required":false,"id":"minecraft:deepslate_redstone_ore"},
+		{"required":false,"id":"minecraft:glow_lichen"},
+		{"required":false,"id":"minecraft:large_amethyst_bud"},
 		{"required":false,"id":"minecraft:lava_cauldron"},
-		{"required":false,"id":"minecraft:deepslate_redstone_ore"}
+		{"required":false,"id":"minecraft:light"},
+		{"required":false,"id":"minecraft:medium_amethyst_bud"},
+		{"required":false,"id":"minecraft:sculk_sensor"}
 	]
 }

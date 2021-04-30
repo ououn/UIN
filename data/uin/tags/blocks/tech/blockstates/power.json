@@ -3,6 +3,9 @@
 		"#uin:general/weighted_pressure_plates",
 		"minecraft:daylight_detector",
 		"minecraft:redstone_wire",
-		"minecraft:target"
+		"minecraft:target",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:sculk_sensor"}
 	]
 }

@@ -118,6 +118,7 @@
 		"minecraft:target",
 
 		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"#uin:general/raw_blocks"},
 		{"required":false,"id":"minecraft:calcite"},
 		{"required":false,"id":"minecraft:chiseled_deepslate"},
 		{"required":false,"id":"minecraft:cobbled_deepslate"},
@@ -126,6 +127,15 @@
 		{"required":false,"id":"minecraft:cracked_deepslate_tiles"},
 		{"required":false,"id":"minecraft:cut_copper"},
 		{"required":false,"id":"minecraft:deepslate"},
-		{"required":false,"id":"minecraft:deepslate_bricks"}
+		{"required":false,"id":"minecraft:deepslate_bricks"},
+		{"required":false,"id":"minecraft:deepslate_tiles"},
+		{"required":false,"id":"minecraft:dripstone_block"},
+		{"required":false,"id":"minecraft:exposed_copper"},
+		{"required":false,"id":"minecraft:exposed_cut_copper"},
+		{"required":false,"id":"minecraft:moss_block"},
+		{"required":false,"id":"minecraft:oxidized_copper"},
+		{"required":false,"id":"minecraft:oxidized_cut_copper"},
+		{"required":false,"id":"minecraft:polished_deepslate"},
+		{"required":false,"id":"minecraft:rooted_dirt"}
 	]
 }

@@ -11,6 +11,7 @@
 		"minecraft:quartz_pillar",
 
 		{"required":false,"id":"n/a","version":1.17},
-		{"required":false,"id":"minecraft:deepslate"}
+		{"required":false,"id":"minecraft:deepslate"},
+		{"required":false,"id":"minecraft:infested_deepslate"}
 	]
 }

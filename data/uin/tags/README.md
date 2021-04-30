@@ -1,6 +1,6 @@
-**构建中的数据包版本——v2.0.0.16**
+**构建中的数据包版本——v2.0.0.17**
 
-**适用于MC版本—— 1.16.2 rc1 ~ 1.17 (21w16a)**
+**适用于MC版本—— 1.16.2 rc1 ~ 1.17 (21w17a)**
 
 **稳定版数据包可在releases页面下载。也可直接在主页右上角按clone or download绿色按钮，下载当前构建中的未发布版本**
 
@@ -26,6 +26,8 @@
 - 新增物品标签，叠堆64 uin:tech/x_64
 - 新增物品标签，附魔 uin:tech/ench
 - 新增方块标签，深层矿 uin:general/deepslate_ores
+- 新增方块标签，杜鹃花丛 uin:general/azaleas
+- 新增方块标签，粗矿 uin:general/raw_blocks
 - 新增实体标签，灾厄村民 uin:general/illagers
 - 新增实体标签，蜘蛛 uin:general/spiders
 - 新增实体标签，展示框 uin:general/item_frames
@@ -96,6 +98,7 @@
 
 - 方块
 	- **general**
+		- [azaleas](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/azaleas.json)——杜鹃花丛
 		- [chests](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/chests.json)——储物箱
 		- [command_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/command_blocks.json)——命令方块
 		- [concrete](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/concrete.json)——混凝土
@@ -122,6 +125,7 @@
 		- [ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ores.json)——原矿
 		- [piston](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/piston.json)——活塞与其产物
 		- [pumpkin_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/pumpkin_blocks.json)——南瓜，方块。南瓜，雕刻南瓜，南瓜灯
+		- [raw_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/raw_blocks.json)——粗犷
 		- [roots](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/roots.json)——菌素
 		- [sandstones](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/sandstones.json)——砂岩
 		- [seagrass](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/seagrass.json)——海草

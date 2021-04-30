@@ -16,6 +16,9 @@
 		"minecraft:powered_rail",
 		"minecraft:repeater",
 		"minecraft:tripwire",
-		"minecraft:tripwire_hook"
+		"minecraft:tripwire_hook",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:lightning_rod"}
 	]
 }

@@ -11,6 +11,10 @@
 		"minecraft:redstone_torch",
 		"minecraft:redstone_wall_torch",
 		"minecraft:trapped_chest",
-		"minecraft:tripwire_hook"
+		"minecraft:tripwire_hook",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:lightning_rod"},
+		{"required":false,"id":"minecraft:sculk_sensor"}
 	]
 }
