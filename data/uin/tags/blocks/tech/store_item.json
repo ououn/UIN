@@ -1,0 +1,12 @@
+{
+	"values": [
+        "#uin:general/chests",
+        "#uin:general/furnaces",
+        "minecraft:brewing_stand",
+        "minecraft:dispenser",
+        "minecraft:dropper",
+        "minecraft:hopper",
+        "minecraft:jukebox",
+		"minecraft:lectern"
+	]
+}

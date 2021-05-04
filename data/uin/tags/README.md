@@ -1,4 +1,4 @@
-**构建中的数据包版本——v2.0.0.17**
+**构建中的数据包版本——v2.0.0.18**
 
 **适用于MC版本—— 1.16.2 rc1 ~ 1.17 (21w17a)**
 
@@ -28,6 +28,7 @@
 - 新增方块标签，深层矿 uin:general/deepslate_ores
 - 新增方块标签，杜鹃花丛 uin:general/azaleas
 - 新增方块标签，粗矿 uin:general/raw_blocks
+- 新增方块标签，存放物品 uin:tech/store_item
 - 新增实体标签，灾厄村民 uin:general/illagers
 - 新增实体标签，蜘蛛 uin:general/spiders
 - 新增实体标签，展示框 uin:general/item_frames
@@ -153,6 +154,7 @@
 		- [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——不透明方块，能被红石充能
 		- [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——透明方块，不能被红石充能（包括半砖，然而双半砖能被充能）
 		- [solid_none](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/solid_none.json)——非固体方块，完全不改变经过实体高度，完全不阻碍实体经过的方块（不包括 minecraft:snow）
+		- [store_item](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/store_item.json)——包含物品，能往存放物品的方块。
 	- **tech/blockstates**
 		- [age](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstates/age.json)——年龄，植物生长的状态和火的传播状态等。可能的状态：0 ~ 25
 		- [axis](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstates/axis.json)——轴。可能的状态：x，y，z
@@ -273,3 +275,4 @@
 - [SPGoding](https://www.mcbbs.net/?2444378)
 - [Teenager_Yang](https://www.mcbbs.net/?2337994)
 - [CR_019](https://www.mcbbs.net/?2504275)
+- [底层咸鱼](https://www.mcbbs.net/?894447)
