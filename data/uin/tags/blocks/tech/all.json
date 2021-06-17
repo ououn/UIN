@@ -208,7 +208,7 @@
 		"minecraft:turtle_egg",
 
 		{"required":false,"id":"n/a","version":1.17},
-		{"required":false,"id":"n/a","note":"renamed/from-to"},
+		{"required":false,"id":"n/a","note":"renamed from-to"},
 		{"required":false,"id":"minecraft:grass_path"},
 		{"required":false,"id":"minecraft:dirt_path"},
 

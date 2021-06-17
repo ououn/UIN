@@ -124,11 +124,11 @@
 		"minecraft:weeping_vines_plant",
 
 		{"required":false,"id":"n/a","version":1.17},
-		{"required":false,"id":"n/a","note":"renamed/from-to"},
+		{"required":false,"id":"n/a","note":"renamed from-to"},
 		{"required":false,"id":"minecraft:grass_path"},
 		{"required":false,"id":"minecraft:dirt_path"},
 
-		{"required":false,"id":"n/a","note":"removed"},
+		{"required":false,"id":"n/a","note":"added"},
 		{"required":false,"id":"minecraft:cauldron"},
 
 		{"required":false,"id":"#minecraft:copper_ores"},

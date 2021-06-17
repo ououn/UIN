@@ -4,6 +4,7 @@
 		"minecraft:composter",
 
 		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"n/a","note":"removed"},
 		{"required":false,"id":"minecraft:cauldron"},
 
 		{"required":false,"id":"minecraft:light"},
