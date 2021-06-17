@@ -16,6 +16,10 @@
 		"minecraft:purple_stained_glass",
 		"minecraft:red_stained_glass",
 		"minecraft:white_stained_glass",
-		"minecraft:yellow_stained_glass"
+		"minecraft:yellow_stained_glass",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:tinted_glass"}
+
 	]
 }

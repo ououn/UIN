@@ -14,6 +14,7 @@
 		{"required":false,"id":"minecraft:amethyst_cluster"},
 		{"required":false,"id":"minecraft:large_amethyst_bud"},
 		{"required":false,"id":"minecraft:lightning_rod"},
-		{"required":false,"id":"minecraft:medium_amethyst_bud"}
+		{"required":false,"id":"minecraft:medium_amethyst_bud"},
+		{"required":false,"id":"minecraft:small_amethyst_bud"}
 	]
 }

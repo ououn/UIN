@@ -6,6 +6,9 @@
 		"#minecraft:trapdoors",
 		"minecraft:large_fern",
 		"minecraft:tall_grass",
-		"minecraft:tall_seagrass"
+		"minecraft:tall_seagrass",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:small_dripleaf"}
 	]
 }

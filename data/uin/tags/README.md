@@ -1,6 +1,6 @@
-**构建中的数据包版本——v2.0.0.18**
+**构建中的数据包版本——v2.0.0.21**
 
-**适用于MC版本—— 1.16.2 rc1 ~ 1.17 (21w17a)**
+**适用于MC版本—— 1.16.2 rc1 ~ 1.17**
 
 **稳定版数据包可在releases页面下载。也可直接在主页右上角按clone or download绿色按钮，下载当前构建中的未发布版本**
 
@@ -276,3 +276,4 @@
 - [Teenager_Yang](https://www.mcbbs.net/?2337994)
 - [CR_019](https://www.mcbbs.net/?2504275)
 - [底层咸鱼](https://www.mcbbs.net/?894447)
+- [Loy](https://www.mcbbs.net/?1235427)

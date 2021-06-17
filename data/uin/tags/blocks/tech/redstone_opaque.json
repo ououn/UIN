@@ -136,6 +136,18 @@
 		{"required":false,"id":"minecraft:oxidized_copper"},
 		{"required":false,"id":"minecraft:oxidized_cut_copper"},
 		{"required":false,"id":"minecraft:polished_deepslate"},
-		{"required":false,"id":"minecraft:rooted_dirt"}
+		{"required":false,"id":"minecraft:rooted_dirt"},
+		{"required":false,"id":"minecraft:smooth_basalt"},
+		{"required":false,"id":"minecraft:tuff"},
+		{"required":false,"id":"minecraft:waxed_copper_block"},
+		{"required":false,"id":"minecraft:waxed_cut_copper"},
+		{"required":false,"id":"minecraft:waxed_exposed_copper"},
+		{"required":false,"id":"minecraft:waxed_exposed_cut_copper"},
+        {"required":false,"id":"minecraft:waxed_oxidized_copper"},
+        {"required":false,"id":"minecraft:waxed_oxidized_cut_copper"},
+        {"required":false,"id":"minecraft:waxed_weathered_copper"},
+        {"required":false,"id":"minecraft:waxed_weathered_cut_copper"},
+		{"required":false,"id":"minecraft:weathered_copper"},
+		{"required":false,"id":"minecraft:weathered_cut_copper"}
 	]
 }

@@ -124,15 +124,18 @@
 		"minecraft:weeping_vines_plant",
 
 		{"required":false,"id":"n/a","version":1.17},
-		{"required":false,"id":"minecraft:cauldron"},
+		{"required":false,"id":"n/a","note":"renamed/from-to"},
 		{"required":false,"id":"minecraft:grass_path"},
 		{"required":false,"id":"minecraft:dirt_path"},
 
+		{"required":false,"id":"n/a","note":"removed"},
+		{"required":false,"id":"minecraft:cauldron"},
+
 		{"required":false,"id":"#minecraft:copper_ores"},
+		{"required":false,"id":"#uin:general/azaleas"},
 		{"required":false,"id":"#uin:general/raw_blocks"},
 		{"required":false,"id":"minecraft:lava_cauldron"},
 		{"required":false,"id":"minecraft:amethyst_block"},
-		{"required":false,"id":"minecraft:azalea"},
 		{"required":false,"id":"minecraft:budding_amethyst"},
 		{"required":false,"id":"minecraft:calcite"},
 		{"required":false,"id":"minecraft:chiseled_deepslate"},
@@ -153,9 +156,24 @@
 		{"required":false,"id":"minecraft:exposed_copper"},
 		{"required":false,"id":"minecraft:exposed_cut_copper"},
 		{"required":false,"id":"minecraft:moss_block"},
+		{"required":false,"id":"minecraft:moss_carpet"},
 		{"required":false,"id":"minecraft:oxidized_copper"},
 		{"required":false,"id":"minecraft:oxidized_cut_copper"},
 		{"required":false,"id":"minecraft:polished_deepslate"},
-		{"required":false,"id":"minecraft:rooted_dirt"}
+		{"required":false,"id":"minecraft:powder_snow"},
+		{"required":false,"id":"minecraft:rooted_dirt"},
+		{"required":false,"id":"minecraft:smooth_basalt"},
+		{"required":false,"id":"minecraft:spore_blossom"},
+		{"required":false,"id":"minecraft:tuff"},
+		{"required":false,"id":"minecraft:waxed_copper_block"},
+		{"required":false,"id":"minecraft:waxed_cut_copper"},
+		{"required":false,"id":"minecraft:waxed_exposed_copper"},
+		{"required":false,"id":"minecraft:waxed_exposed_cut_copper"},
+        {"required":false,"id":"minecraft:waxed_oxidized_copper"},
+        {"required":false,"id":"minecraft:waxed_oxidized_cut_copper"},
+        {"required":false,"id":"minecraft:waxed_weathered_copper"},
+        {"required":false,"id":"minecraft:waxed_weathered_cut_copper"},
+		{"required":false,"id":"minecraft:weathered_copper"},
+		{"required":false,"id":"minecraft:weathered_cut_copper"}
 	]
 }

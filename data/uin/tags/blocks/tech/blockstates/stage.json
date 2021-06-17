@@ -1,6 +1,11 @@
 {
 	"values": [
-		"#minecraft:saplings",
-		"minecraft:bamboo"
+		"minecraft:acacia_sapling",
+		"minecraft:bamboo",
+		"minecraft:birch_sapling",
+		"minecraft:dark_oak_sapling",
+		"minecraft:jungle_sapling",
+		"minecraft:oak_sapling",
+		"minecraft:spruce_sapling"
 	]
 }

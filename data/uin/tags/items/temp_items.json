@@ -71,6 +71,8 @@
         {"required":false,"id":"minecraft:polished_deepslate_slab"},
         {"required":false,"id":"minecraft:polished_deepslate_stairs"},
         {"required":false,"id":"minecraft:polished_deepslate_wall"},
+        {"required":false,"id":"minecraft:potted_azalea_bush"},
+        {"required":false,"id":"minecraft:potted_flowering_azalea_bush"},
         {"required":false,"id":"minecraft:powder_snow_bucket"},
         {"required":false,"id":"minecraft:raw_copper"},
         {"required":false,"id":"minecraft:raw_copper_block"},

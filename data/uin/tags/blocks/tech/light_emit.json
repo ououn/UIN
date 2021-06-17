@@ -37,6 +37,7 @@
 		{"required":false,"id":"minecraft:lava_cauldron"},
 		{"required":false,"id":"minecraft:light"},
 		{"required":false,"id":"minecraft:medium_amethyst_bud"},
-		{"required":false,"id":"minecraft:sculk_sensor"}
+		{"required":false,"id":"minecraft:sculk_sensor"},
+		{"required":false,"id":"minecraft:small_amethyst_bud"}
 	]
 }
