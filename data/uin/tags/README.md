@@ -1,4 +1,4 @@
-**构建中的数据包版本——v2.0.0.22**
+**构建中的数据包版本——v2.0.0.23**
 
 **适用于MC版本—— 1.16.2 rc1 ~ 1.17**
 
@@ -29,6 +29,7 @@
 - 新增方块标签，杜鹃花丛 uin:general/azaleas
 - 新增方块标签，粗矿 uin:general/raw_blocks
 - 新增方块标签，存放物品 uin:tech/store_item
+- 新增方块标签，完整固体方块 uin:tech/solid_full 由 Loy 提供
 - 新增实体标签，灾厄村民 uin:general/illagers
 - 新增实体标签，蜘蛛 uin:general/spiders
 - 新增实体标签，展示框 uin:general/item_frames
@@ -153,6 +154,7 @@
 		- [light_emit](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/light_emit.json)——光源方块（包括可能成为光源的方块，如熔炉）（flowing_lava不是方块标签，而是流体标签）
 		- [redstone_opaque](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_opaque.json)——不透明方块，能被红石充能
 		- [redstone_transparent](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/redstone_transparent.json)——透明方块，不能被红石充能（包括半砖，然而双半砖能被充能）
+		- [solid_full](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/solid_full.json)——完整固体方块。1x1x1碰撞箱。（不包括 灵魂沙、活塞、半砖、雪、潜影盒、蜂蜜块）
 		- [solid_none](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/solid_none.json)——非固体方块，完全不改变经过实体高度，完全不阻碍实体经过的方块（不包括 minecraft:snow）
 		- [store_item](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/store_item.json)——包含物品，能往存放物品的方块。
 	- **tech/blockstates**
