@@ -12,6 +12,6 @@
 
 		{"required":false,"id":"n/a","version":1.17},
 		{"required":false,"id":"#minecraft:copper_ores"},
-		{"required":false,"id":"#uin:deepslate_ores"}
+		{"required":false,"id":"#uin:general/deepslate_ores"}
 	]
 }
