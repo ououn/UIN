@@ -1,5 +1,6 @@
 {
 	"values": [
+        {"required":false,"id":"n/a","version":1.17},
 		{"required":false,"id":"minecraft:deepslate_coal_ore"},
         {"required":false,"id":"minecraft:deepslate_copper_ore"},
         {"required":false,"id":"minecraft:deepslate_diamond_ore"},

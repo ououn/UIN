@@ -1,0 +1,14 @@
+{
+	"values": [
+		"minecraft:chiseled_nether_bricks",
+		"minecraft:chiseled_polished_blackstone",
+		"minecraft:chiseled_quartz_block",
+		"minecraft:chiseled_red_sandstone",
+		"minecraft:chiseled_sandstone",
+		"minecraft:chiseled_stone_bricks",
+		"minecraft:infested_chiseled_stone_bricks",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:chiseled_deepslate"}
+	]
+}

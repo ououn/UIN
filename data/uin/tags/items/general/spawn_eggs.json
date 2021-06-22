@@ -63,6 +63,10 @@
 		"minecraft:zombie_horse_spawn_egg",
 		"minecraft:zombie_spawn_egg",
 		"minecraft:zombie_villager_spawn_egg",
-		"minecraft:zombified_piglin_spawn_egg"
+		"minecraft:zombified_piglin_spawn_egg",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:axolotl_spawn_egg"},
+		{"required":false,"id":"minecraft:glow_squid_spawn_egg"}
 	]
 }

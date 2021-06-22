@@ -1,0 +1,13 @@
+{
+	"values": [
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:exposed_copper"},
+		{"required":false,"id":"minecraft:exposed_cut_copper"},
+		{"required":false,"id":"minecraft:exposed_cut_copper_slab"},
+		{"required":false,"id":"minecraft:exposed_cut_copper_stairs"},
+		{"required":false,"id":"minecraft:waxed_exposed_copper"},
+		{"required":false,"id":"minecraft:waxed_exposed_cut_copper"},
+		{"required":false,"id":"minecraft:waxed_exposed_cut_copper_slab"},
+		{"required":false,"id":"minecraft:waxed_exposed_cut_copper_stairs"}
+	]
+}

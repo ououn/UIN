@@ -1,0 +1,14 @@
+{
+	"values": [
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"#uin:general/copper_cut"},
+		{"required":false,"id":"#uin:general/copper_exposed"},
+		{"required":false,"id":"#uin:general/copper_oxidized"},
+		{"required":false,"id":"#uin:general/copper_waxed"},
+		{"required":false,"id":"#uin:general/copper_weathered"},
+		{"required":false,"id":"minecraft:copper_block"},
+		{"required":false,"id":"minecraft:copper_ore"},
+		{"required":false,"id":"minecraft:deepslate_copper_ore"},
+		{"required":false,"id":"minecraft:raw_copper_block"}
+	]
+}

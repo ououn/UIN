@@ -1,0 +1,8 @@
+{
+	"values": [
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"minecraft:big_dripleaf"},
+		{"required":false,"id":"minecraft:big_dripleaf_stem"},
+		{"required":false,"id":"minecraft:small_dripleaf"}
+	]
+}

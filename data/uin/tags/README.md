@@ -1,6 +1,6 @@
-**构建中的数据包版本——v2.0.0.23**
+**构建中的数据包版本——v2.0.0.24**
 
-**适用于MC版本—— 1.16.2 rc1 ~ 1.17**
+**适用于MC版本—— 1.16.2 rc1 ~ 1.17.1 Pre-1**
 
 **稳定版数据包可在releases页面下载。也可直接在主页右上角按clone or download绿色按钮，下载当前构建中的未发布版本**
 
@@ -28,6 +28,18 @@
 - 新增方块标签，深层矿 uin:general/deepslate_ores
 - 新增方块标签，杜鹃花丛 uin:general/azaleas
 - 新增方块标签，粗矿 uin:general/raw_blocks
+- 新增方块标签，紫晶芽 uin:general/amethyst_bud
+- 新增方块标签，紫水晶 uin:general/amethyst
+- 新增方块标签，垂滴叶 uin:general/dripleaf
+- 新增方块标签，錾制 uin:general/chiseled_stone
+- 新增方块标签，裂纹 uin:general/cracked_stone
+- 新增方块标签，铜块 uin:general/copper_block
+- 新增方块标签，切制铜块 uin:general/copper_cut
+- 新增方块标签，斑驳铜块 uin:general/copper_exposed
+- 新增方块标签，氧化铜块 uin:general/copper_oxidized
+- 新增方块标签，涂蜡铜块 uin:general/copper_waxed
+- 新增方块标签，锈蚀铜块 uin:general/copper_weathered
+- 新增方块标签，深层方块 uin:general/deepslate_blocks
 - 新增方块标签，存放物品 uin:tech/store_item
 - 新增方块标签，完整固体方块 uin:tech/solid_full 由 Loy 提供
 - 新增实体标签，灾厄村民 uin:general/illagers
@@ -73,7 +85,6 @@
 
 - 方块
 	- (同类方块标签化)
-	- 拥有任何方块状态的方块
 	- 非/常亮方块
 	- 透光方块
 	- 非完整方块——铁砧、门、耕地、半砖...
@@ -84,7 +95,6 @@
 	- (同类物品标签化)
 	- 方块
 	- 方块实体
-	- 不可叠堆-大部分情况（药水瓶，已绘制的地图，成书，等。可能没有？）
 	- 作物
 	- 可右键物品
 
@@ -100,16 +110,28 @@
 
 - 方块
 	- **general**
+		- [amethyst](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/amethyst.json)——紫水晶
+		- [amethyst_bud](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/amethyst_bud.json)——紫晶芽
 		- [azaleas](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/azaleas.json)——杜鹃花丛
 		- [chests](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/chests.json)——储物箱
+		- [chiseled_stone](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/chiseled_stone.json)——錾制
 		- [command_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/command_blocks.json)——命令方块
 		- [concrete](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/concrete.json)——混凝土
 		- [concrete_powder](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/concrete_powder.json)——混凝土粉末
+		- [copper_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/copper_blocks.json)——铜块
+		- [copper_cut](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/copper_cut.json)——切制铜块
+		- [copper_exposed](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/copper_exposed.json)——斑驳铜块
+		- [copper_oxidized](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/copper_oxidized.json)——氧化铜块
+		- [copper_waxed](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/copper_waxed.json)——涂蜡铜块
+		- [copper_weathered](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/copper_weathered.json)——锈蚀铜块
+		- [cracked_stone](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/cracked_stone.json)——裂纹
 		- [dead_coral_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_blocks.json)——失活的珊瑚块
 		- [dead_coral_fans](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_fans.json)——失活的珊瑚扇
 		- [dead_coral_wall_fans](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_coral_wall_fans.json)——失活的墙上的珊瑚扇
 		- [dead_corals](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dead_corals.json)——失活的珊瑚
+		- [deepslate_blocks](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/deepslate_blocks.json)——深层方块
 		- [deepslate_ores](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/deepslate_ores.json)——深层矿
+		- [dripleaf](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/dripleaf.json)——垂滴叶
 		- [ferns](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/ferns.json)——蕨类
 		- [fungus](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/fungus.json)——菌类
 		- [furnaces](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/general/furnaces.json)——烤具
@@ -145,6 +167,7 @@
 	- **tech**
 		- [all](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/all.json)——所有方块
 		- [block_entities](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/block_entities.json)——方块实体
+		- [blockstate_none](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstate_none.json)——无方块状态
 		- [components_mechanism](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/components_mechanism.json)——机械元件
 		- [components_power](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/components_power.json)——电源元件
 		- [components_redstone](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/components_redstone.json)——红石元件
