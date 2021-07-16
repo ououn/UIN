@@ -1,0 +1,9 @@
+{
+	"values": [
+		"minecraft:gray_terracotta",
+
+		{"required":false,"id":"n/a","version":1.17},
+
+		{"required":false,"id":"minecraft:tuff"}
+	]
+}

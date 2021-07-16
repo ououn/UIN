@@ -1,0 +1,24 @@
+{
+	"values": [
+		"minecraft:bee_nest",
+		"minecraft:hay_block",
+		"minecraft:horn_coral",
+		"minecraft:horn_coral_block",
+		"minecraft:horn_coral_fan",
+		"minecraft:horn_coral_wall_fan",
+		"minecraft:sponge",
+		"minecraft:wet_sponge",
+		"minecraft:yellow_bed",
+		"minecraft:yellow_carpet",
+		"minecraft:yellow_concrete",
+		"minecraft:yellow_concrete_powder",
+		"minecraft:yellow_glazed_terracotta",
+		"minecraft:yellow_shulker_box",
+		"minecraft:yellow_stained_glass",
+		"minecraft:yellow_wool",
+
+		{"required":false,"id":"n/a","version":1.17},
+ 
+		{"required":false,"id":"minecraft:yellow_candle"}
+	]
+}

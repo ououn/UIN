@@ -1,0 +1,20 @@
+{
+	"values": [
+		"minecraft:brain_coral",
+		"minecraft:brain_coral_block",
+		"minecraft:brain_coral_fan",
+		"minecraft:brain_coral_wall_fan",
+		"minecraft:pink_bed",
+		"minecraft:pink_carpet",
+		"minecraft:pink_concrete",
+		"minecraft:pink_concrete_powder",
+		"minecraft:pink_glazed_terracotta",
+		"minecraft:pink_shulker_box",
+		"minecraft:pink_stained_glass",
+		"minecraft:pink_wool",
+
+		{"required":false,"id":"n/a","version":1.17},
+ 
+		{"required":false,"id":"minecraft:pink_candle"}
+	]
+}

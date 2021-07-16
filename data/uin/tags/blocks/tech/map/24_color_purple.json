@@ -1,0 +1,30 @@
+{
+	"values": [
+		"minecraft:bubble_coral",
+		"minecraft:bubble_coral_block",
+		"minecraft:bubble_coral_fan",
+		"minecraft:bubble_coral_wall_fan",
+		"minecraft:chorus_flower",
+		"minecraft:chorus_plant",
+		"minecraft:mycelium",
+		"minecraft:purple_bed",
+		"minecraft:purple_carpet",
+		"minecraft:purple_concrete",
+		"minecraft:purple_concrete_powder",
+		"minecraft:purple_glazed_terracotta",
+		"minecraft:purple_stained_glass",
+		"minecraft:purple_wool",
+		"minecraft:repeating_command_block",
+		"minecraft:shulker_box",
+
+		{"required":false,"id":"n/a","version":1.17},
+ 
+		{"required":false,"id":"minecraft:amethyst_block"},
+		{"required":false,"id":"minecraft:amethyst_cluster"},
+		{"required":false,"id":"minecraft:budding_amethyst"},
+		{"required":false,"id":"minecraft:large_amethyst_bud"},
+		{"required":false,"id":"minecraft:medium_amethyst_bud"},
+		{"required":false,"id":"minecraft:purple_candle"},
+		{"required":false,"id":"minecraft:small_amethyst_bud"}
+	]
+}

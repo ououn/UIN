@@ -1,0 +1,30 @@
+{
+	"values": [
+		"minecraft:brick_slab",
+		"minecraft:brick_stairs",
+		"minecraft:brick_wall",
+		"minecraft:bricks",
+		"minecraft:enchanting_table",
+		"minecraft:fire_coral",
+		"minecraft:fire_coral_block",
+		"minecraft:fire_coral_fan",
+		"minecraft:fire_coral_wall_fan",
+		"minecraft:nether_wart",
+		"minecraft:nether_wart_block",
+		"minecraft:red_bed",
+		"minecraft:red_carpet",
+		"minecraft:red_concrete",
+		"minecraft:red_concrete_powder",
+		"minecraft:red_glazed_terracotta",
+		"minecraft:red_mushroom",
+		"minecraft:red_mushroom_block",
+		"minecraft:red_shulker_box",
+		"minecraft:red_stained_glass",
+		"minecraft:red_wool",
+		"minecraft:shroomlight",
+
+		{"required":false,"id":"n/a","version":1.17},
+ 
+		{"required":false,"id":"minecraft:red_candle"}
+	]
+}

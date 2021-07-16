@@ -1,0 +1,16 @@
+{
+	"values": [
+		"minecraft:warped_nylium",
+
+		{"required":false,"id":"n/a","version":1.17},
+ 
+		{"required":false,"id":"minecraft:oxidized_copper"},
+		{"required":false,"id":"minecraft:oxidized_cut_copper"},
+		{"required":false,"id":"minecraft:oxidized_cut_copper_slab"},
+		{"required":false,"id":"minecraft:oxidized_cut_copper_stairs"},
+		{"required":false,"id":"minecraft:waxed_oxidized_copper"},
+		{"required":false,"id":"minecraft:waxed_oxidized_cut_copper"},
+		{"required":false,"id":"minecraft:waxed_oxidized_cut_copper_slab"},
+		{"required":false,"id":"minecraft:waxed_oxidized_cut_copper_stairs"}
+	]
+}

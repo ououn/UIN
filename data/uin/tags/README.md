@@ -42,6 +42,7 @@
 - 新增方块标签，深层方块 uin:general/deepslate_blocks
 - 新增方块标签，存放物品 uin:tech/store_item
 - 新增方块标签，完整固体方块 uin:tech/solid_full 由 Loy 提供
+- 新增方块标签，地图颜色 uin:tech/map/0_none ~ 61_glow_lichen 由 Loy 提供技术支持 *原木取侧面色，床取床尾色
 - 新增实体标签，灾厄村民 uin:general/illagers
 - 新增实体标签，蜘蛛 uin:general/spiders
 - 新增实体标签，展示框 uin:general/item_frames
@@ -180,6 +181,8 @@
 		- [solid_full](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/solid_full.json)——完整固体方块。1x1x1碰撞箱。（不包括 灵魂沙、活塞、半砖、雪、潜影盒、蜂蜜块）
 		- [solid_none](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/solid_none.json)——非固体方块，完全不改变经过实体高度，完全不阻碍实体经过的方块（不包括 minecraft:snow）
 		- [store_item](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/store_item.json)——包含物品，能往存放物品的方块。
+	- **tech/map**
+		- [地图颜色](https://github.com/ououn/UIN/tree/master/data/uin/tags/blocks/tech/map) uin:tech/map/0_none ~ 61_glow_lichen 由 Loy 提供技术支持 *原木取侧面色，床取床尾色。颜色见[Map Item Format](https://minecraft.fandom.com/wiki/Map_item_format)
 	- **tech/blockstates**
 		- [age](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstates/age.json)——年龄，植物生长的状态和火的传播状态等。可能的状态：0 ~ 25
 		- [axis](https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/blocks/tech/blockstates/axis.json)——轴。可能的状态：x，y，z

@@ -1,0 +1,33 @@
+{
+	"values": [
+		"#minecraft:banners",
+		"minecraft:barrel",
+		"minecraft:beehive",
+		"minecraft:bookshelf",
+		"minecraft:cartography_table",
+		"minecraft:chest",
+		"minecraft:composter",
+		"minecraft:crafting_table",
+		"minecraft:daylight_detector",
+		"minecraft:dead_bush",
+		"minecraft:fletching_table",
+		"minecraft:lectern",
+		"minecraft:loom",
+		"minecraft:note_block",
+		"minecraft:oak_door",
+		"minecraft:oak_fence",
+		"minecraft:oak_fence_gate",
+		"minecraft:oak_planks",
+		"minecraft:oak_pressure_plate",
+		"minecraft:oak_slab",
+		"minecraft:oak_stairs",
+		"minecraft:oak_trapdoor",
+		"minecraft:oak_wall_sign",
+		"minecraft:oak_wood",
+		"minecraft:petrified_oak_slab",
+		"minecraft:smithing_table",
+		"minecraft:stripped_oak_log",
+		"minecraft:stripped_oak_wood",
+		"minecraft:trapped_chest"
+	]
+}

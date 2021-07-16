@@ -1,0 +1,20 @@
+{
+	"values": [
+		"minecraft:blue_bed",
+		"minecraft:blue_carpet",
+		"minecraft:blue_concrete",
+		"minecraft:blue_concrete_powder",
+		"minecraft:blue_glazed_terracotta",
+		"minecraft:blue_shulker_box",
+		"minecraft:blue_stained_glass",
+		"minecraft:blue_wool",
+		"minecraft:tube_coral",
+		"minecraft:tube_coral_block",
+		"minecraft:tube_coral_fan",
+		"minecraft:tube_coral_wall_fan",
+
+		{"required":false,"id":"n/a","version":1.17},
+ 
+		{"required":false,"id":"minecraft:blue_candle"}
+	]
+}

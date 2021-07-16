@@ -1,0 +1,27 @@
+{
+	"values": [
+		"minecraft:stripped_warped_stem",
+		"minecraft:warped_door",
+		"minecraft:warped_fence",
+		"minecraft:warped_fence_gate",
+		"minecraft:warped_planks",
+		"minecraft:warped_pressure_plate",
+		"minecraft:warped_sign",
+		"minecraft:warped_slab",
+		"minecraft:warped_stairs",
+		"minecraft:warped_stem",
+		"minecraft:warped_trapdoor",
+		"minecraft:warped_wall_sign",
+
+		{"required":false,"id":"n/a","version":1.17},
+ 
+		{"required":false,"id":"minecraft:waxed_weathered_copper"},
+		{"required":false,"id":"minecraft:waxed_weathered_cut_copper"},
+		{"required":false,"id":"minecraft:waxed_weathered_cut_copper_slab"},
+		{"required":false,"id":"minecraft:waxed_weathered_cut_copper_stairs"},
+		{"required":false,"id":"minecraft:weathered_copper"},
+		{"required":false,"id":"minecraft:weathered_cut_copper"},
+		{"required":false,"id":"minecraft:weathered_cut_copper_slab"},
+		{"required":false,"id":"minecraft:weathered_cut_copper_stairs"}
+	]
+}

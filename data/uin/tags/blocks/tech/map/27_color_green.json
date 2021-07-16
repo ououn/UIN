@@ -1,0 +1,22 @@
+{
+	"values": [
+		"minecraft:chain_command_block",
+		"minecraft:dried_kelp_block",
+		"minecraft:end_portal_frame",
+		"minecraft:green_bed",
+		"minecraft:green_carpet",
+		"minecraft:green_concrete",
+		"minecraft:green_concrete_powder",
+		"minecraft:green_glazed_terracotta",
+		"minecraft:green_shulker_box",
+		"minecraft:green_stained_glass",
+		"minecraft:green_wool",
+		"minecraft:sea_pickle",
+
+		{"required":false,"id":"n/a","version":1.17},
+ 
+		{"required":false,"id":"minecraft:green_candle"},
+		{"required":false,"id":"minecraft:moss_block"},
+		{"required":false,"id":"minecraft:moss_carpet"}
+	]
+}

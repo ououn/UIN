@@ -1,0 +1,11 @@
+{
+	"values": [
+		"minecraft:bell",
+		"minecraft:gold_block",
+		"minecraft:light_weighted_pressure_plate",
+
+		{"required":false,"id":"n/a","version":1.17},
+ 
+		{"required":false,"id":"minecraft:raw_gold_block"}
+	]
+}

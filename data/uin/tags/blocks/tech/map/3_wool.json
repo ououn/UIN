@@ -1,0 +1,10 @@
+{
+	"values": [
+		"minecraft:cobweb",
+		"minecraft:mushroom_stem",
+
+		{"required":false,"id":"n/a","version":1.17},
+ 
+		{"required":false,"id":"minecraft:white_candle"}
+	]
+}

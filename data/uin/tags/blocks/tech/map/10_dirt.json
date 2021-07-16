@@ -1,0 +1,37 @@
+{
+	"values": [
+		"minecraft:brown_mushroom_block",
+		"minecraft:coarse_dirt",
+		"minecraft:dirt",
+		"minecraft:farmland",
+		"minecraft:granite",
+		"minecraft:granite_slab",
+		"minecraft:granite_stairs",
+		"minecraft:granite_wall",
+		"minecraft:jukebox",
+		"minecraft:jungle_door",
+		"minecraft:jungle_fence",
+		"minecraft:jungle_fence_gate",
+		"minecraft:jungle_planks",
+		"minecraft:jungle_pressure_plate",
+		"minecraft:jungle_sign",
+		"minecraft:jungle_slab",
+		"minecraft:jungle_stairs",
+		"minecraft:jungle_trapdoor",
+		"minecraft:jungle_wall_sign",
+		"minecraft:jungle_wood",
+		"minecraft:polished_granite",
+		"minecraft:polished_granite_slab",
+		"minecraft:polished_granite_stairs",
+		"minecraft:stripped_jungle_log",
+		"minecraft:stripped_jungle_wood",
+
+		{"required":false,"id":"n/a","version":1.17},
+		{"required":false,"id":"n/a","note":"renamed from-to"},
+		{"required":false,"id":"minecraft:grass_path"},
+		{"required":false,"id":"minecraft:dirt_path"},
+
+		{"required":false,"id":"minecraft:hanging_roots"},
+		{"required":false,"id":"minecraft:rooted_dirt"}
+	]
+}

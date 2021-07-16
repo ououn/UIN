@@ -1,0 +1,41 @@
+{
+	"values": [
+		"minecraft:birch_door",
+		"minecraft:birch_fence",
+		"minecraft:birch_fence_gate",
+		"minecraft:birch_planks",
+		"minecraft:birch_pressure_plate",
+		"minecraft:birch_sign",
+		"minecraft:birch_slab",
+		"minecraft:birch_stairs",
+		"minecraft:birch_trapdoor",
+		"minecraft:birch_wall_sign",
+		"minecraft:birch_wood",
+		"minecraft:bone_block",
+		"minecraft:chiseled_sandstone",
+		"minecraft:cut_sandstone",
+		"minecraft:cut_sandstone_slab",
+		"minecraft:end_stone",
+		"minecraft:end_stone_brick_slab",
+		"minecraft:end_stone_brick_stairs",
+		"minecraft:end_stone_brick_wall",
+		"minecraft:end_stone_bricks",
+		"minecraft:glowstone",
+		"minecraft:sand",
+		"minecraft:sandstone",
+		"minecraft:sandstone_slab",
+		"minecraft:sandstone_stairs",
+		"minecraft:sandstone_wall",
+		"minecraft:scaffolding",
+		"minecraft:smooth_sandstone",
+		"minecraft:smooth_sandstone_slab",
+		"minecraft:smooth_sandstone_stairs",
+		"minecraft:stripped_birch_log",
+		"minecraft:stripped_birch_wood",
+		"minecraft:turtle_egg",
+
+		{"required":false,"id":"n/a","version":1.17},
+ 
+		{"required":false,"id":"minecraft:candle"}
+	]
+}
