@@ -1,4 +1,4 @@
-**构建中的数据包版本——v2.0.0.26**
+**构建中的数据包版本——v2.0.0.27**
 
 **适用于MC版本—— 1.16.2 rc1 ~ 1.17.1**
 
@@ -44,6 +44,7 @@
 - 新增方块标签，完整固体方块 uin:tech/solid_full 由 Loy 提供
 - 新增方块标签，地图颜色 uin:tech/map/0_none ~ 61_glow_lichen 由 Loy 提供技术支持 *原木取侧面色，床取床尾色
 - 新增方块标签分支，地图颜色 uin:tech/map/group 1 ~ 16 各标签包含4个地图颜色标签
+- 新增方块标签分支，地图颜色 uin:tech/map/group2 1 ~ 4 各标签包含4个地图颜色标签分组
 - 新增实体标签，灾厄村民 uin:general/illagers
 - 新增实体标签，蜘蛛 uin:general/spiders
 - 新增实体标签，展示框 uin:general/item_frames
