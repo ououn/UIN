@@ -1,6 +1,6 @@
 **构件中数据包 UIN 标签分类 数据包——v2.0.2.0**
 
-**适用于MC版本—— 1.16.2 rc1 ~ 1.18**
+**适用于MC版本—— 1.16.2 rc1 ~ 1.18.2**
 
 **稳定版数据包可在releases页面下载。也可直接在主页右上角按clone or download绿色按钮，下载当前构建中的未发布版本**
 
@@ -25,6 +25,12 @@
 
 <details>
 <summary># 未来版本/个人备注</summary>
+
+- 群系
+	- 加入群系标签？
+	- 所有群系（至1.18.2，共61群系） https://github.com/misode/mcmeta/blob/summary/registries/data.json#L14498
+	- 温湿度分类（snowy, cold, temperate, warm, aquatic, cave, neutral, nether?, end?）
+	- 维度分类?
 
 - 方块
 	- 可能成为方块实体
