@@ -29,7 +29,7 @@
 - 群系
 	- 加入群系标签？
 	- 所有群系（至1.18.2，共61群系） https://github.com/misode/mcmeta/blob/summary/registries/data.json#L14498
-	- 温湿度分类（snowy, cold, temperate, warm, aquatic, cave, neutral, nether?, end?）
+	- 温湿度分类（snowy, cold, temperate, warm, aquatic, cave, neutral, nether?, end?）https://minecraft.fandom.com/wiki/Biome#Biome_IDs
 	- 维度分类?
 
 - 方块
