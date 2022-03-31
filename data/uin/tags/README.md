@@ -1,4 +1,4 @@
-**构件中数据包 UIN 标签分类 数据包——v2.0.2.0**
+**构件中数据包 UIN 标签分类 数据包——v2.0.2.1**
 
 **适用于MC版本—— 1.16.2 rc1 ~ 1.18.2**
 
@@ -14,8 +14,19 @@
 **更新日志**
 
 [其他]
-- 标签整理：附魔台开始发光
+- 标签整理
 - 新增物品标签
+	- 燃料 tech/fuel
+	- 可燃木板 tech/planks_that_burn
+	- 可燃台阶 tech/slabs_that_burn
+	- 可燃楼梯 tech/stairs_that_burn
+	- 可燃踏板 tech/pressure_plates_that_burn
+	- 可燃按钮 tech/buttons_that_burn
+	- 可燃活门板 tech/trapdoors_that_burn
+	- 可燃栅栏门 tech/fence_gates_that_burn
+	- 可燃栅栏 tech/fences_that_burn
+	- 可燃木门 tech/doors_that_burn
+	- 可燃木牌 tech/signs_that_burn
 - 新增方块标签
 - 新增实体标签
 
@@ -245,9 +256,20 @@
 	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/general/weighted_pressure_plates.json" target="_blank">[weighted_pressure_plates]</a>——测重压力板
 <br><h2>tech</h2>
 	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/all.json" target="_blank">[all]</a>——所有物品
+	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/buttons_that_burn.json" target="_blank">[buttons_that_burn]</a>——可燃按钮
+	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/doors_that_burn.json" target="_blank">[doors_that_burn]</a>——可燃木门
 	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/drinkable.json" target="_blank">[drinkable]</a>——可饮用
 	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/eatable.json" target="_blank">[eatable]</a>——可食用（不包括蛋糕，不能直接食用）
 	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/ench.json" target="_blank">[ench]</a>——附魔台可附魔物品
+	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/fence_gates_that_burn.json" target="_blank">[fence_gates_that_burn]</a>——可燃栅栏门
+	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/fences_that_burn.json" target="_blank">[fences_that_burn]</a>——可燃栅栏
+	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/fuel.json" target="_blank">[fuel]</a>——燃料
+	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/planks_that_burn.json" target="_blank">[planks_that_burn]</a>——可燃木板
+	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/pressure_plates_that_burn.json" target="_blank">[pressure_plates_that_burn]</a>——可燃踏板
+	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/signs_that_burn.json" target="_blank">[signs_that_burn]</a>——可燃木牌
+	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/slabs_that_burn.json" target="_blank">[slabs_that_burn]</a>——可燃台阶
+	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/stairs_that_burn.json" target="_blank">[stairs_that_burn]</a>——可燃楼梯
+	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/trapdoors_that_burn.json" target="_blank">[trapdoors_that_burn]</a>——可燃活板门
 	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/x_1.json" target="_blank">[x_1]</a>——最大叠堆数量 1（不包括air）
 	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/x_16.json" target="_blank">[x_16]</a>——最大叠堆数量 16（不包括air）
 	<br><a href="https://raw.githubusercontent.com/ououn/UIN/master/data/uin/tags/items/tech/x_64.json" target="_blank">[x_64]</a>——最大叠堆数量 64（不包括air）
